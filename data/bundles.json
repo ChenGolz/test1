@@ -1,87 +1,81 @@
 [
   {
-    "id": "bundle-1",
-    "title": "באנדל 1",
-    "subtitle": "סך הכל כ-171 ₪",
+    "id": "bundle-hair-duo",
+    "title": "באנדל שיער – שמפו + מרכך (32oz)",
+    "subtitle": "סך הכל: 160 ₪",
     "tags": [
-      "משלוח חינם מעל $49+"
+      "משלוח חינם מעל $49+",
+      "100% טבעוני",
+      "Cruelty‑Free"
     ],
     "itemIds": [
-      "attitude-b07mzcn118",
-      "attitude-b0fj9vmk3k",
-      "attitude-b0f7t7xvhn",
-      "attitude-b0fqdx4wby",
-      "attitude-b0f7shjm5p"
+      "attitude-b08yfby7xl",
+      "attitude-b08yfcz7b7"
     ],
-    "total_ils": 171
+    "total_ils": 160
   },
   {
-    "id": "bundle-2",
-    "title": "באנדל 2",
-    "subtitle": "סך הכל כ-171 ₪",
+    "id": "bundle-baby-bath",
+    "title": "באנדל תינוקות/ילדים – אמבט + לחות",
+    "subtitle": "סך הכל: 169 ₪",
     "tags": [
-      "משלוח חינם מעל $49+"
+      "משלוח חינם מעל $49+",
+      "100% טבעוני",
+      "Cruelty‑Free"
     ],
     "itemIds": [
-      "attitude-b07qttx153",
-      "attitude-b09p5yn72x",
-      "attitude-b07nf645hb"
-    ],
-    "total_ils": 171
-  },
-  {
-    "id": "bundle-3",
-    "title": "באנדל 3",
-    "subtitle": "סך הכל כ-169 ₪",
-    "tags": [
-      "משלוח חינם מעל $49+"
-    ],
-    "itemIds": [
-      "attitude-b0c15qw2q1",
-      "attitude-b08yfcz7b7",
-      "attitude-b07rwp838s"
+      "attitude-b07vc8bzb1",
+      "attitude-b07rwp838s",
+      "attitude-b07j4khsmc"
     ],
     "total_ils": 169
   },
   {
-    "id": "bundle-4",
-    "title": "באנדל 4",
-    "subtitle": "סך הכל כ-170 ₪",
+    "id": "bundle-kids-routine",
+    "title": "באנדל ילדים – שיער + גוף + שיניים",
+    "subtitle": "סך הכל: 162 ₪",
     "tags": [
-      "משלוח חינם מעל $49+"
+      "משלוח חינם מעל $49+",
+      "100% טבעוני",
+      "Cruelty‑Free"
     ],
     "itemIds": [
+      "attitude-b07qttx153",
       "attitude-b07vc8bzb1",
-      "attitude-b07mzcn118",
-      "attitude-b07j4khsmc"
-    ],
-    "total_ils": 170
-  },
-  {
-    "id": "bundle-5",
-    "title": "באנדל 5",
-    "subtitle": "סך הכל כ-171 ₪",
-    "tags": [
-      "משלוח חינם מעל $49+"
-    ],
-    "itemIds": [
-      "attitude-b09s2xbshn",
-      "attitude-b0f7shjm5p",
-      "attitude-b097mm895y"
-    ],
-    "total_ils": 171
-  },
-  {
-    "id": "bundle-6",
-    "title": "באנדל 6",
-    "subtitle": "סך הכל כ-162 ₪",
-    "tags": [
-      "משלוח חינם מעל $49+"
-    ],
-    "itemIds": [
-      "attitude-b08yfcz7b7",
-      "attitude-b08yfby7xl"
+      "attitude-b09p5yn72x"
     ],
     "total_ils": 162
+  },
+  {
+    "id": "bundle-sensitive-gentle",
+    "title": "באנדל עדין לעור רגיש – גוף + אמבט + שיניים",
+    "subtitle": "סך הכל: 160 ₪",
+    "tags": [
+      "משלוח חינם מעל $49+",
+      "100% טבעוני",
+      "Cruelty‑Free"
+    ],
+    "itemIds": [
+      "attitude-b07nf645hb",
+      "attitude-b07rwp838s",
+      "attitude-b09p5yn72x"
+    ],
+    "total_ils": 160
+  },
+  {
+    "id": "bundle-fresh-essentials",
+    "title": "באנדל רענון – ידיים + שיער + שיניים",
+    "subtitle": "סך הכל: 164 ₪",
+    "tags": [
+      "משלוח חינם מעל $49+",
+      "100% טבעוני",
+      "Cruelty‑Free"
+    ],
+    "itemIds": [
+      "attitude-b07mzcn118",
+      "attitude-b09s2xbshn",
+      "attitude-b09p5yn72x"
+    ],
+    "total_ils": 164
   }
 ]
