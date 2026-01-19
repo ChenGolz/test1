@@ -1,0 +1,198 @@
+[
+  {
+    "name": "ATTITUDE",
+    "website": "https://attitudeliving.com/",
+    "amazonUs": "https://amzn.to/3Lq6kSl",
+    "amazonUk": "https://amzn.to/3YIVrxZ",
+    "categories": [
+      "makeup",
+      "skincare",
+      "hair",
+      "body",
+      "sun",
+      "baby"
+    ],
+    "badges": [
+      "PETA",
+      "Vegan"
+    ],
+    "vegan": true,
+    "priceTier": 2,
+    "notes": "100% טבעוני וללא ניסויים (PETA)"
+  },
+  {
+    "name": "ALLEYOOP",
+    "website": "https://meetalleyoop.com/",
+    "amazonUs": "https://amzn.to/4b8oN03",
+    "categories": [
+      "makeup"
+    ],
+    "badges": [
+      "PETA",
+      "Leaping Bunny",
+      "Vegan"
+    ],
+    "vegan": true,
+    "priceTier": 3,
+    "notes": "",
+    "site": "https://meetalleyoop.com/",
+    "amazonUk": ""
+  },
+  {
+    "name": "About-Face",
+    "website": "https://aboutface.com/",
+    "amazonUs": "https://www.amazon.com/stores/page/B6A3FFFA-91AD-4604-8399-30E9D8A039AA?ingress=2&lp_context_asin=B0FC4GVJJ2&lp_context_query=About-Face&visitId=65223396-11d3-419b-85a7-1b54e91608b5&store_ref=bl_ast_dp_brandLogo_sto&linkCode=ll2&tag=nocrueltyil-20&linkId=9f06e6425ab5bf51b3bd1904919e1596&language=en_US&ref_=as_li_ss_tl",
+    "categories": [
+      "makeup"
+    ],
+    "badges": [
+      "PETA",
+      "Vegan"
+    ],
+    "vegan": true,
+    "priceTier": 2,
+    "notes": "",
+    "site": "https://aboutface.com",
+    "amazonUk": ""
+  },
+  {
+    "name": "Ace Beauté",
+    "website": "https://acebeaute.com/",
+    "amazonUs": "https://www.amazon.com/stores/AceBeaut%C3%A9/page/0251E27D-946B-4213-B256-5FAC7DFFB262?lp_asin=B0BZXWNQ7V&store_ref=bl_ast_dp_brandLogo_sto&linkCode=ll2&tag=nocrueltyil-20&linkId=c6eb6ee7791b9d21d972171e6366e8c2&language=en_US&ref_=as_li_ss_tl",
+    "categories": [
+      "makeup"
+    ],
+    "badges": [
+      "PETA",
+      "Vegan"
+    ],
+    "vegan": true,
+    "priceTier": 2,
+    "notes": "",
+    "site": "https://acebeaute.com",
+    "amazonUk": ""
+  },
+  {
+    "name": "Act+Acre",
+    "website": "https://actandacre.com/",
+    "amazonUs": "https://www.amazon.com/stores/ActAcre/page/393B4FE9-A13F-4AE8-BD55-82EAA27E6274?lp_asin=B091R87682&store_ref=bl_ast_dp_brandLogo_sto&linkCode=ll2&tag=nocrueltyil-20&linkId=2c3d4a104c024ade9bab1d0c713d0e1f&language=en_US&ref_=as_li_ss_tl",
+    "categories": [
+      "hair"
+    ],
+    "badges": [
+      "Vegan"
+    ],
+    "vegan": true,
+    "priceTier": 4,
+    "notes": "",
+    "site": "https://actandacre.com",
+    "amazonUk": ""
+  },
+  {
+    "name": "Acure",
+    "website": "https://acure.com/",
+    "amazonUs": "https://www.amazon.com/stores/ACURE/page/9B87B130-01CF-4991-8A55-6D69377A8380?lp_asin=B09N4RK1JM&store_ref=bl_ast_dp_brandLogo_sto&linkCode=ll2&tag=nocrueltyil-20&linkId=0e5a9fa6031ac5916c1cf54de7616461&language=en_US&ref_=as_li_ss_tl",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "badges": [
+      "PETA",
+      "Leaping Bunny",
+      "Vegan"
+    ],
+    "vegan": true,
+    "priceTier": 1,
+    "notes": "",
+    "site": "https://acure.com",
+    "amazonUk": ""
+  },
+  {
+    "name": "Aesop",
+    "website": "https://aesop.com/",
+    "amazonUs": "https://www.amazon.com/stores/AesopUSA/page/36EA6A5F-E1B8-43B0-A3BA-1CBC62AC01F4?lp_asin=B01MDVOM5S&store_ref=bl_ast_dp_brandLogo_sto&linkCode=ll2&tag=nocrueltyil-20&linkId=530f3136e7f22ff602d07aadb732eb4c&language=en_US&ref_=as_li_ss_tl",
+    "categories": [
+      "skincare",
+      "body"
+    ],
+    "badges": [
+      "PETA",
+      "Leaping Bunny",
+      "Vegan"
+    ],
+    "vegan": true,
+    "priceTier": 5,
+    "notes": "",
+    "site": "https://aesop.com",
+    "amazonUk": ""
+  },
+  {
+    "name": "Alpyn Beauty",
+    "website": "https://alpynbeauty.com/",
+    "amazonUs": "https://www.amazon.com/stores/Alpyn%7CClinicalSkincare/page/2065E3FD-4D1D-406B-8576-936DDB161C99?lp_asin=B0CXB5HPCH&store_ref=bl_ast_dp_brandLogo_sto&linkCode=ll2&tag=nocrueltyil-20&linkId=2975b3df02994341b2d5882caec4ebed&language=en_US&ref_=as_li_ss_tl",
+    "categories": [
+      "skincare"
+    ],
+    "badges": [
+      "Leaping Bunny",
+      "Vegan"
+    ],
+    "vegan": true,
+    "priceTier": 4,
+    "notes": "",
+    "site": "https://alpynbeauty.com",
+    "amazonUk": ""
+  },
+  {
+    "name": "Arctic Fox",
+    "website": "https://arcticfoxhaircolor.com/",
+    "amazonUs": "https://www.amazon.com/stores/ArcticFoxHairColor/page/07DDC53E-DC70-45BE-A38C-0C6515675034?lp_asin=B09HVCM1D8&store_ref=bl_ast_dp_brandLogo_sto&linkCode=ll2&tag=nocrueltyil-20&linkId=9bca2fbf8139908cdd633b9bf0be59d4&language=en_US&ref_=as_li_ss_tl",
+    "categories": [
+      "hair"
+    ],
+    "badges": [
+      "PETA",
+      "Vegan"
+    ],
+    "vegan": true,
+    "priceTier": 1,
+    "notes": "",
+    "site": "https://arcticfoxhaircolor.com",
+    "amazonUk": ""
+  },
+  {
+    "name": "AspenClean",
+    "website": "https://aspenclean.com/",
+    "amazonUs": "https://www.amazon.com/stores/AspenClean/page/A45F1948-B225-426F-BCBA-37688F2E48E4?lp_asin=B0DYG1FVKX&store_ref=bl_ast_dp_brandLogo_sto&linkCode=ll2&tag=nocrueltyil-20&linkId=169afe5a4a4f0eea14df675803458b97&language=en_US&ref_=as_li_ss_tl",
+    "categories": [
+      "home"
+    ],
+    "badges": [
+      "Leaping Bunny",
+      "Vegan"
+    ],
+    "vegan": true,
+    "priceTier": 3,
+    "notes": "",
+    "site": "https://aspenclean.com",
+    "amazonUk": ""
+  },
+  {
+    "name": "Astonish",
+    "website": "https://astonish.co.uk/",
+    "amazonUs": "https://www.amazon.com/stores/Astonish/page/772B7F6F-52F6-46A8-A137-EF97B3DE48BA?lp_asin=B0FQXNPT6G&store_ref=bl_ast_dp_brandLogo_sto&linkCode=ll2&tag=nocrueltyil-20&linkId=2b1d79c3cb8d9aa435dbf605a071b90e&language=en_US&ref_=as_li_ss_tl",
+    "categories": [
+      "body"
+    ],
+    "badges": [
+      "PETA",
+      "Leaping Bunny",
+      "Vegan"
+    ],
+    "vegan": true,
+    "priceTier": 1,
+    "notes": "",
+    "site": "https://astonish.co.uk",
+    "amazonUk": ""
+  }
+]

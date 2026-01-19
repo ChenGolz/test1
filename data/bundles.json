@@ -1,0 +1,87 @@
+[
+  {
+    "id": "bundle-1",
+    "title": "באנדל 1",
+    "subtitle": "סך הכל כ-171 ₪",
+    "tags": [
+      "משלוח חינם מעל $49+"
+    ],
+    "itemIds": [
+      "attitude-b07mzcn118",
+      "attitude-b0fj9vmk3k",
+      "attitude-b0f7t7xvhn",
+      "attitude-b0fqdx4wby",
+      "attitude-b0f7shjm5p"
+    ],
+    "total_ils": 171
+  },
+  {
+    "id": "bundle-2",
+    "title": "באנדל 2",
+    "subtitle": "סך הכל כ-171 ₪",
+    "tags": [
+      "משלוח חינם מעל $49+"
+    ],
+    "itemIds": [
+      "attitude-b07qttx153",
+      "attitude-b09p5yn72x",
+      "attitude-b07nf645hb"
+    ],
+    "total_ils": 171
+  },
+  {
+    "id": "bundle-3",
+    "title": "באנדל 3",
+    "subtitle": "סך הכל כ-169 ₪",
+    "tags": [
+      "משלוח חינם מעל $49+"
+    ],
+    "itemIds": [
+      "attitude-b0c15qw2q1",
+      "attitude-b08yfcz7b7",
+      "attitude-b07rwp838s"
+    ],
+    "total_ils": 169
+  },
+  {
+    "id": "bundle-4",
+    "title": "באנדל 4",
+    "subtitle": "סך הכל כ-170 ₪",
+    "tags": [
+      "משלוח חינם מעל $49+"
+    ],
+    "itemIds": [
+      "attitude-b07vc8bzb1",
+      "attitude-b07mzcn118",
+      "attitude-b07j4khsmc"
+    ],
+    "total_ils": 170
+  },
+  {
+    "id": "bundle-5",
+    "title": "באנדל 5",
+    "subtitle": "סך הכל כ-171 ₪",
+    "tags": [
+      "משלוח חינם מעל $49+"
+    ],
+    "itemIds": [
+      "attitude-b09s2xbshn",
+      "attitude-b0f7shjm5p",
+      "attitude-b097mm895y"
+    ],
+    "total_ils": 171
+  },
+  {
+    "id": "bundle-6",
+    "title": "באנדל 6",
+    "subtitle": "סך הכל כ-162 ₪",
+    "tags": [
+      "משלוח חינם מעל $49+"
+    ],
+    "itemIds": [
+      "attitude-b08yfcz7b7",
+      "attitude-b08yfby7xl"
+    ],
+    "total_ils": 162
+  }
+]

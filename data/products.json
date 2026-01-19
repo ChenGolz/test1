@@ -1,0 +1,418 @@
+[
+  {
+    "id": "attitude-b07qttx153",
+    "brand": "ATTITUDE",
+    "name": "מרכך טבעי לילדים, היפואלרגני, על בסיס צמחי ומינרלי, בניחוח וניל ואגס",
+    "size": "8 fl oz",
+    "categories": [
+      "hair",
+      "baby"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 50,
+    "priceMax": 100,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Hypoallergenic-Mineral-Based-Cruelty-free-11115/dp/B07QTTX153?tag=nocrueltyil-20",
+        "asin": "B07QTTX153",
+        "currency": "USD",
+        "priceUSD": 14.72,
+        "freeShipOver": 49
+      }
+    ],
+    "isKids": true
+  },
+  {
+    "id": "attitude-b07vc8bzb1",
+    "brand": "ATTITUDE",
+    "name": "שמפו וסבון גוף לילדים (EWG Verified), מנגו",
+    "size": "16 fl oz",
+    "categories": [
+      "hair",
+      "body",
+      "baby"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 50,
+    "priceMax": 100,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Verified-Cleanser-Dermatologically-Products/dp/B07VC8BZB1?tag=nocrueltyil-20",
+        "asin": "B07VC8BZB1",
+        "currency": "USD",
+        "priceUSD": 15.99,
+        "freeShipOver": 49
+      }
+    ],
+    "isKids": true
+  },
+  {
+    "id": "attitude-b07mzcn118",
+    "brand": "ATTITUDE",
+    "name": "סבון ידיים מוקצף (EWG Verified), עלי לימון",
+    "size": "10 fl oz",
+    "categories": [
+      "body"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 0,
+    "priceMax": 50,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Mineral-Based-Ingredients-Cruelty-free-Personal/dp/B07MZCN118?tag=nocrueltyil-20",
+        "asin": "B07MZCN118",
+        "currency": "USD",
+        "priceUSD": 12.19,
+        "freeShipOver": 49
+      }
+    ]
+  },
+  {
+    "id": "attitude-b07j4khsmc",
+    "brand": "ATTITUDE",
+    "name": "קרם לחות לתינוק (EWG Verified), ללא בישום",
+    "size": "16 fl oz",
+    "categories": [
+      "body",
+      "baby"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 50,
+    "priceMax": 100,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Verified-Dermatologically-Mineral-Based-Unscented/dp/B07J4KHSMC?tag=nocrueltyil-20",
+        "asin": "B07J4KHSMC",
+        "currency": "USD",
+        "priceUSD": 17.24,
+        "freeShipOver": 49
+      }
+    ],
+    "isKids": true
+  },
+  {
+    "id": "attitude-b0fj9vmk3k",
+    "brand": "ATTITUDE",
+    "name": "סבון ידיים מוקצף לילדים (EWG Verified) אבטיח וקוקו (מארז 3)",
+    "size": "10 fl oz (מארז 3)",
+    "categories": [
+      "body",
+      "baby"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 50,
+    "priceMax": 100,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Dermatologically-Mineral-Based-Ingredients-Watermelon/dp/B0FJ9VMK3K?tag=nocrueltyil-20",
+        "asin": "B0FJ9VMK3K",
+        "currency": "USD",
+        "priceUSD": 7.9,
+        "freeShipOver": 49
+      }
+    ],
+    "isKids": true
+  },
+  {
+    "id": "attitude-b09p5yn72x",
+    "brand": "ATTITUDE",
+    "name": "משחת שיניים ללא פלואוריד לנשימה רעננה, מנטה",
+    "size": "4.2 oz",
+    "categories": [
+      "teeth"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 0,
+    "priceMax": 50,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Fluoride-Free-Mineral-Based-Cruelty-Free-16740/dp/B09P5YN72X?tag=nocrueltyil-20",
+        "asin": "B09P5YN72X",
+        "currency": "USD",
+        "priceUSD": 13.15,
+        "freeShipOver": 49
+      }
+    ]
+  },
+  {
+    "id": "attitude-b0f7t7xvhn",
+    "brand": "ATTITUDE",
+    "name": "סבון גוף מוצק (EWG Verified) קוקוס ופירות יער (מארז 6)",
+    "size": "4 oz (מארז 6)",
+    "categories": [
+      "body"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 100,
+    "priceMax": 150,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Natural-Protects-Watercress-Verified/dp/B0F7T7XVHN?tag=nocrueltyil-20",
+        "asin": "B0F7T7XVHN",
+        "currency": "USD",
+        "priceUSD": 6.39,
+        "freeShipOver": 49
+      }
+    ]
+  },
+  {
+    "id": "attitude-b09s2xbshn",
+    "brand": "ATTITUDE",
+    "name": "שמפו מוצק לנפח וברק (EWG Verified), פריחת תפוז ואקליפטוס",
+    "size": "4 oz",
+    "categories": [
+      "hair"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 50,
+    "priceMax": 100,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Shampoo-Verified-Ingredients-Eucalyptus/dp/B09S2XBSHN?tag=nocrueltyil-20",
+        "asin": "B09S2XBSHN",
+        "currency": "USD",
+        "priceUSD": 18.99,
+        "freeShipOver": 49
+      }
+    ]
+  },
+  {
+    "id": "attitude-b0c15qw2q1",
+    "brand": "ATTITUDE",
+    "name": "סבון גוף מוצק (EWG Verified), מרווה ורוזמרין",
+    "size": "4 oz",
+    "categories": [
+      "body"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 0,
+    "priceMax": 50,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Natural-Protects-verified-Rosemary/dp/B0C15QW2Q1?tag=nocrueltyil-20",
+        "asin": "B0C15QW2Q1",
+        "currency": "USD",
+        "priceUSD": 11.29,
+        "freeShipOver": 49
+      }
+    ]
+  },
+  {
+    "id": "attitude-b0fqdx4wby",
+    "brand": "ATTITUDE",
+    "name": "שמפו + מרכך 2‑ב‑1 לגבר (EWG Verified), אקליפטוס ומרווה (מארז 3)",
+    "size": "14 fl oz (מארז 3)",
+    "categories": [
+      "hair",
+      "mens-care"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 100,
+    "priceMax": 150,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Conditioner-Ingredients-Verified-Eucalyptus/dp/B0FQDX4WBY?tag=nocrueltyil-20",
+        "asin": "B0FQDX4WBY",
+        "currency": "USD",
+        "priceUSD": 13.05,
+        "freeShipOver": 49
+      }
+    ],
+    "isMen": true
+  },
+  {
+    "id": "attitude-b0f7shjm5p",
+    "brand": "ATTITUDE",
+    "name": "סבון גוף מוצק לגבר (EWG Verified) עם שמן אבוקדו, אקליפטוס ומרווה (מארז 6)",
+    "size": "4 oz (מארז 6)",
+    "categories": [
+      "body",
+      "mens-care"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 100,
+    "priceMax": 150,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Natural-Ingredients-Verified-Eucalyptus/dp/B0F7SHJM5P?tag=nocrueltyil-20",
+        "asin": "B0F7SHJM5P",
+        "currency": "USD",
+        "priceUSD": 6.03,
+        "freeShipOver": 49
+      }
+    ],
+    "isMen": true
+  },
+  {
+    "id": "attitude-b08yfcz7b7",
+    "brand": "ATTITUDE",
+    "name": "מרכך שיער עשיר בלחות לשיער יבש/פגום (EWG Verified), קינואה וג׳וג׳ובה",
+    "size": "32 fl oz",
+    "categories": [
+      "hair"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 50,
+    "priceMax": 100,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Conditioner-Mineral-Based-Ingredients-Cruelty-Free/dp/B08YFCZ7B7?tag=nocrueltyil-20",
+        "asin": "B08YFCZ7B7",
+        "currency": "USD",
+        "priceUSD": 21.43,
+        "freeShipOver": 49
+      }
+    ]
+  },
+  {
+    "id": "attitude-b08yfby7xl",
+    "brand": "ATTITUDE",
+    "name": "שמפו שיער עשיר בלחות לשיער יבש/פגום (EWG Verified), קינואה וג׳וג׳ובה",
+    "size": "32 fl oz",
+    "categories": [
+      "hair"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 50,
+    "priceMax": 100,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Hypoallergenic-Verified-Moisture-11507/dp/B08YFBY7XL?tag=nocrueltyil-20",
+        "asin": "B08YFBY7XL",
+        "currency": "USD",
+        "priceUSD": 21.87,
+        "freeShipOver": 49
+      }
+    ]
+  },
+  {
+    "id": "attitude-b07rwp838s",
+    "brand": "ATTITUDE",
+    "name": "קצף אמבט/שמפו וסבון גוף לילדים (EWG Verified), מנגו",
+    "size": "16 fl oz",
+    "categories": [
+      "hair",
+      "body",
+      "baby"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 0,
+    "priceMax": 50,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Verified-Mineral-Based-Hypoallergenic-Cruelty-free/dp/B07RWP838S?tag=nocrueltyil-20",
+        "asin": "B07RWP838S",
+        "currency": "USD",
+        "priceUSD": 12.43,
+        "freeShipOver": 49
+      }
+    ],
+    "isKids": true
+  },
+  {
+    "id": "attitude-b097mm895y",
+    "brand": "ATTITUDE",
+    "name": "מרכך לשיער לקרקפת רגישה ויבשה (EWG Verified), שיבולת שועל מרגיעה, ללא בישום",
+    "size": "32 fl oz",
+    "categories": [
+      "hair"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 50,
+    "priceMax": 100,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Conditioner-Hypoallergenic-Cruelty-free-60511/dp/B097MM895Y?tag=nocrueltyil-20",
+        "asin": "B097MM895Y",
+        "currency": "USD",
+        "priceUSD": 20.56,
+        "freeShipOver": 49
+      }
+    ]
+  },
+  {
+    "id": "attitude-b07nf645hb",
+    "brand": "ATTITUDE",
+    "name": "סבון גוף לעור רגיש עם שיבולת שועל (EWG Verified), ללא בישום",
+    "size": "16 fl oz",
+    "categories": [
+      "body"
+    ],
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": false,
+    "priceMin": 50,
+    "priceMax": 100,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/ATTITUDE-Sensitive-Hypoallergenic-Fragrance-free-Fluid/dp/B07NF645HB?tag=nocrueltyil-20",
+        "asin": "B07NF645HB",
+        "currency": "USD",
+        "priceUSD": 17.6,
+        "freeShipOver": 49
+      }
+    ]
+  }
+]
