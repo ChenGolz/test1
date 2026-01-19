@@ -94,7 +94,8 @@ function __kbwgResolveFromSiteBase(relPath, scriptName) {
     fragrance: 'בישום',
     'mens-care': 'גברים',
     baby: 'תינוקות',
-    health: 'בריאות'
+    health: 'בריאות',
+    home: 'בית'
   };
 
   // Map legacy/varied categories from JSON into the unified set.
@@ -130,10 +131,10 @@ function __kbwgResolveFromSiteBase(relPath, scriptName) {
     health: 'health',
     'personal care': 'health',
     'personal-care': 'health',
-    cleaning: 'health',
-    paper: 'health',
-    wipes: 'health',
-    'pet-care': 'health'
+    cleaning: 'home',
+    paper: 'home',
+    wipes: 'home',
+    'pet-care': 'home'
   };
 
   var CAT_PRICE_TIER = {
@@ -144,7 +145,8 @@ function __kbwgResolveFromSiteBase(relPath, scriptName) {
     fragrance: 4,
     'mens-care': 3,
     baby: 2,
-    health: 2
+    health: 2,
+    home: 2
   };
 
   function toUnifiedCat(pageKind, raw) {
@@ -170,6 +172,7 @@ function __kbwgResolveFromSiteBase(relPath, scriptName) {
     if (he.indexOf('בישום') !== -1 || he.indexOf('בושם') !== -1 || he.indexOf('בושמי') !== -1) return 'fragrance';
     if (he.indexOf('גבר') !== -1) return 'mens-care';
     if (he.indexOf('תינוק') !== -1 || he.indexOf('ילד') !== -1) return 'baby';
+    if (he.indexOf('בית') !== -1 || he.indexOf('ניקיון') !== -1 || he.indexOf('כביסה') !== -1 || he.indexOf('כלים') !== -1) return 'home';
     if (he.indexOf('בריאות') !== -1 || he.indexOf('שיניים') !== -1 || he.indexOf('היגיינ') !== -1 || he.indexOf('וולנס') !== -1) return 'health';
     return '';
   }

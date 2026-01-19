@@ -31,8 +31,12 @@
   .page-recommended-brands #brandGrid{ grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
 }
 @media (max-width: 560px){
-  .page-recommended-brands #brandGrid{ grid-template-columns: 1fr !important; }
+  .page-recommended-brands #brandGrid{ grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
   .page-recommended-brands .brandCard{ min-height: auto; }
+}
+
+@media (max-width: 360px){
+  .page-recommended-brands #brandGrid{ grid-template-columns: 1fr !important; }
 }
 
 /* Stack card content vertically (name → badges → links) */
