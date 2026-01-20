@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>באנדלים למשלוח חינם | לקנות ללא אכזריות</title>
+    <title>באנדלים מומלצים למשלוח חינם | לקנות ללא אכזריות</title>
     <meta
       name="description"
-      content="באנדלים מומלצים של מוצרים טבעוניים ולקנות ללא אכזריות בבעלי חיים כדי להגיע למשלוח חינם באמזון (מעל $49). החליפי מוצרים בכל באנ..."
+      content="באנדלים מומלצים של מוצרים טבעוניים וללא אכזריות בבעלי חיים כדי להגיע למשלוח חינם באמזון (בין ₪160 ל־₪170). החליפי מוצרים בכל באנ..."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -102,13 +102,6 @@
       @media (max-width: 900px){ .modalBody{ grid-template-columns: 1fr; } }
       .modalLeft, .modalRight{ min-height:0; overflow:auto; -webkit-overflow-scrolling:touch; }
 
-      /* USD->ILS converter */
-      .fxBox{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-top: 12px; padding-top: 10px; border-top: 1px dashed rgba(0,0,0,.14); }
-      .fxBox label{ display:flex; align-items:center; gap:8px; font-weight:700; }
-      .fxBox input{ width: 140px; max-width: 55vw; border: 1px solid rgba(0,0,0,.18); border-radius: 12px; padding: 8px 10px; }
-      .fxOut{ font-weight: 900; }
-      .fxNote{ font-size:.82rem; opacity:.82; }
-
     </style>
   </head>
 
@@ -116,13 +109,13 @@
     <header class="siteHeader" id="siteHeader">
       <div class="wrap headerRow">
         <a class="logo" href="index.html" aria-label="בית">
-          <img class="logoImg" src="assets/img/logo.png" alt="לקנות ללא אכזריות" width="40" height="40" />
+          <img class="logoImg" src="assets/img/logo.png" alt="ללא אכזריות" width="40" height="40" />
           <span class="logoText">לקנות ללא אכזריות</span>
         </a>
         <nav class="nav" aria-label="ניווט ראשי">
           <a href="todays-top-deals.html">מומלצי היום</a>
           <a href="products.html">מוצרים</a>
-          <a class="active" href="bundles.html">באנדלים $49+</a>
+          <a class="active" href="bundles.html">באנדלים ₪160–₪170</a>
           <a href="shopping-calendar.html">סיילים</a>
           <a href="israeli-brands.html">תוצרת הארץ</a>
           <a href="recommended-brands.html">מותגים בינלאומים</a>
@@ -135,17 +128,17 @@
     </header>
 
     <main id="main">
-        <section class="hero product-hero heroSmall bundleHero">
+      <section class="hero heroSmall bundleHero">
         <img class="decorPhoto decorCL" src="assets/img/photos/dog-field.jpg" alt="" aria-hidden="true" />
         <div class="wrap heroInner">
           <div class="heroCopy center-text">
-            <h1>באנדלים למשלוח חינם באמזון 🇺🇸</h1>
+            <h1>באנדלים חכמים למשלוח חינם באמזון</h1>
             <p>
-              משלוח חינם לישראל באמזון ארה״ב לרוב מתחיל ב־<strong>$49+</strong>. כאן תמצאי באנדלים מומלצים של מוצרים טבעוניים בלבד — ובכל באנדל תוכלי להחליף כל פריט בעזרת פילטרים חכמים כדי לבנות סל שמתאים לך.
+              כדי לקבל משלוח חינם, שווה לבנות סל קטן שמגיע ל־<strong>₪160–₪170</strong> (בערך המינימום להזמנות זכאיות). כאן יצרנו באנדלים לפי נושאים — תינוקות, שיער, גוף ועוד — ובכל באנדל אפשר להחליף כל פריט בעזרת פילטרים כדי להתאים בדיוק למה שאת/ה רוצה.
             </p>
             <div class="badgeRow center-badges">
-              <div class="trust-badge" ><span class="icon" aria-hidden="true">🌿</span> Vegan Only</div>
-              <div class="trust-badge" ><span class="icon" aria-hidden="true">🛒</span> Amazon US</div>
+              <div class="trust-badge" ><span class="icon" aria-hidden="true">🌿</span> Vegan בלבד</div>
+              <div class="trust-badge" ><span class="icon" aria-hidden="true">🛒</span> אמזון ארה"ב</div>
               <div class="trust-badge"><span class="icon" aria-hidden="true">✨</span> החלפה חכמה</div>
             </div>
           </div>
@@ -210,14 +203,8 @@
           <div class="modalRight">
             <div class="bundleItems" id="bundleItems"></div>
             <div class="summaryBox">
-              <div class="summaryRow"><span>סכום ביניים (הערכה)</span> <strong id="bundleSubtotal">$0</strong></div>
-              <div class="summaryRow" style="margin-top:8px"><span>להשלמה ל־$49</span> <strong id="bundleToFree">$0</strong></div>
-              <div class="fxBox" aria-label="המרת דולר לשקל">
-                <label for="usdInput">$ → ₪</label>
-                <input id="usdInput" type="number" inputmode="decimal" min="0" step="0.01" placeholder="הקלידי סכום בדולרים" />
-                <span class="fxOut" id="ilsOut">₪0</span>
-                <span class="fxNote" id="fxNote">טוען שער USD/ILS…</span>
-              </div>
+              <div class="summaryRow"><span>סכום ביניים (הערכה)</span> <strong id="bundleSubtotal">₪0</strong></div>
+              <div class="summaryRow" style="margin-top:8px"><span>להשלמה ל־₪160</span> <strong id="bundleToFree">₪0</strong></div>
               <div class="noteTiny">כדי לבחור חלופה: לחצי על “החליפי” ליד פריט, ואז בחרי מוצר חדש מהרשימה משמאל.</div>
               <div class="shopRow">
                 <a class="shopLink primary" id="shopAllBtn" href="#" target="_blank" rel="noopener">פתחי אמזון (חיפוש)</a>

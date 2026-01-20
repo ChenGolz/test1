@@ -33,7 +33,7 @@
       <h1>המומלצים שלנו מדילס יומיים באמזון</h1>
       <div class="date">19.01.26</div>
     </div>
-    <h2>כל המותגים כאן הם 100% טבעוניים ולקנות ללא אכזריות</h2>
+    <h2>כל המותגים כאן הם 100% טבעוניים וללא אכזריות</h2>
     <p class="tagline">לחיצה על התמונה תפתח את המוצר באמזון בטאב חדש.</p>
 
     <div class="list">
@@ -44,10 +44,10 @@
         <div class="text">
           <div class="name">ATTITUDE — סבון גוף מוצק לגבר (EWG Verified) אקליפטוס ומרווה (מארז 6)</div>
           <div class="meta">
-            <span class="price">$36.17</span>
-            <span class="badge"><span class="wg-notranslate" data-wg-notranslate="true">PETA</span> • Vegan</span>
+            <span class="price" data-usd="36.17">₪—</span>
+            <span class="badge"><span class="wg-notranslate" data-wg-notranslate="true">PETA</span> • <span class="wg-notranslate" data-wg-notranslate="true">Vegan</span></span>
           </div>
-          <div class="cta">משלוח חינם בארה"ב בדרך כלל מעל $49 (תלוי פריטים/כתובת).</div>
+          <div class="cta">משלוח חינם בארה"ב בדרך כלל מעל ₪160–₪170 (תלוי פריטים/כתובת).</div>
         </div>
       </div>
 
@@ -58,8 +58,8 @@
         <div class="text">
           <div class="name">ATTITUDE — אמבט בועות לילדים (EWG Verified) מנגו</div>
           <div class="meta">
-            <span class="price">$12.43</span>
-            <span class="badge"><span class="wg-notranslate" data-wg-notranslate="true">PETA</span> • Vegan</span>
+            <span class="price" data-usd="12.43">₪—</span>
+            <span class="badge"><span class="wg-notranslate" data-wg-notranslate="true">PETA</span> • <span class="wg-notranslate" data-wg-notranslate="true">Vegan</span></span>
           </div>
           <div class="cta">לחצו לקנייה — לינק כולל תג השותפים שלך.</div>
         </div>
@@ -68,5 +68,16 @@
 
     <p class="note">המחירים משתנים באמזון. זה דף המלצות ידני; לפרטים מלאים וקישורים מרוכזים בקרו ב‑nocrueltyil.com.</p>
   </div>
+<script>
+(function(){
+  var RATE = 3.70; // USD→ILS (עדכני ידנית לפי צורך)
+  document.querySelectorAll(".price[data-usd]").forEach(function(el){
+    var usd = Number(el.getAttribute("data-usd"));
+    if(!isFinite(usd)) return;
+    var ils = Math.round(usd * RATE);
+    try{ el.textContent = "₪" + ils.toLocaleString("he-IL"); }catch(e){ el.textContent = "₪"+ils; }
+  });
+})();
+</script>
 </body>
 </html>
