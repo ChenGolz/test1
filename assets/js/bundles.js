@@ -10,6 +10,14 @@
 (function(){
   "use strict";
 
+  // USD -> ILS conversion (display estimation only).
+  var USD_TO_ILS = 3.65;
+  function toILS(usd){
+    var n = Number(usd);
+    if (!isFinite(n)) return NaN;
+    return Math.round(n * USD_TO_ILS);
+  }
+
   function qs(sel, root){ return (root||document).querySelector(sel); }
   function qsa(sel, root){ return Array.from((root||document).querySelectorAll(sel)); }
 
@@ -48,7 +56,12 @@
     arr.forEach(function(p){
       if (!Array.isArray(p.offers)) p.offers = [];
       p.offers.forEach(function(o){
+        // Preferred: o.price (₪). Backward compat: o.priceUSD.
         if (typeof o.price !== 'number') o.price = toNumber(o.price);
+        if (!Number.isFinite(o.price) && o.priceUSD != null) {
+          var ils = toILS(o.priceUSD);
+          if (Number.isFinite(ils)) o.price = ils;
+        }
       });
       // Helpful: keep a bestPrice on each product
       var prices = p.offers.map(function(o){ return o.price; }).filter(function(v){ return Number.isFinite(v); });
