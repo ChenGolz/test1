@@ -3,7 +3,7 @@
     "id": "aromatica-b01nbj9lts",
     "brand": "aromatica",
     "name": "שמפו רוזמרין לקרקפת – ניקוי/פילינג עדין לקרקפת",
-    "size": 13.53 oz,
+    "size": 13.53oz,
     "categories": ["hair", "scalp", "shampoo"],
     "isVegan": true,
     "isPeta": null,
@@ -102,13 +102,13 @@
     "id": "earth-harbor-b086w38sxx",
     "brand": "earth harbor",
     "name": "סרום לחות רב-תכליתי – SIREN",
-    "size": null,
+    "size": 60ml,
     "categories": ["skincare", "face", "serum"],
-    "isVegan": null,
-    "isPeta": null,
-    "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+     "isVegan": true,
+    "isPeta": true,
+    "isLB": true,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -116,8 +116,8 @@
         "url": "https://www.amazon.com/dp/B086W38SXX?tag=nocrueltyil-20",
         "asin": "B086W38SXX",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 32.99,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -127,13 +127,13 @@
     "id": "melixir-b08xxgbk6f",
     "brand": "melixir",
     "name": "שפתון לחות מזין על בסיס צמחי (בסטייל “פטרולטום”)",
-    "size": null,
+    "size": 0.14 ounces,
     "categories": ["skincare", "lips", "lip-balm"],
-    "isVegan": null,
-    "isPeta": null,
+    "isVegan": true,
+    "isPeta": true,
     "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 0,
+    "priceMax": 50,
     "offers": [
       {
         "store": "amazon-us",
@@ -141,8 +141,8 @@
         "url": "https://www.amazon.com/dp/B08XXGBK6F?tag=nocrueltyil-20",
         "asin": "B08XXGBK6F",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 15,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -151,14 +151,14 @@
   {
     "id": "act-acre-b0b8smvn44",
     "brand": "Act+Acre",
-    "name": "סרום תאי גזע לקרקפת בעיבוד קר (2.2 fl oz)",
+    "name": "סרום תאי גזע לקרקפת בעיבוד קר",
     "size": "2.2 fl oz",
     "categories": ["hair", "scalp", "treatment"],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 250,
+    "priceMax": 300,
     "offers": [
       {
         "store": "amazon-us",
@@ -166,37 +166,12 @@
         "url": "https://www.amazon.com/dp/B0B8SMVN44?tag=nocrueltyil-20",
         "asin": "B0B8SMVN44",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 86,
+                   "freeShipToIsrael": true
       }
     ],
     "isKids": false,
     "image": "assets/img/products/B0B8SMVN44.jpg"
-  },
-  {
-    "id": "ace-beaute-b0bzxwnq7v",
-    "brand": "ace beaute",
-    "name": "פלטת פיסול/קונטור – Ultimate Sculpt",
-    "size": null,
-    "categories": ["makeup", "face", "contour"],
-    "isVegan": null,
-    "isPeta": null,
-    "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
-    "offers": [
-      {
-        "store": "amazon-us",
-        "storeLabel": "Amazon ארה\"ב",
-        "url": "https://www.amazon.com/dp/B0BZXWNQ7V?tag=nocrueltyil-20",
-        "asin": "B0BZXWNQ7V",
-        "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
-      }
-    ],
-    "isKids": false,
-    "image": "assets/img/products/B0BZXWNQ7V.jpg"
   },
   {
     "id": "act-acre-b0ck2p66xs",
@@ -216,7 +191,7 @@
         "url": "https://www.amazon.com/dp/B0CK2P66XS?tag=nocrueltyil-20",
         "asin": "B0CK2P66XS",
         "currency": "USD",
-        "priceUSD": null,
+        "priceUSD": 68,
         "freeShipOver": null
       }
     ],
