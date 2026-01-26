@@ -18,7 +18,7 @@
         "asin": "B0FBX31DVX",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -43,7 +43,7 @@
         "asin": "B0BZXWNQ7V",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -68,7 +68,7 @@
         "asin": "B0B8SMVN44",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -93,7 +93,7 @@
         "asin": "B0CK2P66XS",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -118,7 +118,7 @@
         "asin": "B086W2S5LV",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -143,7 +143,7 @@
         "asin": "B0BC9SJT55",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -168,7 +168,7 @@
         "asin": "B0FMHXGQ6D",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -193,7 +193,7 @@
         "asin": "B095J91VC9",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -218,7 +218,7 @@
         "asin": "B095JB7V5X",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -243,7 +243,7 @@
         "asin": "B0CRGCWBCM",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -268,7 +268,7 @@
         "asin": "B0CQKM7R21",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -293,7 +293,7 @@
         "asin": "B0F9HTRKV8",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -318,7 +318,7 @@
         "asin": "B0DTWPKFJH",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -343,7 +343,7 @@
         "asin": "B0CRF9V9PM",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -368,7 +368,7 @@
         "asin": "B0C3FS1L19",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -393,7 +393,7 @@
         "asin": "B0CR31WB2G",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -418,17 +418,16 @@
         "asin": "B0CPN5YCQ8",
         "currency": "USD",
         "priceUSD": null,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
     "image": "assets/img/products/B0CPN5YCQ8.jpg"
   }
-,
-  {
+,  {
     "id": "act-acre-b0f1ws7j81",
     "brand": "Act+Acre",
-    "name": "Cold Processed 4% Niacinamide Oily Scalp Serum (2.2 fl oz)",
+    "name": "סרום ניאצינאמיד 4% לקרקפת שומנית בעיבוד קר (2.2 fl oz)",
     "size": "2.2 fl oz",
     "categories": ["hair", "scalp", "treatment"],
     "isVegan": true,
@@ -444,7 +443,7 @@
         "asin": "B0F1WS7J81",
         "currency": "USD",
         "priceUSD": 68.0,
-        "freeShipOver": 0.0
+                   "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -453,7 +452,7 @@
   {
     "id": "act-acre-b0c1cflg2x",
     "brand": "Act+Acre",
-    "name": "Cold Processed 5% Argan Repair Hair Oil (Plant-Based)",
+    "name": "שמן שיער ארגן לשיקום בעיבוד קר 5% (מבוסס צמחים)",
     "size": null,
     "categories": ["hair"],
     "isVegan": true,
@@ -469,7 +468,7 @@
         "asin": "B0C1CFLG2X",
         "currency": "USD",
         "priceUSD": 50.0,
-        "freeShipOver": 0.0
+                   "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -478,7 +477,7 @@
   {
     "id": "act-acre-b0ck2p66xs",
     "brand": "Act+Acre",
-    "name": "Microbiome Cooling Scalp Serum (2.2 fl oz)",
+    "name": "סרום לקרקפת לקירור ואיזון המיקרוביום (2.2 fl oz)",
     "size": "2.2 fl oz",
     "categories": ["hair", "scalp", "treatment"],
     "isVegan": true,
@@ -494,7 +493,7 @@
         "asin": "B0CK2P66XS",
         "currency": "USD",
         "priceUSD": 68.0,
-        "freeShipOver": 0.0
+                   "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -503,7 +502,7 @@
   {
     "id": "act-acre-b08dzx6j7d",
     "brand": "Act+Acre",
-    "name": "Plant-Based Fulvic Acid Volumizing Dry Shampoo (0.46 oz)",
+    "name": "שמפו יבש מגדיל נפח עם חומצה פולבית, מבוסס צמחים (0.46 oz)",
     "size": "0.46 oz",
     "categories": ["hair"],
     "isVegan": true,
@@ -528,7 +527,7 @@
   {
     "id": "act-acre-b091r87682",
     "brand": "Act+Acre",
-    "name": "Restorative Conditioning Hair Mask (4 fl oz)",
+    "name": "מסכת שיער משקמת ומרככת (4 fl oz)",
     "size": "4 fl oz",
     "categories": ["hair", "treatment"],
     "isVegan": true,
@@ -553,7 +552,7 @@
   {
     "id": "act-acre-b0bnnmmrlb",
     "brand": "Act+Acre",
-    "name": "Cold Processed Salicylic Acid Exfoliator (2 fl oz)",
+    "name": "פילינג חומצה סליצילית בעיבוד קר (2 fl oz)",
     "size": "2 fl oz",
     "categories": ["hair", "scalp", "treatment"],
     "isVegan": true,
@@ -578,7 +577,7 @@
   {
     "id": "act-acre-b07q74bcvb",
     "brand": "Act+Acre",
-    "name": "Cold Processed Scalp Detox Oil (3 fl oz)",
+    "name": "שמן דיטוקס לקרקפת בעיבוד קר (3 fl oz)",
     "size": "3 fl oz",
     "categories": ["hair", "scalp", "treatment"],
     "isVegan": true,
@@ -603,7 +602,7 @@
   {
     "id": "act-acre-b0clhjldtn",
     "brand": "Act+Acre",
-    "name": "Cold Processed Stem Cell Scalp Serum (1 fl oz)",
+    "name": "סרום תאי גזע לקרקפת בעיבוד קר (1 fl oz)",
     "size": "1 fl oz",
     "categories": ["hair", "scalp", "treatment"],
     "isVegan": true,
@@ -619,7 +618,7 @@
         "asin": "B0CLHJLDTN",
         "currency": "USD",
         "priceUSD": 55.0,
-        "freeShipOver": 0.0
+                   "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -628,7 +627,7 @@
   {
     "id": "act-acre-b0f1wg36s9",
     "brand": "Act+Acre",
-    "name": "Stem Cell Conditioner (10 fl oz)",
+    "name": "מרכך תאי גזע (10 fl oz)",
     "size": "10 fl oz",
     "categories": ["hair"],
     "isVegan": true,
@@ -653,7 +652,7 @@
   {
     "id": "act-acre-b0b8smvn44",
     "brand": "Act+Acre",
-    "name": "Cold Processed Stem Cell Scalp Serum (2.2 fl oz)",
+    "name": "סרום תאי גזע לקרקפת בעיבוד קר (2.2 fl oz)",
     "size": "2.2 fl oz",
     "categories": ["hair", "scalp", "treatment"],
     "isVegan": true,
@@ -669,7 +668,7 @@
         "asin": "B0B8SMVN44",
         "currency": "USD",
         "priceUSD": 86.0,
-        "freeShipOver": 0.0
+                   "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -678,7 +677,7 @@
   {
     "id": "act-acre-b0f1wlhzvm",
     "brand": "Act+Acre",
-    "name": "Stem Cell Shampoo (10 fl oz)",
+    "name": "שמפו תאי גזע (10 fl oz)",
     "size": "10 fl oz",
     "categories": ["hair"],
     "isVegan": true,
@@ -703,7 +702,7 @@
   {
     "id": "act-acre-b0f1wn89lr",
     "brand": "Act+Acre",
-    "name": "Cold Processed 3% Stem Cell Peptide Treatment (3 fl oz)",
+    "name": "טיפול פפטידים ותאי גזע 3% בעיבוד קר (3 fl oz)",
     "size": "3 fl oz",
     "categories": ["hair", "treatment"],
     "isVegan": true,
@@ -719,7 +718,7 @@
         "asin": "B0F1WN89LR",
         "currency": "USD",
         "priceUSD": 120.0,
-        "freeShipOver": 0.0
+                   "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -728,7 +727,7 @@
   {
     "id": "act-acre-b0f1w7zssf",
     "brand": "Act+Acre",
-    "name": "Cold Processed Thick + Full Hair System (3-Piece Set)",
+    "name": "מערכת שיער לעיבוי ומראה מלא בעיבוד קר (סט 3 חלקים)",
     "size": null,
     "categories": ["hair", "treatment"],
     "isVegan": true,
@@ -744,7 +743,7 @@
         "asin": "B0F1W7ZSSF",
         "currency": "USD",
         "priceUSD": 138.0,
-        "freeShipOver": 0.0
+                   "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -753,7 +752,7 @@
   {
     "id": "about-face-b0fbx25hps",
     "brand": "about-face",
-    "name": "Fractal Glitter Eye Paint Take A Trip (0.13 oz) (Lavender)",
+    "name": "צללית נוזלית נצנצים Fractal – Take A Trip (0.13 oz) (לבנדר)",
     "size": "0.13 oz",
     "categories": ["makeup", "eyes"],
     "isVegan": true,
@@ -778,7 +777,7 @@
   {
     "id": "about-face-b0fc3w99b9",
     "brand": "about-face",
-    "name": "Line Artist Longwear Gel Eyeliner Into The Void (Matte Black)",
+    "name": "אייליינר ג׳ל עמיד – Into The Void (שחור מאט)",
     "size": "0.012 oz",
     "categories": ["makeup", "eyes"],
     "isVegan": true,
@@ -794,7 +793,7 @@
         "asin": "B0FC3W99B9",
         "currency": "USD",
         "priceUSD": 14.0,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -803,7 +802,7 @@
   {
     "id": "about-face-b0fbx1rjcz",
     "brand": "about-face",
-    "name": "Matte Fluid Eye Paint Blue Monday (Bright Blue)",
+    "name": "צללית נוזלית בגימור מאט – Blue Monday (כחול בוהק)",
     "size": null,
     "categories": ["makeup", "eyes"],
     "isVegan": true,
@@ -828,7 +827,7 @@
   {
     "id": "about-face-b0fc4h4qqz",
     "brand": "about-face",
-    "name": "THE PERFORMER Skin-Focused Foundation F2Olive (1.08 oz)",
+    "name": "מייקאפ THE PERFORMER בגימור טבעי – F2Olive (1.08 oz)",
     "size": "1.08 oz",
     "categories": ["makeup", "face"],
     "isVegan": true,
@@ -853,7 +852,7 @@
   {
     "id": "about-face-b0fbx3jyn2",
     "brand": "about-face",
-    "name": "Fractal Glitter Eye Paint Above Santorini (0.13 oz) (Sapphire)",
+    "name": "צללית נוזלית נצנצים Fractal – מעל סנטוריני (0.13 oz) (ספיר)",
     "size": "0.13 oz",
     "categories": ["makeup", "eyes"],
     "isVegan": true,
@@ -878,7 +877,7 @@
   {
     "id": "about-face-b0fc35lbxs",
     "brand": "about-face",
-    "name": "Brow Artist Long-Wear Brow Pencil (0.007 oz) (Eight – Soft Black)",
+    "name": "עיפרון גבות עמיד – Brow Artist (0.007 oz) (Eight – שחור רך)",
     "size": "0.007 oz",
     "categories": ["makeup", "eyes"],
     "isVegan": true,
@@ -894,7 +893,7 @@
         "asin": "B0FC35LBXS",
         "currency": "USD",
         "priceUSD": 16.0,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -903,7 +902,7 @@
   {
     "id": "about-face-b0fbmpgf21",
     "brand": "about-face",
-    "name": "Shadowstick Long-Wear Cream Eyeshadow Stick (0.049 oz) (Oxide - Matte White)",
+    "name": "סטיק צללית קרמי עמיד – Shadowstick (0.049 oz) (Oxide – לבן מאט)",
     "size": "0.049 oz",
     "categories": ["makeup", "eyes"],
     "isVegan": true,
@@ -919,7 +918,7 @@
         "asin": "B0FBMPGF21",
         "currency": "USD",
         "priceUSD": 14.0,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -928,7 +927,7 @@
   {
     "id": "about-face-b0fbx3q5nc",
     "brand": "about-face",
-    "name": "Volumizing Mascara (0.43 oz) (Jet Black)",
+    "name": "מסקרה מגדילה נפח (0.43 oz) (שחור ג׳ט)",
     "size": "0.43 oz",
     "categories": ["makeup", "eyes"],
     "isVegan": true,
@@ -953,7 +952,7 @@
   {
     "id": "about-face-b0fbx37fk4",
     "brand": "about-face",
-    "name": "Matte Fluid Eye Paint Art of Darkness (Matte Black)",
+    "name": "צללית נוזלית בגימור מאט – אמנות החשכה (שחור מאט)",
     "size": null,
     "categories": ["makeup", "eyes"],
     "isVegan": true,
@@ -978,7 +977,7 @@
   {
     "id": "a-p-chem-b0cpn5ycq8",
     "brand": "A.P. CHEM",
-    "name": "EYEahuasca Enlightening Eye Treatment (0.5 oz)",
+    "name": "טיפול עיניים מאיר – EYEahuasca (0.5 oz)",
     "size": "0.5 oz",
     "categories": ["skincare", "eyes", "treatment"],
     "isVegan": true,
@@ -994,7 +993,7 @@
         "asin": "B0CPN5YCQ8",
         "currency": "USD",
         "priceUSD": 80.75,
-        "freeShipOver": 0.0
+                   "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -1003,7 +1002,7 @@
   {
     "id": "111medco-b0brt7lftb",
     "brand": "111MedCo",
-    "name": "2% Salicylic Acid Cleansing Medicated Soap Bar (4 oz)",
+    "name": "סבון רפואי לניקוי עם חומצה סליצילית 2% (4 oz)",
     "size": "4 oz",
     "categories": ["skincare", "cleanser"],
     "isVegan": true,
@@ -1019,7 +1018,7 @@
         "asin": "B0BRT7LFTB",
         "currency": "USD",
         "priceUSD": 6.99,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -1028,7 +1027,7 @@
   {
     "id": "111medco-b0d9ktpf7m",
     "brand": "111MedCo",
-    "name": "Hypochlorous Acid Spray 0.02% (8 oz)",
+    "name": "תרסיס חומצה היפוכלורית 0.02% (8 oz)",
     "size": "8 oz",
     "categories": ["skincare", "treatment"],
     "isVegan": true,
@@ -1044,7 +1043,7 @@
         "asin": "B0D9KTPF7M",
         "currency": "USD",
         "priceUSD": 11.99,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -1053,7 +1052,7 @@
   {
     "id": "111medco-b0cfg62h35",
     "brand": "111MedCo",
-    "name": "6% Sulfur Medicated Skin Cleansing Soap Bar (4 oz)",
+    "name": "סבון רפואי לניקוי העור עם גופרית 6% (4 oz)",
     "size": "4 oz",
     "categories": ["skincare", "cleanser"],
     "isVegan": true,
@@ -1069,7 +1068,7 @@
         "asin": "B0CFG62H35",
         "currency": "USD",
         "priceUSD": 6.99,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
@@ -1078,7 +1077,7 @@
   {
     "id": "111medco-b0cpd67rt2",
     "brand": "111MedCo",
-    "name": "2% Pyrithione Zinc Medicated Skin Cleansing Soap Bar (4 oz)",
+    "name": "סבון רפואי לניקוי העור עם פיריתיון אבץ 2% (4 oz)",
     "size": "4 oz",
     "categories": ["skincare", "cleanser"],
     "isVegan": true,
@@ -1094,7 +1093,7 @@
         "asin": "B0CPD67RT2",
         "currency": "USD",
         "priceUSD": 5.99,
-        "freeShipOver": null
+        
       }
     ],
     "isKids": false,
