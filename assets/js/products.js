@@ -125,11 +125,22 @@ function normalizeProduct(p) {
         const freeNum =
           rawFree != null && rawFree !== "" ? Number(rawFree) : NaN;
 
+        // Some products store a boolean "freeShipToIsrael" instead of a numeric threshold.
+        // Normalize it into freeShipOver=0 (meaning: free shipping to Israel with no minimum).
+        const freeShipToIsrael = Boolean(
+          o?.freeShipToIsrael ?? p?.freeShipToIsrael
+        );
+
         return {
           ...o,
           meta: o?.meta ?? o?.note ?? "",
           region,
-          freeShipOver: Number.isFinite(freeNum) ? freeNum : null
+          freeShipToIsrael,
+          freeShipOver: freeShipToIsrael
+            ? 0
+            : Number.isFinite(freeNum)
+            ? freeNum
+            : null
         };
       })
     };
@@ -560,10 +571,13 @@ function normalizeProduct(p) {
   }
 
   function formatFreeShipText(o) {
-    if (!o || o.freeShipOver == null || Number.isNaN(o.freeShipOver)) return "";
+    if (!o) return "";
+    const v = o.freeShipOver;
+    if (v == null || Number.isNaN(v)) return "";
+    if (v === 0) return "משלוח חינם לישראל";
     // This project stores Amazon free-shipping thresholds in USD.
     // Display: "משלוח חינם לישראל מעל $X (Y ש\"ח )"
-    const usd = o.freeShipOver;
+    const usd = v;
     // Approximate conversion (kept simple + stable for UI copy).
     // Chosen so $49 ≈ ₪160 (as used across the site copy).
     const ILS_PER_USD = 3.27;
