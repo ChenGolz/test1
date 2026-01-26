@@ -211,7 +211,7 @@
       "scalp",
       "treatment"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": null,
@@ -234,17 +234,18 @@
     "id": "a-p-chem-b0cpn5ycq8",
     "brand": "a p chem",
     "name": "טיפול עיניים מאיר – EYEahuasca",
-    "size": null,
+    "size": "0.5 Ounce",
     "categories": [
       "skincare",
       "eyes",
+       "face",
       "treatment"
     ],
-    "isVegan": null,
-    "isPeta": null,
-    "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": true,
+    "priceMin": 200,
+    "priceMax": 250,
     "offers": [
       {
         "store": "amazon-us",
@@ -252,9 +253,8 @@
         "url": "https://www.amazon.com/dp/B0CPN5YCQ8?tag=nocrueltyil-20",
         "asin": "B0CPN5YCQ8",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
-      }
+        "priceUSD": 80,
+"freeShipToIsrael": true      }
     ],
     "isKids": false,
     "image": "assets/img/products/B0CPN5YCQ8.jpg"
@@ -262,17 +262,19 @@
   {
     "id": "111medco-b0cpd67rt2",
     "brand": "111medco",
-    "name": "סבון רפואי לניקוי העור עם פיריתיון אבץ 2% (4 oz)",
+    "name": "סבון רפואי לניקוי העור עם פיריתיון אבץ 2%",
     "size": "4 oz",
     "categories": [
       "skincare",
+       "face",
+       "soap",
       "cleanser"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 0,
+    "priceMax": 50,
     "offers": [
       {
         "store": "amazon-us",
@@ -280,8 +282,7 @@
         "url": "https://www.amazon.com/dp/B0CPD67RT2?tag=nocrueltyil-20",
         "asin": "B0CPD67RT2",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 5.99
       }
     ],
     "isKids": false,
@@ -291,17 +292,17 @@
     "id": "naked-sundays-b0cqkm7r21",
     "brand": "naked sundays",
     "name": "קרם הגנה עם קולגן – לחות",
-    "size": null,
+    "size": "50ml",
     "categories": [
       "skincare",
       "face",
       "sunscreen"
     ],
-    "isVegan": null,
-    "isPeta": null,
+    "isVegan": true,
+    "isPeta": true,
     "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -309,8 +310,8 @@
         "url": "https://www.amazon.com/dp/B0CQKM7R21?tag=nocrueltyil-20",
         "asin": "B0CQKM7R21",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 19.99,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -319,18 +320,18 @@
   {
     "id": "naked-sundays-b0crf9v9pm",
     "brand": "naked sundays",
-    "name": "קרם הגנה רחב טווח עם נצנוץ",
-    "size": null,
+    "name": "קרם הגנה לגוף SPF50 Golden Glow - הגנה רחבת טווח מפני UVA/UVB, זוהר ומנצנץ, ללא בישום",
+    "size": "100ml",
     "categories": [
       "skincare",
       "face",
       "sunscreen"
     ],
-    "isVegan": null,
-    "isPeta": null,
+   "isVegan": true,
+    "isPeta": true,
     "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 150,
+    "priceMax": 200,
     "offers": [
       {
         "store": "amazon-us",
@@ -338,8 +339,8 @@
         "url": "https://www.amazon.com/dp/B0CRF9V9PM?tag=nocrueltyil-20",
         "asin": "B0CRF9V9PM",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 19.99,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -355,8 +356,8 @@
       "tools",
       "brush"
     ],
-    "isVegan": null,
-    "isPeta": null,
+    "isVegan": true,
+    "isPeta": true,
     "isLB": null,
     "priceMin": null,
     "priceMax": null,
@@ -377,18 +378,18 @@
   {
     "id": "acure-b0cthht5br",
     "brand": "acure",
-    "name": "מסכת שנורקל מלאה לילדים",
+    "name": "מסכת שנורקל לילדים לכל הפנים - סט שנורקלים נגד אדים וחלק עליון יבש, ציוד שנורקלינג עם מערכת נשימה קלה יותר לשחייה מתחילה בגילאי 3-8",
     "size": null,
     "categories": [
       "kids",
       "snorkel",
       "mask"
     ],
-    "isVegan": null,
-    "isPeta": null,
-    "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": true,
+    "priceMin": 150,
+    "priceMax": 200,
     "offers": [
       {
         "store": "amazon-us",
@@ -396,9 +397,8 @@
         "url": "https://www.amazon.com/dp/B0CTHHT5BR?tag=nocrueltyil-20",
         "asin": "B0CTHHT5BR",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
-      }
+        "priceUSD": 59.99,
+"freeShipToIsrael": true      }
     ],
     "isKids": true,
     "image": "assets/img/products/B0CTHHT5BR.jpg"
@@ -413,7 +413,7 @@
       "diffuser",
       "cleaning"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": null,
@@ -442,8 +442,8 @@
       "eyes",
       "eyeshadow"
     ],
-    "isVegan": null,
-    "isPeta": null,
+    "isVegan": true,
+    "isPeta": true,
     "isLB": null,
     "priceMin": null,
     "priceMax": null,
@@ -471,8 +471,8 @@
       "teeth",
       "toothpaste"
     ],
-    "isVegan": null,
-    "isPeta": null,
+    "isVegan": true,
+    "isPeta": true,
     "isLB": null,
     "priceMin": null,
     "priceMax": null,
@@ -499,7 +499,7 @@
       "skincare",
       "treatment"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": null,
@@ -528,7 +528,7 @@
       "face",
       "serum"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": null,
@@ -557,7 +557,7 @@
       "face",
       "treatment"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": null,
@@ -586,8 +586,8 @@
       "lips",
       "sunscreen"
     ],
-    "isVegan": null,
-    "isPeta": null,
+   "isVegan": true,
+    "isPeta": true,
     "isLB": null,
     "priceMin": null,
     "priceMax": null,
@@ -1568,8 +1568,8 @@
       "באלם"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+  "isVegan": true,
+    "isPeta": true,
     "priceMin": null,
     "priceMax": null,
     "offers": [
