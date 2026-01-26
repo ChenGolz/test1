@@ -1,40 +1,15 @@
 [
   {
-    "id": "zoya-b002yk53vk",
-    "brand": "zoya",
-    "name": "לק לציפורניים – Lauren",
-    "size": null,
-    "categories": ["makeup", "nails"],
-    "isVegan": null,
-    "isPeta": null,
-    "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
-    "offers": [
-      {
-        "store": "amazon-us",
-        "storeLabel": "Amazon ארה\"ב",
-        "url": "https://www.amazon.com/dp/B002YK53VK?tag=nocrueltyil-20",
-        "asin": "B002YK53VK",
-        "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
-      }
-    ],
-    "isKids": false,
-    "image": "assets/img/products/B002YK53VK.jpg"
-  },
-  {
     "id": "aromatica-b01nbj9lts",
     "brand": "aromatica",
     "name": "שמפו רוזמרין לקרקפת – ניקוי/פילינג עדין לקרקפת",
-    "size": null,
+    "size": 13.53 oz,
     "categories": ["hair", "scalp", "shampoo"],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -42,8 +17,8 @@
         "url": "https://www.amazon.com/dp/B01NBJ9LTS?tag=nocrueltyil-20",
         "asin": "B01NBJ9LTS",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 24.86,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -53,13 +28,13 @@
     "id": "versed-b07tkp8vz2",
     "brand": "versed",
     "name": "קרם לחות מזין ומעניק לחות",
-    "size": null,
+    "size": 60ml,
     "categories": ["skincare", "face", "moisturizer"],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
-    "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "isLB": true,
+    "priceMin": 0,
+    "priceMax": 50,
     "offers": [
       {
         "store": "amazon-us",
@@ -67,8 +42,7 @@
         "url": "https://www.amazon.com/dp/B07TKP8VZ2?tag=nocrueltyil-20",
         "asin": "B07TKP8VZ2",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 12.45
       }
     ],
     "isKids": false,
@@ -78,13 +52,13 @@
     "id": "herbivore-b07yznt3rv",
     "brand": "herbivore botanicals",
     "name": "סרום בקוצ׳יול – חלופה טבעית לרטינול",
-    "size": null,
+    "size": 30ml,
     "categories": ["skincare", "face", "serum"],
-    "isVegan": null,
-    "isPeta": null,
-    "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": true,
+    "priceMin": 150,
+    "priceMax": 200,
     "offers": [
       {
         "store": "amazon-us",
@@ -92,8 +66,8 @@
         "url": "https://www.amazon.com/dp/B07YZNT3RV?tag=nocrueltyil-20",
         "asin": "B07YZNT3RV",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 58,
+                   "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -103,13 +77,13 @@
     "id": "earth-harbor-b086w2s5lv",
     "brand": "earth harbor",
     "name": "אמפולה מבהירה – MARINA",
-    "size": null,
+    "size": 30ml,
     "categories": ["skincare", "face", "serum"],
-    "isVegan": null,
-    "isPeta": null,
-    "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "isVegan": true,
+    "isPeta": true,
+    "isLB": true,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -117,8 +91,8 @@
         "url": "https://www.amazon.com/dp/B086W2S5LV?tag=nocrueltyil-20",
         "asin": "B086W2S5LV",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 28.80,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
