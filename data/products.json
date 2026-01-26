@@ -74,9 +74,7 @@
         "url": "https://www.amazon.com/dp/B0CPD67RT2?tag=nocrueltyil-20",
         "asin": "B0CPD67RT2",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
-      }
+        "priceUSD": null      }
     ],
     "isKids": false,
     "image": "assets/img/products/B0CPD67RT2.jpg"
@@ -113,7 +111,7 @@
     "id": "a-p-chem-b0cpn5ycq8",
     "brand": "a p chem",
     "name": "טיפול עיניים מאיר – EYEahuasca",
-    "size": null,
+    "size": "0.5 Ounce",
     "categories": [
       "skincare",
       "eyes",
@@ -122,8 +120,8 @@
     "isVegan": true,
     "isPeta": true,
     "isLB": true,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 150,
+    "priceMax": 200,
     "offers": [
       {
         "store": "amazon-us",
@@ -131,8 +129,8 @@
         "url": "https://www.amazon.com/dp/B0CPN5YCQ8?tag=nocrueltyil-20",
         "asin": "B0CPN5YCQ8",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 80.75,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -225,7 +223,7 @@
     "id": "about-face-b0fbx31dvx",
     "brand": "about face",
     "name": "צללית נוזלית בגימור מאט – Capulets",
-    "size": null,
+    "size": "1.06 ounces",
     "categories": [
       "makeup",
       "eyes",
@@ -233,9 +231,9 @@
     ],
    "isVegan": true,
     "isPeta": true,
-    "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "isLB": false,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -243,8 +241,8 @@
         "url": "https://www.amazon.com/dp/B0FBX31DVX?tag=nocrueltyil-20",
         "asin": "B0FBX31DVX",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 17,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -663,7 +661,7 @@
         "asin": "B0CK2P66XS",
         "currency": "USD",
         "priceUSD": 68,
-        "freeShipOver": null
+        "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -3156,7 +3154,7 @@
     "id": "emani-b002y24nh8",
     "brand": "emani",
     "name": "מייקאפ Youth Defense עם Hyaluronic Acid – כיסוי מלא ואנטי-אייג׳ינג – מגן ומבהיר גוון עור – Medium Light",
-    "size": "—",
+    "size": "35ml",
     "categories": [
       "makeup",
       "face"
@@ -3164,8 +3162,8 @@
     "isVegan": true,
     "isPeta": true,
     "isLB": false,
-    "priceMin": 120,
-    "priceMax": 140,
+    "priceMin": 100,
+    "priceMax": 150,
     "offers": [
       {
         "store": "amazon-us",
@@ -3173,7 +3171,8 @@
         "url": "https://www.amazon.com/dp/B002Y24NH8?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1Z0EJ9EBLFTRD&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.1Z0EJ9EBLFTRD_1769106886665",
         "asin": "B002Y24NH8",
         "currency": "USD",
-        "priceUSD": 36.0
+        "priceUSD": 36.0,
+                "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -3564,7 +3563,7 @@
     "id": "good-light-b095jb7v5x",
     "brand": "good light",
     "name": "טיפול אולטרה-קל עם ניאצינמיד וסרמידים",
-    "size": null,
+    "size": "3.38 Fl. Oz.",
     "categories": [
       "טיפוח עור",
       "פנים",
@@ -3573,8 +3572,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": true,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -3582,7 +3581,8 @@
         "url": "https://www.amazon.com/dp/B095JB7V5X?tag=nocrueltyil-20",
         "asin": "B095JB7V5X",
         "currency": "USD",
-        "priceUSD": null
+        "priceUSD": 27.5,
+                "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -3647,7 +3647,7 @@
     "id": "good-light-b0bc9sjt55",
     "brand": "good light",
     "name": "סרום חומצה היאלורונית לשיקום עור יבש",
-    "size": null,
+    "size": "1.69 Fl. Oz.",
     "categories": [
       "טיפוח עור",
       "פנים",
@@ -3656,8 +3656,8 @@
      "isVegan": true,
     "isPeta": null,
     "isLB": true,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 100,
+    "priceMax": 150,
     "offers": [
       {
         "store": "amazon-us",
@@ -3665,7 +3665,8 @@
         "url": "https://www.amazon.com/dp/B0BC9SJT55?tag=nocrueltyil-20",
         "asin": "B0BC9SJT55",
         "currency": "USD",
-        "priceUSD": null
+        "priceUSD": 30,
+                "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -3870,7 +3871,7 @@
     "id": "herbivore-b09xn69w4m",
     "brand": "herbivore botanicals",
     "name": "סרום “רטינול” מפירות – חלופה עדינה לרטינול",
-    "size": null,
+    "size": "30mL",
     "categories": [
       "skincare",
       "face",
@@ -3879,8 +3880,8 @@
     "isVegan": true,
     "isPeta": true,
     "isLB": true,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 200,
+    "priceMax": 250,
     "offers": [
       {
         "store": "amazon-us",
@@ -3888,8 +3889,8 @@
         "url": "https://www.amazon.com/dp/B09XN69W4M?tag=nocrueltyil-20",
         "asin": "B09XN69W4M",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 68,
+        "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -4247,7 +4248,8 @@
         "url": "https://www.amazon.com/dp/B0CM6T7513?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.3RQWWQ6OEP5KO&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.3RQWWQ6OEP5KO_1768995343316",
         "asin": "B0CM6T7513",
         "currency": "USD",
-        "priceUSD": 48.6
+        "priceUSD": 56.7,
+        "freeShipToIsrael": true
       }
     ],
     "isKids": false,
@@ -4300,7 +4302,8 @@
         "url": "https://www.amazon.com/dp/B0CT9S1BRM?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2OSR0QJAB9732&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.2OSR0QJAB9732_1769201449927",
         "asin": "B0CT9S1BRM",
         "currency": "USD",
-        "priceUSD": 27.1
+        "priceUSD": 32,
+                                "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -4310,7 +4313,7 @@
     "id": "igk-b0ctb4fd9m",
     "brand": "igk",
     "name": "מרכך לשיער – סדרת מור לייף – להברקה, שמירה על צבע",
-    "size": "—",
+    "size": "8 Fl Oz",
     "categories": [
       "hair",
       "conditioner"
@@ -4327,7 +4330,8 @@
         "url": "https://www.amazon.com/dp/B0CTB4FD9M?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2OSR0QJAB9732&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.2OSR0QJAB9732_1769201426145",
         "asin": "B0CTB4FD9M",
         "currency": "USD",
-        "priceUSD": 27.1
+        "priceUSD": 32,
+                        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -4929,8 +4933,8 @@
   {
     "id": "made-by-dentists-b0dm6qwlsh",
     "brand": "made by dentists",
-    "name": "משחת שיניים מקצועית לשיקום (Rebuilding)",
-    "size": null,
+    "name": "משחת שיניים מקצועית לשיקום - חבילה של 2 (Rebuilding)",
+    "size": "2 x 4.2oz",
     "categories": [
       "oral-care",
       "teeth",
@@ -4938,9 +4942,9 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
-    "priceMin": null,
-    "priceMax": null,
+    "isLB": false,
+    "priceMin": 0,
+    "priceMax": 50,
     "offers": [
       {
         "store": "amazon-us",
@@ -4948,8 +4952,8 @@
         "url": "https://www.amazon.com/dp/B0DM6QWLSH?tag=nocrueltyil-20",
         "asin": "B0DM6QWLSH",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 11.88,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -5425,7 +5429,7 @@
     "id": "naked-sundays-b0cqkm7r21",
     "brand": "naked sundays",
     "name": "קרם הגנה עם קולגן – לחות",
-    "size": null,
+    "size": "50ml",
     "categories": [
       "skincare",
       "face",
@@ -5434,8 +5438,8 @@
     "isVegan": true,
     "isPeta": true,
     "isLB": false,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -5443,8 +5447,8 @@
         "url": "https://www.amazon.com/dp/B0CQKM7R21?tag=nocrueltyil-20",
         "asin": "B0CQKM7R21",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 19.99,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -5454,7 +5458,7 @@
     "id": "naked-sundays-b0crf9v9pm",
     "brand": "naked sundays",
     "name": "קרם הגנה רחב טווח עם נצנוץ",
-    "size": null,
+    "size": 100ml,
     "categories": [
       "skincare",
       "face",
@@ -5463,8 +5467,8 @@
    "isVegan": true,
     "isPeta": true,
     "isLB": false,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -5472,8 +5476,8 @@
         "url": "https://www.amazon.com/dp/B0CRF9V9PM?tag=nocrueltyil-20",
         "asin": "B0CRF9V9PM",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 19.99,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -5569,7 +5573,7 @@
     "id": "naked-sundays-b0dtwpkfjh",
     "brand": "naked sundays",
     "name": "באלם שפתיים PoutScreen™ עם SPF",
-    "size": null,
+    "size": "0.5 ounces",
     "categories": [
       "skincare",
       "lips",
@@ -5578,8 +5582,8 @@
   "isVegan": true,
     "isPeta": true,
     "isLB": false,
-    "priceMin": null,
-    "priceMax": null,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -5587,8 +5591,8 @@
         "url": "https://www.amazon.com/dp/B0DTWPKFJH?tag=nocrueltyil-20",
         "asin": "B0DTWPKFJH",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 18,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -6114,7 +6118,7 @@
     "id": "pacifica-b00bbfovo4",
     "brand": "pacifica",
     "name": "קצף ניקוי פנים עדין עם מי קוקוס ואצות ים",
-    "size": "—",
+    "size": "148ml",
     "categories": [
       "face",
       "cleanser"
@@ -6131,7 +6135,8 @@
         "url": "https://www.amazon.com/dp/B00BBFOVO4?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2AZL9SB3LVH97&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.2AZL9SB3LVH97_1769200673794",
         "asin": "B00BBFOVO4",
         "currency": "USD",
-        "priceUSD": 9.97
+        "priceUSD": 12.41,
+                "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -6304,7 +6309,7 @@
     "id": "pacifica-b07vrtp6sy",
     "brand": "pacifica",
     "name": "סרום לפנים – גלו בייבי – ויטמין סי, חומצה גליקולית",
-    "size": "—",
+    "size": "29ml",
     "categories": [
       "face",
       "serum"
@@ -6321,7 +6326,8 @@
         "url": "https://www.amazon.com/dp/B07VRTP6SY?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1P2STKLOY50QU&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.1P2STKLOY50QU_1769202275728",
         "asin": "B07VRTP6SY",
         "currency": "USD",
-        "priceUSD": 10.0
+        "priceUSD": 14.97,
+                "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -7092,7 +7098,7 @@
     "id": "pacifica-b0ch3zz37c",
     "brand": "pacifica",
     "name": "סרום לפנים – פיוצ׳ר יות׳ – פפטידים",
-    "size": "—",
+    "size": "29ml",
     "categories": [
       "face",
       "serum"
@@ -7109,7 +7115,8 @@
         "url": "https://www.amazon.com/dp/B0CH3ZZ37C?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.38847RYUAKEQK&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.38847RYUAKEQK_1769201860397",
         "asin": "B0CH3ZZ37C",
         "currency": "USD",
-        "priceUSD": 24.0
+        "priceUSD": 24.0,
+                                        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -7513,7 +7520,8 @@
         "url": "https://www.amazon.com/dp/B0FHK6CMPM?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.175JEPTPNVH65&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.175JEPTPNVH65_1768941398724",
         "asin": "B0FHK6CMPM",
         "currency": "USD",
-        "priceUSD": 18.0
+        "priceUSD": 18.0,
+                                                "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -8530,7 +8538,7 @@
     "id": "tower-28-b0bbfxb4w2",
     "brand": "tower 28",
     "name": "סרום לפנים – אס-או-אס – חומצה היפוכלורית, לעור רגיש, לאדמומיות",
-    "size": "—",
+    "size": "59.2ml",
     "categories": [
       "face",
       "serum"
@@ -8547,7 +8555,8 @@
         "url": "https://www.amazon.com/dp/B0BBFXB4W2?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.3R7CEZ6FKYEMY&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.3R7CEZ6FKYEMY_1769202159257",
         "asin": "B0BBFXB4W2",
         "currency": "USD",
-        "priceUSD": 34.0
+        "priceUSD": 34.0,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -8611,7 +8620,7 @@
     "id": "tower-28-b0cfwqzlc4",
     "brand": "tower 28",
     "name": "קונסילר סרום לחות בכיסוי בינוני – גוון 1.0 (בהיר מאוד, תת־גוון קר)",
-    "size": "—",
+    "size": "0.22 Fl Oz",
     "categories": [
       "makeup",
       "face"
@@ -8628,7 +8637,8 @@
         "url": "https://www.amazon.com/dp/B0CFWQZLC4?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1KYBBZQCPZMYC&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.1KYBBZQCPZMYC_1769200568725",
         "asin": "B0CFWQZLC4",
         "currency": "USD",
-        "priceUSD": 24.0
+        "priceUSD": 24.0,
+        "freeShipOver": 49
       }
     ],
     "isKids": false,
@@ -8666,7 +8676,7 @@
     "id": "tower-28-b0ftzht24z",
     "brand": "tower 28",
     "name": "קרם הגנה מינרלי לפנים SPF 30 עם סרמידים ואבץ לעור רגיש",
-    "size": "—",
+    "size": "50ml",
     "categories": [
       "sun",
       "face"
@@ -8683,7 +8693,8 @@
         "url": "https://www.amazon.com/dp/B0FTZHT24Z?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1I39SYZ0OFTIR&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.1I39SYZ0OFTIR_1769200603855",
         "asin": "B0FTZHT24Z",
         "currency": "USD",
-        "priceUSD": 32.0
+        "priceUSD": 32.0,
+                "freeShipOver": 49
       }
     ],
     "isKids": false,
