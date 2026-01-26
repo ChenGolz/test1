@@ -1,5 +1,681 @@
 [
   {
+    "id": "act-acre-b0f1ws7j81",
+    "brand": "Act+Acre",
+    "name": "Cold Processed 4% Niacinamide Oily Scalp Serum (2.2 fl oz)",
+    "size": "2.2 fl oz",
+    "categories": ["hair", "scalp", "treatment"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 190,
+    "priceMax": 235,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0F1WS7J81?tag=nocrueltyil-20",
+        "asin": "B0F1WS7J81",
+        "currency": "USD",
+        "priceUSD": 68.0,
+        "freeShipOver": 0.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0F1WS7J81.jpg"
+  },
+  {
+    "id": "act-acre-b0c1cflg2x",
+    "brand": "Act+Acre",
+    "name": "Cold Processed 5% Argan Repair Hair Oil (Plant-Based)",
+    "size": null,
+    "categories": ["hair"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 140,
+    "priceMax": 175,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0C1CFLG2X?tag=nocrueltyil-20",
+        "asin": "B0C1CFLG2X",
+        "currency": "USD",
+        "priceUSD": 50.0,
+        "freeShipOver": 0.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0C1CFLG2X.jpg"
+  },
+  {
+    "id": "act-acre-b0ck2p66xs",
+    "brand": "Act+Acre",
+    "name": "Microbiome Cooling Scalp Serum (2.2 fl oz)",
+    "size": "2.2 fl oz",
+    "categories": ["hair", "scalp", "treatment"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 190,
+    "priceMax": 235,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0CK2P66XS?tag=nocrueltyil-20",
+        "asin": "B0CK2P66XS",
+        "currency": "USD",
+        "priceUSD": 68.0,
+        "freeShipOver": 0.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0CK2P66XS.jpg"
+  },
+  {
+    "id": "act-acre-b08dzx6j7d",
+    "brand": "Act+Acre",
+    "name": "Plant-Based Fulvic Acid Volumizing Dry Shampoo (0.46 oz)",
+    "size": "0.46 oz",
+    "categories": ["hair"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 70,
+    "priceMax": 90,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B08DZX6J7D?tag=nocrueltyil-20",
+        "asin": "B08DZX6J7D",
+        "currency": "USD",
+        "priceUSD": 26.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B08DZX6J7D.jpg"
+  },
+  {
+    "id": "act-acre-b091r87682",
+    "brand": "Act+Acre",
+    "name": "Restorative Conditioning Hair Mask (4 fl oz)",
+    "size": "4 fl oz",
+    "categories": ["hair", "treatment"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 105,
+    "priceMax": 130,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B091R87682?tag=nocrueltyil-20",
+        "asin": "B091R87682",
+        "currency": "USD",
+        "priceUSD": 38.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B091R87682.jpg"
+  },
+  {
+    "id": "act-acre-b0bnnmmrlb",
+    "brand": "Act+Acre",
+    "name": "Cold Processed Salicylic Acid Exfoliator (2 fl oz)",
+    "size": "2 fl oz",
+    "categories": ["hair", "scalp", "treatment"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 135,
+    "priceMax": 165,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0BNNMMRLB?tag=nocrueltyil-20",
+        "asin": "B0BNNMMRLB",
+        "currency": "USD",
+        "priceUSD": 48.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0BNNMMRLB.jpg"
+  },
+  {
+    "id": "act-acre-b07q74bcvb",
+    "brand": "Act+Acre",
+    "name": "Cold Processed Scalp Detox Oil (3 fl oz)",
+    "size": "3 fl oz",
+    "categories": ["hair", "scalp", "treatment"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 135,
+    "priceMax": 165,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B07Q74BCVB?tag=nocrueltyil-20",
+        "asin": "B07Q74BCVB",
+        "currency": "USD",
+        "priceUSD": 48.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B07Q74BCVB.jpg"
+  },
+  {
+    "id": "act-acre-b0clhjldtn",
+    "brand": "Act+Acre",
+    "name": "Cold Processed Stem Cell Scalp Serum (1 fl oz)",
+    "size": "1 fl oz",
+    "categories": ["hair", "scalp", "treatment"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 155,
+    "priceMax": 190,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0CLHJLDTN?tag=nocrueltyil-20",
+        "asin": "B0CLHJLDTN",
+        "currency": "USD",
+        "priceUSD": 55.0,
+        "freeShipOver": 0.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0CLHJLDTN.jpg"
+  },
+  {
+    "id": "act-acre-b0f1wg36s9",
+    "brand": "Act+Acre",
+    "name": "Stem Cell Conditioner (10 fl oz)",
+    "size": "10 fl oz",
+    "categories": ["hair"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 120,
+    "priceMax": 145,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0F1WG36S9?tag=nocrueltyil-20",
+        "asin": "B0F1WG36S9",
+        "currency": "USD",
+        "priceUSD": 42.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0F1WG36S9.jpg"
+  },
+  {
+    "id": "act-acre-b0b8smvn44",
+    "brand": "Act+Acre",
+    "name": "Cold Processed Stem Cell Scalp Serum (2.2 fl oz)",
+    "size": "2.2 fl oz",
+    "categories": ["hair", "scalp", "treatment"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 240,
+    "priceMax": 295,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0B8SMVN44?tag=nocrueltyil-20",
+        "asin": "B0B8SMVN44",
+        "currency": "USD",
+        "priceUSD": 86.0,
+        "freeShipOver": 0.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0B8SMVN44.jpg"
+  },
+  {
+    "id": "act-acre-b0f1wlhzvm",
+    "brand": "Act+Acre",
+    "name": "Stem Cell Shampoo (10 fl oz)",
+    "size": "10 fl oz",
+    "categories": ["hair"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 120,
+    "priceMax": 145,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0F1WLHZVM?tag=nocrueltyil-20",
+        "asin": "B0F1WLHZVM",
+        "currency": "USD",
+        "priceUSD": 42.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0F1WLHZVM.jpg"
+  },
+  {
+    "id": "act-acre-b0f1wn89lr",
+    "brand": "Act+Acre",
+    "name": "Cold Processed 3% Stem Cell Peptide Treatment (3 fl oz)",
+    "size": "3 fl oz",
+    "categories": ["hair", "treatment"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 335,
+    "priceMax": 415,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0F1WN89LR?tag=nocrueltyil-20",
+        "asin": "B0F1WN89LR",
+        "currency": "USD",
+        "priceUSD": 120.0,
+        "freeShipOver": 0.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0F1WN89LR.jpg"
+  },
+  {
+    "id": "act-acre-b0f1w7zssf",
+    "brand": "Act+Acre",
+    "name": "Cold Processed Thick + Full Hair System (3-Piece Set)",
+    "size": null,
+    "categories": ["hair", "treatment"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 385,
+    "priceMax": 475,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0F1W7ZSSF?tag=nocrueltyil-20",
+        "asin": "B0F1W7ZSSF",
+        "currency": "USD",
+        "priceUSD": 138.0,
+        "freeShipOver": 0.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0F1W7ZSSF.jpg"
+  },
+  {
+    "id": "about-face-b0fbx25hps",
+    "brand": "about-face",
+    "name": "Fractal Glitter Eye Paint Take A Trip (0.13 oz) (Lavender)",
+    "size": "0.13 oz",
+    "categories": ["makeup", "eyes"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 50,
+    "priceMax": 65,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0FBX25HPS?tag=nocrueltyil-20",
+        "asin": "B0FBX25HPS",
+        "currency": "USD",
+        "priceUSD": 18.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0FBX25HPS.jpg"
+  },
+  {
+    "id": "about-face-b0fc3w99b9",
+    "brand": "about-face",
+    "name": "Line Artist Longwear Gel Eyeliner Into The Void (Matte Black)",
+    "size": "0.012 oz",
+    "categories": ["makeup", "eyes"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 40,
+    "priceMax": 50,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0FC3W99B9?tag=nocrueltyil-20",
+        "asin": "B0FC3W99B9",
+        "currency": "USD",
+        "priceUSD": 14.0,
+        "freeShipOver": null
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0FC3W99B9.jpg"
+  },
+  {
+    "id": "about-face-b0fbx1rjcz",
+    "brand": "about-face",
+    "name": "Matte Fluid Eye Paint Blue Monday (Bright Blue)",
+    "size": null,
+    "categories": ["makeup", "eyes"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 45,
+    "priceMax": 60,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0FBX1RJCZ?tag=nocrueltyil-20",
+        "asin": "B0FBX1RJCZ",
+        "currency": "USD",
+        "priceUSD": 17.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0FBX1RJCZ.jpg"
+  },
+  {
+    "id": "about-face-b0fc4h4qqz",
+    "brand": "about-face",
+    "name": "THE PERFORMER Skin-Focused Foundation F2Olive (1.08 oz)",
+    "size": "1.08 oz",
+    "categories": ["makeup", "face"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 70,
+    "priceMax": 90,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0FC4H4QQZ?tag=nocrueltyil-20",
+        "asin": "B0FC4H4QQZ",
+        "currency": "USD",
+        "priceUSD": 25.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0FC4H4QQZ.jpg"
+  },
+  {
+    "id": "about-face-b0fbx3jyn2",
+    "brand": "about-face",
+    "name": "Fractal Glitter Eye Paint Above Santorini (0.13 oz) (Sapphire)",
+    "size": "0.13 oz",
+    "categories": ["makeup", "eyes"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 50,
+    "priceMax": 65,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0FBX3JYN2?tag=nocrueltyil-20",
+        "asin": "B0FBX3JYN2",
+        "currency": "USD",
+        "priceUSD": 18.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0FBX3JYN2.jpg"
+  },
+  {
+    "id": "about-face-b0fc35lbxs",
+    "brand": "about-face",
+    "name": "Brow Artist Long-Wear Brow Pencil (0.007 oz) (Eight – Soft Black)",
+    "size": "0.007 oz",
+    "categories": ["makeup", "eyes"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 45,
+    "priceMax": 60,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0FC35LBXS?tag=nocrueltyil-20",
+        "asin": "B0FC35LBXS",
+        "currency": "USD",
+        "priceUSD": 16.0,
+        "freeShipOver": null
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0FC35LBXS.jpg"
+  },
+  {
+    "id": "about-face-b0fbmpgf21",
+    "brand": "about-face",
+    "name": "Shadowstick Long-Wear Cream Eyeshadow Stick (0.049 oz) (Oxide - Matte White)",
+    "size": "0.049 oz",
+    "categories": ["makeup", "eyes"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 40,
+    "priceMax": 50,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0FBMPGF21?tag=nocrueltyil-20",
+        "asin": "B0FBMPGF21",
+        "currency": "USD",
+        "priceUSD": 14.0,
+        "freeShipOver": null
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0FBMPGF21.jpg"
+  },
+  {
+    "id": "about-face-b0fbx3q5nc",
+    "brand": "about-face",
+    "name": "Volumizing Mascara (0.43 oz) (Jet Black)",
+    "size": "0.43 oz",
+    "categories": ["makeup", "eyes"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 50,
+    "priceMax": 65,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0FBX3Q5NC?tag=nocrueltyil-20",
+        "asin": "B0FBX3Q5NC",
+        "currency": "USD",
+        "priceUSD": 18.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0FBX3Q5NC.jpg"
+  },
+  {
+    "id": "about-face-b0fbx37fk4",
+    "brand": "about-face",
+    "name": "Matte Fluid Eye Paint Art of Darkness (Matte Black)",
+    "size": null,
+    "categories": ["makeup", "eyes"],
+    "isVegan": true,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 45,
+    "priceMax": 60,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0FBX37FK4?tag=nocrueltyil-20",
+        "asin": "B0FBX37FK4",
+        "currency": "USD",
+        "priceUSD": 17.0,
+        "freeShipOver": 49.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0FBX37FK4.jpg"
+  },
+  {
+    "id": "a-p-chem-b0cpn5ycq8",
+    "brand": "A.P. CHEM",
+    "name": "EYEahuasca Enlightening Eye Treatment (0.5 oz)",
+    "size": "0.5 oz",
+    "categories": ["skincare", "eyes", "treatment"],
+    "isVegan": null,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 225,
+    "priceMax": 280,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0CPN5YCQ8?tag=nocrueltyil-20",
+        "asin": "B0CPN5YCQ8",
+        "currency": "USD",
+        "priceUSD": 80.75,
+        "freeShipOver": 0.0
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0CPN5YCQ8.jpg"
+  },
+  {
+    "id": "111medco-b0brt7lftb",
+    "brand": "111MedCo",
+    "name": "2% Salicylic Acid Cleansing Medicated Soap Bar (4 oz)",
+    "size": "4 oz",
+    "categories": ["skincare", "cleanser"],
+    "isVegan": null,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 15,
+    "priceMax": 25,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0BRT7LFTB?tag=nocrueltyil-20",
+        "asin": "B0BRT7LFTB",
+        "currency": "USD",
+        "priceUSD": 6.99,
+        "freeShipOver": null
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0BRT7LFTB.jpg"
+  },
+  {
+    "id": "111medco-b0d9ktpf7m",
+    "brand": "111MedCo",
+    "name": "Hypochlorous Acid Spray 0.02% (8 oz)",
+    "size": "8 oz",
+    "categories": ["skincare", "treatment"],
+    "isVegan": null,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 30,
+    "priceMax": 45,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0D9KTPF7M?tag=nocrueltyil-20",
+        "asin": "B0D9KTPF7M",
+        "currency": "USD",
+        "priceUSD": 11.99,
+        "freeShipOver": null
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0D9KTPF7M.jpg"
+  },
+  {
+    "id": "111medco-b0cfg62h35",
+    "brand": "111MedCo",
+    "name": "6% Sulfur Medicated Skin Cleansing Soap Bar (4 oz)",
+    "size": "4 oz",
+    "categories": ["skincare", "cleanser"],
+    "isVegan": null,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 15,
+    "priceMax": 25,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0CFG62H35?tag=nocrueltyil-20",
+        "asin": "B0CFG62H35",
+        "currency": "USD",
+        "priceUSD": 6.99,
+        "freeShipOver": null
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0CFG62H35.jpg"
+  },
+  {
+    "id": "111medco-b0cpd67rt2",
+    "brand": "111MedCo",
+    "name": "2% Pyrithione Zinc Medicated Skin Cleansing Soap Bar (4 oz)",
+    "size": "4 oz",
+    "categories": ["skincare", "cleanser"],
+    "isVegan": null,
+    "isPeta": null,
+    "isLB": null,
+    "priceMin": 15,
+    "priceMax": 25,
+    "offers": [
+      {
+        "store": "amazon-us",
+        "storeLabel": "Amazon ארה\"ב",
+        "url": "https://www.amazon.com/dp/B0CPD67RT2?tag=nocrueltyil-20",
+        "asin": "B0CPD67RT2",
+        "currency": "USD",
+        "priceUSD": 5.99,
+        "freeShipOver": null
+      }
+    ],
+    "isKids": false,
+    "image": "assets/img/products/B0CPD67RT2.jpg"
+  }
+,
+  {
   "id": "vegan-mia-b0942sfpt9",
   "brand": "Vegan Mia",
   "name": "שמן רוזמרין אורגני לצמיחת שיער עם שמן קיק ועוד",
