@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>באנדלים מומלצים למשלוח חינם | לקנות ללא אכזריות</title>
+    <title>באנדלים למשלוח חינם | לקנות ללא אכזריות</title>
     <meta
       name="description"
-      content="באנדלים מומלצים של מוצרים טבעוניים וללא אכזריות בבעלי חיים כדי להגיע למשלוח חינם באמזון (בין ₪160 ל־₪170). החליפי מוצרים בכל באנ..."
+      content="באנדלים מומלצים של מוצרים טבעוניים ולקנות ללא אכזריות בבעלי חיים כדי להגיע למשלוח חינם באמזון (מעל $49). החליפי מוצרים בכל באנ..."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/styles.css?v=2026-01-14-v12" />
+    <link href="https://fonts.apis.com/css2?family=Assistant:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=2026-01-23-v19" />
     <link rel="icon" type="image/png" href="assets/img/logo.png" />
 
     <style>
@@ -29,6 +29,15 @@
       .bundleMeta { display:flex; flex-wrap:wrap; gap:8px; margin-top: 10px; }
       .bundleMeta .tag { background: rgba(0,0,0,.06); padding: 6px 10px; border-radius: 999px; font-size: .85rem; }
       .bundleCta { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-top: 14px; }
+
+      /* Bundle card: show products preview (not only in the popup) */
+      .bundlePreview{ margin-top: 12px; display:flex; flex-direction:column; gap:10px; }
+      .bundlePreviewItem{ display:grid; grid-template-columns: 46px 1fr; gap:10px; align-items:center; padding: 8px; border-radius: 14px; background: rgba(0,0,0,.03); }
+      .bundlePreviewItem img{ width:46px; height:46px; border-radius: 12px; object-fit: cover; background: rgba(0,0,0,.06); }
+      .bundlePreviewName{ font-weight: 700; font-size: .92rem; line-height: 1.25; }
+      .bundlePreviewMeta{ margin-top: 6px; display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+      .bundlePreviewMore{ font-size: .85rem; opacity: .85; padding-inline: 8px; }
+
       .bundlePrice { font-weight: 800; font-size: 1.15rem; }
       .bundleBtn { display:inline-flex; align-items:center; gap:8px; border:0; border-radius: 999px; padding: 10px 14px; font-weight: 700; cursor:pointer; background: #111; color:#fff; }
       .bundleBtn:focus { outline: 3px solid rgba(0,0,0,.25); outline-offset: 2px; }
@@ -102,6 +111,27 @@
       @media (max-width: 900px){ .modalBody{ grid-template-columns: 1fr; } }
       .modalLeft, .modalRight{ min-height:0; overflow:auto; -webkit-overflow-scrolling:touch; }
 
+      /* USD->ILS converter */
+      .fxBox{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-top: 12px; padding-top: 10px; border-top: 1px dashed rgba(0,0,0,.14); }
+      .fxBox label{ display:flex; align-items:center; gap:8px; font-weight:700; }
+      .fxBox input{ width: 140px; max-width: 55vw; border: 1px solid rgba(0,0,0,.18); border-radius: 12px; padding: 8px 10px; }
+      .fxOut{ font-weight: 900; }
+      .fxNote{ font-size:.82rem; opacity:.82; }
+
+    
+      /* Auto bundles product list */
+      .bundleMeta { text-align: left; }
+      .bundleTotal { font-weight: 700; }
+      .bundleShip { font-size: .9rem; opacity: .9; margin-top: 4px; }
+
+      .bundleProducts { margin-top: 12px; display: grid; gap: 10px; }
+      .bundleProduct { display:flex; gap:10px; align-items:center; padding:10px; border-radius:14px; background: rgba(0,0,0,.03); text-decoration:none; color: inherit; }
+      .bundleProduct:hover { background: rgba(0,0,0,.05); }
+      .bundleProductImg { width: 54px; height: 54px; border-radius: 12px; object-fit: cover; background: #fff; border: 1px solid rgba(0,0,0,.08); }
+      .bundleProductTitle { font-weight: 700; line-height: 1.2; }
+      .bundleProductDetails { opacity: .85; font-size: .9rem; margin-top: 3px; }
+      .bundleCTA { margin-top: 12px; display:flex; justify-content:flex-start; }
+
     </style>
   </head>
 
@@ -109,13 +139,13 @@
     <header class="siteHeader" id="siteHeader">
       <div class="wrap headerRow">
         <a class="logo" href="index.html" aria-label="בית">
-          <img class="logoImg" src="assets/img/logo.png" alt="ללא אכזריות" width="40" height="40" />
+          <img class="logoImg" src="assets/img/logo.png" alt="לקנות ללא אכזריות" width="40" height="40" />
           <span class="logoText">לקנות ללא אכזריות</span>
         </a>
         <nav class="nav" aria-label="ניווט ראשי">
           <a href="todays-top-deals.html">מומלצי היום</a>
           <a href="products.html">מוצרים</a>
-          <a class="active" href="bundles.html">באנדלים ₪160–₪170</a>
+          <a class="active" href="bundles.html">באנדלים $49+</a>
           <a href="shopping-calendar.html">סיילים</a>
           <a href="israeli-brands.html">תוצרת הארץ</a>
           <a href="recommended-brands.html">מותגים בינלאומים</a>
@@ -128,17 +158,17 @@
     </header>
 
     <main id="main">
-      <section class="hero heroSmall bundleHero">
+        <section class="hero product-hero heroSmall bundleHero">
         <img class="decorPhoto decorCL" src="assets/img/photos/dog-field.jpg" alt="" aria-hidden="true" />
         <div class="wrap heroInner">
           <div class="heroCopy center-text">
-            <h1>באנדלים חכמים למשלוח חינם באמזון</h1>
+            <h1>באנדלים למשלוח חינם באמזון 🇺🇸</h1>
             <p>
-              כדי לקבל משלוח חינם, שווה לבנות סל קטן שמגיע ל־<strong>₪160–₪170</strong> (בערך המינימום להזמנות זכאיות). כאן יצרנו באנדלים לפי נושאים — תינוקות, שיער, גוף ועוד — ובכל באנדל אפשר להחליף כל פריט בעזרת פילטרים כדי להתאים בדיוק למה שאת/ה רוצה.
+              משלוח חינם לישראל באמזון ארה״ב לרוב מתחיל ב־<strong>$49+</strong>. כאן תמצאי באנדלים מומלצים של מוצרים טבעוניים בלבד — ובכל באנדל תוכלי להחליף כל פריט בעזרת פילטרים חכמים כדי לבנות סל שמתאים לך.
             </p>
             <div class="badgeRow center-badges">
-              <div class="trust-badge" ><span class="icon" aria-hidden="true">🌿</span> Vegan בלבד</div>
-              <div class="trust-badge" ><span class="icon" aria-hidden="true">🛒</span> אמזון ארה"ב</div>
+              <div class="trust-badge" ><span class="icon" aria-hidden="true">🌿</span> Vegan Only</div>
+              <div class="trust-badge" ><span class="icon" aria-hidden="true">🛒</span> Amazon US</div>
               <div class="trust-badge"><span class="icon" aria-hidden="true">✨</span> החלפה חכמה</div>
             </div>
           </div>
@@ -203,8 +233,14 @@
           <div class="modalRight">
             <div class="bundleItems" id="bundleItems"></div>
             <div class="summaryBox">
-              <div class="summaryRow"><span>סכום ביניים (הערכה)</span> <strong id="bundleSubtotal">₪0</strong></div>
-              <div class="summaryRow" style="margin-top:8px"><span>להשלמה ל־₪160</span> <strong id="bundleToFree">₪0</strong></div>
+              <div class="summaryRow"><span>סכום ביניים (הערכה)</span> <strong id="bundleSubtotal">$0</strong></div>
+              <div class="summaryRow" style="margin-top:8px"><span>להשלמה ל־$49</span> <strong id="bundleToFree">$0</strong></div>
+              <div class="fxBox" aria-label="המרת דולר לשקל">
+                <label for="usdInput">$ → ₪</label>
+                <input id="usdInput" type="number" inputmode="decimal" min="0" step="0.01" placeholder="הקלידי סכום בדולרים" />
+                <span class="fxOut" id="ilsOut">₪0</span>
+                <span class="fxNote" id="fxNote">טוען שער USD/ILS…</span>
+              </div>
               <div class="noteTiny">כדי לבחור חלופה: לחצי על “החליפי” ליד פריט, ואז בחרי מוצר חדש מהרשימה משמאל.</div>
               <div class="shopRow">
                 <a class="shopLink primary" id="shopAllBtn" href="#" target="_blank" rel="noopener">פתחי אמזון (חיפוש)</a>
@@ -235,7 +271,7 @@
       </div>
     </section>
 
-    <script src="assets/js/price-tier.js?v=2026-01-14"></script>
-    <script src="assets/js/bundles.js?v=2026-01-18"></script>
+    <script defer src="assets/js/price-tier.js?v=2026-01-14"></script>
+    <script defer src="assets/js/bundles.js?v=2026-01-25-v26"></script>
   </body>
 </html>

@@ -1864,27 +1864,10 @@ body{ overflow-x: hidden; }
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
 }
 
-.page-products .productCard .pMedia{
-  display: grid !important;          /* override previous hide */
-  place-items: center;
-  width: 100%;
-  height: 110px;                     /* compact but visible */
-  border-radius: 14px;
-  overflow: hidden;
-  background: rgba(15,23,42,0.04);
-  border: 1px solid rgba(15,23,42,0.06);
-  margin-bottom: 8px;
+.page-products .productCard .pMedia {
+  display: none;
 }
-.page-products .productCard .pMedia img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;                  /* no weird stretching */
-  display: block;
-}
-.page-products .productCard .pPlaceholder{
-  font-size: 28px;
-  line-height: 1;
-}
+
 .page-products .productCard .pContent {
   margin: 0;
   display: flex;
@@ -2213,13 +2196,17 @@ body{ overflow-x: hidden; }
   font-size:.72rem;
   color:#0f172a;
 }
-.brandBadge--Vegan{
+.brandBadge--vegan{
   background:rgba(34,197,94,0.10);
   color:#166534;
 }
-.brandBadge--Cruelty-Free{
+.brandBadge--peta{
   background:rgba(59,130,246,0.12);
   color:#1d4ed8;
+}
+.brandBadge--lb{
+  background:rgba(236,72,153,0.12);
+  color:#9d174d;
 }
 .brandLinks{
   margin-top:0.5rem;
@@ -3772,483 +3759,141 @@ body.menuOpen .navOverlay{
 }
 
 
-/* --- Product cards: image on top + compact height (hotfix) --- */
+
+/* === KBWG PATCH: product card compact top-image (2026-01-21-v3) === */
+/* 목표:
+   - תמונה למעלה
+   - כרטיס קצר יותר (מובייל במיוחד)
+   - אין חללים ריקים גדולים
+   - טקסט ממורכז
+*/
+
+/* אל תכריחי שורות באותו גובה */
+.page-products .product-grid{
+  grid-auto-rows: auto !important;
+  align-items: start !important;
+}
+
+/* כרטיס קומפקטי */
 .page-products .productCard{
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-.page-products .productCard .pContent{
-  gap: 6px;
-}
-.page-products .productCard .offer{
-  padding: 10px 10px 10px;
-}
-.page-products .productCard .offer .btn.primary{
-  margin-top: 6px;
-  padding: 9px 0;
-  font-size: 15px;
-}
-
-
-
-/* === KBWG PATCH: clearer product images + show full image (2026-01-21-v6) === */
-/* Make product thumbnails clearer and show the whole product (no cropping) */
-.page-products .pMedia{
-  /* slightly taller for readability, still compact */
-  height: 84px !important;
-  background: rgba(255,255,255,.96);
-}
-
-@media (max-width: 480px){
-  .page-products .pMedia{ height: 74px !important; }
-}
-
-.page-products .pMedia img{
-  object-fit: contain !important;   /* show full image */
-  object-position: center center;
-  padding: 6px;                    /* breathing room so edges aren't cut */
-  background: transparent;
-  /* avoid any blur filters; let browser render crisply */
-  image-rendering: auto;
-  transform: translateZ(0);
-}
-/* === /KBWG PATCH v6 === */
-
-
-
-/* === KBWG PATCH: larger + sharper thumbnails (2026-01-21-v7) === */
-/* Bigger thumbnail area (still compact) + reduce internal whitespace */
-.page-products .pMedia{
-  height: 112px !important;
-  background: #fff;
-}
-@media (max-width: 480px){
-  .page-products .pMedia{ height: 96px !important; }
-}
-
-/* Show the whole image but make it fill the available space better */
-.page-products .pMedia img{
-  object-fit: contain !important;
-  object-position: center center;
-  padding: 2px !important;      /* less empty space */
-  background: #fff;
-  /* slightly crisper in Chromium-based browsers */
-  image-rendering: -webkit-optimize-contrast;
-}
-/* === /KBWG PATCH v7 === */
-
-
-
-/* === KBWG PATCH: crisp full-fit thumbnails (2026-01-21-v8) === */
-/* The fade is coming from low opacity / overlays. Force a clean white canvas and full opacity. */
-.page-products .pMedia{
-  background: #fff !important;
-  border-color: rgba(20,40,80,.14) !important;
-}
-.page-products .pMedia::after{
-  content: none !important; /* prevent any gradient overlay */
-}
-.page-products .pMedia img{
-  opacity: 1 !important;
-  filter: none !important;
-  mix-blend-mode: normal !important;
-  object-fit: contain !important;   /* never crop */
-  padding: 4px !important;
-  background: #fff !important;
-  image-rendering: -webkit-optimize-contrast;
-}
-
-/* Ensure the img isn't constrained by inherited height:auto rules */
-.page-products .pMedia img{
-  width: 100% !important;
-  height: 100% !important;
-}
-/* === /KBWG PATCH v8 === */
-
-
-
-/* === KBWG PATCH: maximize full image visibility (2026-01-21-v9) === */
-/* Make the media area tall enough so 'contain' can show the full product without cutting.
-   This is the most reliable way to guarantee no crop across portrait/landscape images. */
-.page-products .pMedia{
-  height: 140px !important;
-  padding: 0 !important;
-  background: #fff !important;
-  display: block !important;
-}
-@media (max-width: 920px){
-  .page-products .pMedia{ height: 128px !important; }
-}
-@media (max-width: 480px){
-  .page-products .pMedia{ height: 116px !important; }
-}
-
-/* Ensure image always fits fully (no crop) */
-.page-products .pMedia img{
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: contain !important;
-  object-position: center center !important;
-  padding: 6px !important; /* small frame */
-  background: #fff !important;
-}
-
-/* If placeholder is used, keep it centered and not huge */
-.page-products .pPlaceholder{
-  min-height: 0 !important;
-  height: 100% !important;
+  padding: 12px !important;     /* היה 16 */
+  border-radius: var(--radius);
   display: grid !important;
-  place-items: center;
+  grid-template-columns: 1fr !important;
+  grid-template-rows: auto 1fr !important;
+  gap: 8px !important;          /* היה 12 */
+  text-align: center;
 }
-/* === /KBWG PATCH v9 === */
 
-
-
-/* === KBWG PATCH: full image + bigger (2026-01-21-v10) === */
-/* If it still feels "cut", it's usually because padding leaves less usable space,
-   or the box is still a bit short for portrait product shots.
-   This makes the box a bit taller and removes most padding while STILL never cropping. */
-
+/* תמונה למעלה – נמוכה יותר */
 .page-products .pMedia{
-  height: 168px !important;
-}
-@media (max-width: 920px){
-  .page-products .pMedia{ height: 150px !important; }
-}
-@media (max-width: 480px){
-  .page-products .pMedia{ height: 132px !important; }
-}
-
-.page-products .pMedia img{
-  padding: 0px !important;      /* maximize usable area */
-  object-fit: contain !important;
-  object-position: center center !important;
-}
-/* === /KBWG PATCH v10 === */
-
-
-
-/* === KBWG PATCH: square thumb tuned for portrait packshots (2026-01-21-v11) === */
-/* Your images are packshots like the sample (portrait/square with white bg).
-   A wide banner thumbnail makes them look tiny. Switch to a SQUARE thumbnail so the product fills the box,
-   while still using `contain` (never crops). */
-
-.page-products .pMedia{
-  /* square makes portrait packshots look much larger */
-  aspect-ratio: 1 / 1 !important;
-  height: auto !important;          /* let aspect-ratio control height */
   width: 100%;
-  max-height: 170px;                /* keep cards reasonable */
+  height: 64px;                 /* קצר יותר */
+  aspect-ratio: auto !important;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--stroke);
+  background: rgba(255,255,255,.9);
+  display: block;
 }
-@media (max-width: 920px){
-  .page-products .pMedia{ max-height: 155px; }
-}
-@media (max-width: 480px){
-  .page-products .pMedia{ max-height: 140px; }
-}
-
-/* Maximize product size inside the square */
 .page-products .pMedia img{
-  object-fit: contain !important;   /* never crop */
-  width: 100% !important;
-  height: 100% !important;
-  padding: 0 !important;
-  background: #fff !important;
-}
-/* === /KBWG PATCH v11 === */
-
-
-
-/* === KBWG PATCH: shorter thumb + shift image up (2026-01-22-v12) === */
-/* Shorter image area (reduce card height) */
-.page-products .pMedia{
-  max-height: 138px !important;   /* was 170 */
-}
-@media (max-width: 920px){
-  .page-products .pMedia{ max-height: 126px !important; }
-}
-@media (max-width: 480px){
-  .page-products .pMedia{ max-height: 118px !important; }
-}
-
-/* Nudge the image UP so we see more of the bottom part of the product */
-.page-products .pMedia img{
-  object-fit: contain !important;
-  object-position: 50% 42% !important; /* up a bit (default is 50% 50%) */
-}
-/* === /KBWG PATCH v12 === */
-
-
-
-/* === KBWG PATCH: show more bottom of packshot (2026-01-22-v13) === */
-/* With object-fit: contain, the image is NOT cropped unless we shift it.
-   The screenshot shows bottoms getting cut → shift DOWN (not up) so more bottom is visible. */
-
-.page-products .pMedia img{
-  object-fit: contain !important;
-  /* move image down so bottom part is visible */
-  object-position: 50% 62% !important;
-}
-
-/* Keep the thumbnail area compact */
-.page-products .pMedia{
-  max-height: 132px !important;
-}
-@media (max-width: 920px){
-  .page-products .pMedia{ max-height: 122px !important; }
-}
-@media (max-width: 480px){
-  .page-products .pMedia{ max-height: 112px !important; }
-}
-/* === /KBWG PATCH v13 === */
-
-
-
-/* === KBWG PATCH: bottom-align packshots (2026-01-22-v14) === */
-/* Best effort for your Amazon-style packshots:
-   - keep square thumb (makes packshots look larger)
-   - align image to the BOTTOM so jars/tubes don't look "cut" when the file has extra whitespace on top
-   - still NEVER crop (contain) */
-
-.page-products .pMedia{
-  aspect-ratio: 1 / 1 !important;
-  height: auto !important;
   width: 100%;
-  max-height: 132px !important; /* compact */
-  background: #fff !important;
-}
-@media (max-width: 920px){
-  .page-products .pMedia{ max-height: 122px !important; }
-}
-@media (max-width: 480px){
-  .page-products .pMedia{ max-height: 112px !important; }
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
-.page-products .pMedia img{
-  object-fit: contain !important;
-  /* bottom align to reveal lower part when source has top whitespace */
-  object-position: 50% 100% !important;
-  padding: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
-  background: #fff !important;
-}
-/* === /KBWG PATCH v14 === */
-
-
-
-/* === KBWG PATCH: square thumb with capped width (2026-01-22-v15) === */
-/* Problem in desktop: the card is wide, and max-height forces the media to become a wide rectangle,
-   which makes packshot images look tiny.
-   Fix: keep the thumb SQUARE but cap its WIDTH (so it stays compact and the product stays big). */
-
-.page-products .pMedia{
-  width: 100% !important;
-  max-width: 190px;              /* cap thumb size */
-  margin-inline: auto;           /* center in RTL/LTR */
-  aspect-ratio: 1 / 1 !important;/* always square */
-  height: auto !important;       /* driven by aspect ratio */
-  max-height: none !important;   /* prevent squashing */
-  background: #fff !important;
+/* תוכן – קומפקטי וממורכז */
+.page-products .pContent{
+  min-width: 0;
+  display: grid;
+  gap: 6px;                     /* קצר יותר */
+  justify-items: center;
 }
 
-@media (max-width: 920px){
-  .page-products .pMedia{ max-width: 175px; }
+/* כותרת ומטא */
+.page-products .pHeader{
+  width: 100%;
+  display: grid !important;
+  gap: 6px;
+  justify-items: center;
 }
-@media (max-width: 480px){
-  .page-products .pMedia{ max-width: 155px; }
-}
-
-/* Full image, bottom aligned */
-.page-products .pMedia img{
-  object-fit: contain !important;
-  object-position: 50% 100% !important;
-  width: 100% !important;
-  height: 100% !important;
-  padding: 0 !important;
-  background: #fff !important;
-}
-/* === /KBWG PATCH v15 === */
-
-
-
-/* === KBWG PATCH: slightly taller thumbs (2026-01-22-v16) === */
-/* Slightly taller by increasing capped width (square aspect-ratio keeps it proportional) */
-.page-products .pMedia{
-  max-width: 210px !important; /* was 190 */
-}
-@media (max-width: 920px){
-  .page-products .pMedia{ max-width: 190px !important; } /* was 175 */
-}
-@media (max-width: 480px){
-  .page-products .pMedia{ max-width: 170px !important; } /* was 155 */
-}
-/* === /KBWG PATCH v16 === */
-
-
-
-/* === KBWG PATCH: best-looking thumbs (no fade) + show bottom (2026-01-22-v17) === */
-/* 1) Fix "faded" look: remove any opacity/filters/overlays and force clean white canvas */
-.page-products .pMedia{
-  background: #fff !important;
-  opacity: 1 !important;
-  filter: none !important;
-}
-.page-products .pMedia::before,
-.page-products .pMedia::after{
-  content: none !important;
-  display: none !important;
-}
-.page-products .pMedia img{
-  opacity: 1 !important;
-  filter: none !important;
-  mix-blend-mode: normal !important;
-  background: #fff !important;
-  image-rendering: -webkit-optimize-contrast;
-}
-
-/* 2) Ensure full image is shown (no cropping) AND prevent the rounded corners from clipping the bottom:
-      add a tiny bottom padding frame and position slightly above bottom */
-.page-products .pMedia{
-  overflow: hidden !important; /* keep rounded corners clean */
-}
-.page-products .pMedia img{
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: contain !important;         /* never crop */
-  object-position: 50% 90% !important;    /* a touch above bottom */
-  padding: 2px 2px 10px 2px !important;   /* extra room at bottom so it won't look "cut" */
-  box-sizing: border-box !important;
-}
-/* === /KBWG PATCH v17 === */
-
-
-
-/* === KBWG PATCH: polish product cards (2026-01-22-v18) === */
-/* Visual polish (keep your current layout, just cleaner) */
-
-/* Card: slightly tighter + nicer separation */
-.page-products .productCard{
-  padding: 14px !important;
-  border: 1px solid rgba(20,40,80,.08) !important;
-  box-shadow: 0 10px 24px rgba(20,40,80,.06);
-}
-@media (max-width: 480px){
-  .page-products .productCard{ padding: 12px !important; }
-}
-
-/* Image: keep crisp + reduce the "washed" feel */
-.page-products .pMedia{
-  border: 1px solid rgba(20,40,80,.10) !important;
-  border-radius: 18px !important;
-}
-.page-products .pMedia img{
-  /* slight contrast boost without looking edited */
-  filter: contrast(1.02) saturate(1.03) !important;
-}
-
-/* Brand line: calmer (less heavy), closer to title */
 .page-products .pBrand{
-  font-weight: 700 !important;
-  opacity: .75 !important;
-  letter-spacing: .2px;
-  margin-top: 2px;
+  font-size: 12px;
+  opacity: .9;
 }
 
-/* Title: slightly smaller so it wraps nicer in Hebrew/English mix */
+/* שם מוצר – שורה אחת (מקטין גובה) */
 .page-products .pName{
-  font-size: 18px !important;
-  line-height: 1.25 !important;
-  margin-top: 2px !important;
-}
-@media (max-width: 480px){
-  .page-products .pName{ font-size: 16.5px !important; }
+  text-align: center;
+  margin-top: 0 !important;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;        /* היה 2 */
+  overflow: hidden;
 }
 
-/* Pills: consistent spacing and size */
+/* פילים / טאגים – בלי להגדיל */
 .page-products .pMeta{
-  gap: 8px !important;
+  justify-content: center !important;
+  gap: 6px !important;
+}
+.page-products .tag{
+  padding: 5px 9px;
+  font-size: 11px;
+}
+.page-products .tags{
+  justify-content: center;
   margin-top: 6px !important;
 }
-.page-products .pMeta .pill,
-.page-products .tag{
-  border-color: rgba(20,40,80,.14) !important;
-  background: #fff !important;
-}
 
-/* Offer box: a bit less tall + more readable */
+/* הצעות קנייה – קומפקטיות */
+.page-products .offerList{
+  gap: 8px !important;
+  margin-top: 8px !important;
+}
 .page-products .offer{
-  border-radius: 18px !important;
-  background: rgba(240,245,255,.65) !important;
-  border: 1px solid rgba(120,160,255,.20) !important;
+  padding: 8px 10px !important;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;          /* חזרה לשורה (מוריד גובה) */
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  text-align: right;            /* הטקסט בתוך ההצעה נשאר קריא */
 }
 .page-products .offerStore{
-  font-weight: 700 !important;
+  font-size: 13px;
 }
+.page-products .offerMeta{
+  font-size: 11px;
+}
+
+/* כפתור קטן יותר */
 .page-products .offer .btn{
-  border-radius: 999px !important;
+  padding: 8px 12px;
+  min-height: 36px;
+  width: auto;
 }
 
-/* Hover polish for desktop */
-@media (hover:hover) and (pointer:fine){
-  .page-products .productCard{
-    transition: transform .15s ease, box-shadow .15s ease;
-  }
-  .page-products .productCard:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 14px 30px rgba(20,40,80,.09);
-  }
+/* מובייל: תמונה אפילו נמוכה יותר */
+@media (max-width: 480px){
+  .page-products .pMedia{ height: 56px; }
+  .page-products .productCard{ padding: 11px !important; gap: 7px !important; }
 }
-/* === /KBWG PATCH v18 === */
+/* === /KBWG PATCH v3 === */
 
 
 
-/* === KBWG PATCH: eliminate bottom clip illusion (2026-01-22-v19) === */
-/* Some packshots still look "cut" at the bottom because:
-   - the image sits too close to the rounded border, and
-   - subpixel rounding can clip the last pixels.
-   Fix: add guaranteed bottom breathing room inside the media box. */
-
-.page-products .pMedia{
-  padding-bottom: 12px !important; /* breathing room */
-  box-sizing: border-box !important;
-}
-.page-products .pMedia img{
-  height: calc(100% - 12px) !important; /* respect the padding */
-  object-fit: contain !important;
-  object-position: 50% 100% !important; /* bottom align */
-  padding: 0 !important;
+/* === KBWG HOTFIX: ensure product images visible (2026-01-21) === */
+/* Your base CSS has: `.page-products .productCard .pMedia { display:none; }` which hides images. */
+.page-products .productCard .pMedia{
   display: block !important;
 }
-/* === /KBWG PATCH v19 === */
-
-
-
-/* === KBWG PATCH: fixed thumb size 100x140 (2026-01-22-v20) === */
-/* Match the attached image dimensions exactly: 100x140px (portrait, 5:7). */
-.page-products .pMedia{
-  width: 100px !important;
-  height: 140px !important;
-  max-width: none !important;
-  max-height: none !important;
-  aspect-ratio: auto !important;
-  margin-inline: auto !important; /* center in card */
-  padding-bottom: 12px !important; /* keep anti-clip breathing room */
-  box-sizing: border-box !important;
+.page-products .productCard .pMedia img{
+  display: block !important;
 }
-
-/* Keep full image visible and bottom-aligned */
-.page-products .pMedia img{
-  width: 100% !important;
-  height: calc(100% - 12px) !important;
-  object-fit: contain !important;
-  object-position: 50% 100% !important;
-  padding: 0 !important;
+.page-products .productCard .pPlaceholder{
+  display: grid !important;
 }
-
-/* Optional: on very small screens, shrink a little so it doesn't overflow */
-@media (max-width: 360px){
-  .page-products .pMedia{ width: 92px !important; height: 128px !important; }
-}
-/* === /KBWG PATCH v20 === */
+/* === /KBWG HOTFIX === */

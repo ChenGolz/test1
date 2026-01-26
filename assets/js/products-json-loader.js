@@ -8,25 +8,6 @@ try { window.KBWG_PRODUCTS_BUILD = '2026-01-12-v6'; console.info('[KBWG] KBWG_PR
 (function () {
   'use strict';
 
-  // USD -> ILS conversion used for display across the site.
-  // (Amazon charges in USD; this is to help Israeli users estimate totals.)
-  var USD_TO_ILS = 3.65;
-
-  function toILS(usd) {
-    var n = Number(usd);
-    if (!isFinite(n)) return null;
-    return Math.round(n * USD_TO_ILS);
-  }
-
-  // Bucket into ₪50 ranges (e.g., 50 -> 50-100, 149 -> 100-150)
-  function priceRangeFromILS(priceIls) {
-    var p = Number(priceIls);
-    if (!isFinite(p) || p <= 0) return null;
-    var low = Math.floor(p / 50) * 50;
-    if (low < 50) low = 50;
-    return { min: low, max: low + 50 };
-  }
-
   function loadScript(src) {
     return new Promise(function (resolve, reject) {
       var s = document.createElement('script');
@@ -39,58 +20,7 @@ try { window.KBWG_PRODUCTS_BUILD = '2026-01-12-v6'; console.info('[KBWG] KBWG_PR
   }
 
   function normalizeProducts(data) {
-    var arr = Array.isArray(data) ? data : [];
-
-    // Ensure each product has an ILS price on offers (when provided as USD)
-    // and has priceMin/priceMax populated as a range in ILS.
-    return arr.map(function (p) {
-      var out = p && typeof p === 'object' ? p : {};
-
-      // Normalize offers
-      if (Array.isArray(out.offers)) {
-        out.offers = out.offers.map(function (o) {
-          var oo = o && typeof o === 'object' ? o : {};
-          if (oo.price == null && oo.priceUSD != null) {
-            var ils = toILS(oo.priceUSD);
-            if (ils != null) oo.price = ils;
-          }
-          if (oo.listPrice == null && oo.listPriceUSD != null) {
-            var ils2 = toILS(oo.listPriceUSD);
-            if (ils2 != null) oo.listPrice = ils2;
-          }
-          return oo;
-        });
-      }
-
-      // Determine a representative ILS price for range bucketing
-      var rep = null;
-      if (Array.isArray(out.offers)) {
-        for (var i = 0; i < out.offers.length; i++) {
-          var o = out.offers[i];
-          if (o && o.price != null && isFinite(Number(o.price))) {
-            rep = Number(o.price);
-            break;
-          }
-        }
-      }
-      if (rep == null) {
-        // If the JSON already has a range, use its midpoint for rep
-        if (typeof out.priceMin === 'number' && typeof out.priceMax === 'number') {
-          rep = (out.priceMin + out.priceMax) / 2;
-        }
-      }
-
-      // If we have a representative price, ensure priceMin/priceMax exist
-      if (rep != null) {
-        var r = priceRangeFromILS(rep);
-        if (r) {
-          out.priceMin = r.min;
-          out.priceMax = r.max;
-        }
-      }
-
-      return out;
-    });
+    return Array.isArray(data) ? data : [];
   }
 
   // Resolve correctly when Weglot serves pages under /en/... (or when hosted under a subpath)
@@ -171,7 +101,7 @@ try { window.KBWG_PRODUCTS_BUILD = '2026-01-12-v6'; console.info('[KBWG] KBWG_PR
     })
     .finally(function () {
       // The main page logic expects window.PRODUCTS to exist.
-      loadScript('assets/js/products.js').catch(function (e) {
+      loadScript(resolveFromBase('assets/js/products.js')).catch(function (e) {
         console.error('[products-json-loader] Could not start products.js', e);
       });
     });

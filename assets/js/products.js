@@ -561,9 +561,14 @@ function normalizeProduct(p) {
 
   function formatFreeShipText(o) {
     if (!o || o.freeShipOver == null || Number.isNaN(o.freeShipOver)) return "";
-    const amount = o.freeShipOver;
-    const currency = "₪";
-    return `משלוח חינם מעל ${currency}${amount}`;
+    // This project stores Amazon free-shipping thresholds in USD.
+    // Display: "משלוח חינם לישראל מעל $X (Y ש\"ח )"
+    const usd = o.freeShipOver;
+    // Approximate conversion (kept simple + stable for UI copy).
+    // Chosen so $49 ≈ ₪160 (as used across the site copy).
+    const ILS_PER_USD = 3.27;
+    const ilsApprox = Math.round((usd * ILS_PER_USD) / 5) * 5;
+    return `משלוח חינם לישראל מעל ${ilsApprox} ש"ח`;
   }
 
   function formatSizeForIsrael(rawSize) {

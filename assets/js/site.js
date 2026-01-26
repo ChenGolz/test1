@@ -554,4 +554,38 @@ try { setupMobileFilterCollapse(); } catch(e) {}
 window.addEventListener('DOMContentLoaded', () => {
   try { setupMobileFilterCollapse(); } catch(e) {}
   try { fixEnglishNavLabels(); } catch(e) {}
+  try {
+    // Remove the old global notice banner (now shown inside the navy hero header).
+    const legacy = document.getElementById('kbwgGlobalVeganNotice');
+    if (legacy) legacy.remove();
+  } catch(e) {}
+
+  try {
+    // Ensure the key promise appears in the hero/header section on every page.
+    const hero = document.querySelector('.hero .heroCopy');
+    if (hero && !hero.querySelector('.heroVeganLine')) {
+      const p = document.createElement('p');
+      p.className = 'heroVeganLine';
+      p.innerHTML = 'כל המותגים והמוצרים באתר הם <b>100% טבעוניים</b> ו<b>ללא ניסויים בבעלי חיים</b> (Cruelty‑Free).';
+
+      // Insert near the top of the hero copy, after the main description if present.
+      const firstP = hero.querySelector('p');
+      if (firstP && firstP.parentElement === hero) {
+        firstP.insertAdjacentElement('afterend', p);
+      } else {
+        hero.appendChild(p);
+      }
+    }
+  } catch(e) {}
+
+  try {
+    // Optional: fix an older awkward homepage hero sentence (safe, exact-match only)
+    const heroP = document.querySelector('.page-home .hero .heroCopy p');
+    if (heroP) {
+      const t = (heroP.textContent || '').trim();
+      if (t === 'הבית שלך לקניות לקנות ללא אכזריות בבעלי חיים — חיפוש מוצרים, בודק רכיבים ולוח מבצעים') {
+        heroP.textContent = 'המדריך לקניות 100% טבעוניות וללא ניסויים בבעלי חיים — מוצרים, מותגים, בודק רכיבים ולוח מבצעים.';
+      }
+    }
+  } catch(e) {}
 });
