@@ -34,6 +34,53 @@ const onlyIsrael = qs("#onlyIsrael");
       .replace(/'/g, "&#039;");
   }
 
+
+function escapeRegExp(str) {
+  return String(str ?? "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+// Remove a leading "type label" from a product name so we can render it on its own line.
+function stripLeadingType(cleanedName, typeLabel) {
+  const n = String(cleanedName ?? "").trim();
+  const t = String(typeLabel ?? "").trim();
+  if (!n || !t) return n;
+  const re = new RegExp("^" + escapeRegExp(t) + "(\\s*[-–—:|]\\s*)?", "i");
+  return n.replace(re, "").trim();
+}
+
+// UI tweak: keep product type at the current title size, and render the rest of the name smaller so it fits.
+function injectProductTitleStyles() {
+  const id = "product-card-title-tweaks";
+  if (document.getElementById(id)) return;
+
+  const style = document.createElement("style");
+  style.id = id;
+  style.textContent = `
+    /* Product card title sizing */
+    .productCard .pTitleWrap { min-width: 0; }
+    .productCard .pName,
+      .productCard .pNameSmall {
+      white-space: normal !important;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      overflow: visible !important;
+      text-overflow: clip !important;
+      display: block !important;
+      -webkit-line-clamp: unset !important;
+      -webkit-box-orient: unset !important;
+      }
+    .productCard .pNameSmall {
+      font-size: 0.88em !important;
+      line-height: 1.25 !important;
+      margin-top: 2px;
+    }
+    .productCard .pNameType {
+      margin-top: 2px;
+    }
+  `;
+  (document.head || document.documentElement).appendChild(style);
+}
+
   
   function cleanupProductName(name, brand) {
     if (!name) return "";
@@ -952,15 +999,32 @@ function normalizeProduct(p) {
       const brand = document.createElement("div");
       brand.className = "pBrand";
       brand.textContent = p.brand || "";
+const cleanedName = cleanupProductName(p.name || "", p.brand || "");
+const typeLabel = getTypeDisplayLabel(p); // למשל: שמפו / מרכך / קרם פנים / עיניים
+const restName = stripLeadingType(cleanedName, typeLabel);
 
-      const name = document.createElement("div");
-      name.className = "pName";
-      name.textContent = cleanupProductName(p.name || "", p.brand || "");
+titleWrap.appendChild(brand);
 
-      titleWrap.appendChild(brand);
-      titleWrap.appendChild(name);
+// Product type stays at the current title size; the rest is rendered slightly smaller.
+if (typeLabel && typeLabel !== "אחר") {
+  const typeEl = document.createElement("div");
+  typeEl.className = "pName pNameType";
+  typeEl.textContent = typeLabel;
+  titleWrap.appendChild(typeEl);
 
-      const meta = document.createElement("div");
+  const smallText = (restName && restName !== cleanedName) ? restName : cleanedName;
+  if (smallText && smallText !== typeLabel) {
+    const nameSmall = document.createElement("div");
+    nameSmall.className = "pNameSmall";
+    nameSmall.textContent = smallText;
+    titleWrap.appendChild(nameSmall);
+  }
+} else {
+  const name = document.createElement("div");
+  name.className = "pName";
+  name.textContent = cleanedName;
+  titleWrap.appendChild(name);
+}const meta = document.createElement("div");
       meta.className = "pMeta";
 
       const categoryLabel = getCategoryLabelFromProduct(p);
@@ -1148,6 +1212,7 @@ onlyIsrael.checked = false;
     scheduleRender();
   });
 }
+injectProductTitleStyles();
 buildSelects();
   bind();
   render();
