@@ -72,18 +72,6 @@
     "site": "https://apchembeauty.com"
   },
   {
-    "name": "Act+Acre",
-    "website": "https://actandacre.com/",
-    "amazonUs": "https://amzn.to/3NER8kW",
-    "amazonUk": "https://www.amazon.co.uk/s?k=Act%2BAcre",
-    "categories": ["hair", "shampoo", "conditioner", "scalp", "treatments", "styling"],
-    "badges": ["Vegan"],
-    "vegan": true,
-    "priceTier": 3,
-    "notes": "",
-    "site": "https://actandacre.com"
-  },
-  {
     "name": "aromatica",
     "website": "https://aromaticausa.com/",
     "amazonUs": "https://amzn.to/3NGRYO5",
@@ -166,18 +154,6 @@
     "priceTier": 3,
     "notes": "",
     "site": "https://corpusnaturals.com"
-  },
-  {
-    "name": "ace beaute",
-    "website": "https://www.acebeaute.com/",
-    "amazonUs": "https://amzn.to/3Z39u1t",
-    "amazonUk": "https://www.amazon.co.uk/s?k=ace+beaute",
-    "categories": ["makeup", "eyes", "face", "tools"],
-    "badges": ["Vegan"],
-    "vegan": true,
-    "priceTier": 2,
-    "notes": "",
-    "site": "https://www.acebeaute.com"
   },
   {
     "name": "earth breeze",
@@ -312,18 +288,6 @@
     "site": "https://carbontheory.com"
   },
   {
-    "name": "yuni beauty",
-    "website": "https://www.yunibeauty.com/",
-    "amazonUs": "https://amzn.to/46aPnlK",
-    "amazonUk": "https://www.amazon.co.uk/s?k=yuni+beauty",
-    "categories": ["skincare", "body care", "fragrance", "treatments"],
-    "badges": ["Vegan"],
-    "vegan": true,
-    "priceTier": 2,
-    "notes": "",
-    "site": "https://www.yunibeauty.com"
-  },
-  {
     "name": "dame",
     "website": "https://www.dame.com/",
     "amazonUs": "https://amzn.to/46fgo7C",
@@ -336,18 +300,6 @@
     "site": "https://www.dame.com"
   },
   {
-    "name": "made by dentists",
-    "website": "https://madebydentists.com/",
-    "amazonUs": "https://amzn.to/46fhU9O",
-    "amazonUk": "https://www.amazon.co.uk/s?k=made+by+dentists",
-    "categories": ["oral care", "toothpaste", "mouthwash"],
-    "badges": ["Vegan"],
-    "vegan": true,
-    "priceTier": 2,
-    "notes": "",
-    "site": "https://madebydentists.com"
-  },
-  {
     "name": "111medco",
     "website": "https://111medco.com/",
     "amazonUs": "https://amzn.to/46gqd5h",
@@ -358,18 +310,6 @@
     "priceTier": 2,
     "notes": "",
     "site": "https://111medco.com"
-  },
-  {
-    "name": "about face",
-    "website": "https://aboutface.com/",
-    "amazonUs": "https://amzn.to/49GpXPj",
-    "amazonUk": "https://www.amazon.co.uk/s?k=about+face",
-    "categories": ["makeup", "face", "eyes", "lips"],
-    "badges": ["Vegan"],
-    "vegan": true,
-    "priceTier": 2,
-    "notes": "",
-    "site": "https://aboutface.com"
   },
   {
     "name": "ceremonia",
@@ -478,18 +418,6 @@
     "priceTier": 2,
     "notes": "",
     "site": "https://dottedzebra.com"
-  },
-  {
-    "name": "attitude",
-    "website": "https://attitudeliving.com/",
-    "amazonUs": "https://amzn.to/4ah0V9w",
-    "amazonUk": "https://www.amazon.co.uk/s?k=attitude",
-    "categories": ["home", "cleaning", "laundry", "body care", "hair"],
-    "badges": ["Vegan"],
-    "vegan": true,
-    "priceTier": 2,
-    "notes": "",
-    "site": "https://attitudeliving.com"
   },
   {
     "name": "blume",
@@ -672,18 +600,6 @@
     "site": "https://zaomakeup.com/en"
   },
   {
-    "name": "acure",
-    "website": "https://acure.com/",
-    "amazonUs": "https://amzn.to/4k1l9HT",
-    "amazonUk": "https://www.amazon.co.uk/s?k=acure",
-    "categories": ["skincare", "hair", "body care", "cleansers", "moisturizers"],
-    "badges": ["Vegan"],
-    "vegan": true,
-    "priceTier": 1,
-    "notes": "",
-    "site": "https://acure.com"
-  },
-  {
     "name": "defineme fragrance",
     "website": "https://definemecreativestudio.com/",
     "amazonUs": "https://amzn.to/4k2ECYH",
@@ -720,18 +636,6 @@
     "site": "https://dimebeautyco.com"
   },
   {
-    "name": "astonish",
-    "website": "https://astonish.co.uk/",
-    "amazonUs": "https://amzn.to/4kcjmji",
-    "amazonUk": "https://www.amazon.co.uk/s?k=astonish",
-    "categories": ["home", "cleaning"],
-    "badges": ["Vegan"],
-    "vegan": true,
-    "priceTier": 1,
-    "notes": "",
-    "site": "https://astonish.co.uk"
-  },
-  {
     "name": "elf",
     "website": "https://www.elfcosmetics.com/",
     "amazonUs": "https://amzn.to/4kdwdSb",
@@ -754,18 +658,6 @@
     "priceTier": 3,
     "notes": "",
     "site": "https://marianila.com"
-  },
-  {
-    "name": "alpyn beauty",
-    "website": "https://alpynbeauty.com/",
-    "amazonUs": "https://amzn.to/4pYugdx",
-    "amazonUk": "https://www.amazon.co.uk/s?k=alpyn+beauty",
-    "categories": ["skincare", "cleansers", "serums", "moisturizers", "masks"],
-    "badges": ["Vegan"],
-    "vegan": true,
-    "priceTier": 3,
-    "notes": "",
-    "site": "https://alpynbeauty.com"
   },
   {
     "name": "dermorganic",
@@ -898,18 +790,6 @@
     "priceTier": 3,
     "notes": "",
     "site": "https://vitruvi.com"
-  },
-  {
-    "name": "alleyoop",
-    "website": "https://meetalleyoop.com/",
-    "amazonUs": "https://amzn.to/4rcrW3z",
-    "amazonUk": "https://www.amazon.co.uk/s?k=alleyoop",
-    "categories": ["makeup", "tools", "face", "eyes", "lips"],
-    "badges": ["Vegan"],
-    "vegan": true,
-    "priceTier": 2,
-    "notes": "",
-    "site": "https://meetalleyoop.com"
   },
   {
     "name": "dome beauty",
