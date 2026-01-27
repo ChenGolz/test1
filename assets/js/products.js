@@ -419,15 +419,58 @@ function normalizeProduct(p) {
     "mens-care": "גברים"
   };
 
+  // סדר עדיפות לקטגוריה ראשית (כדי להימנע מ"אחר" כשיש רמזים ברורים)
+  const CATEGORY_PRIORITY = [
+    "makeup",
+    "hair",
+    "body",
+    "sun",
+    "teeth",
+    "fragrance",
+    "baby",
+    "mens-care",
+    "face"
+  ];
+
+  // מיפוי קטגוריות "טכניות" למשהו שמציגים באתר
+  const CATEGORY_SYNONYMS = {
+    skincare: "face",
+    cleanser: "face",
+    clean: "face",
+    facewash: "face",
+    face_wash: "face",
+    soap: "body",
+    suncare: "sun",
+    spf: "sun",
+    oral: "teeth",
+    dental: "teeth"
+  };
+
   function getPrimaryCategoryKey(p) {
     const cats = getCatsRaw(p);
-    return cats[0] || "";
+    if (!cats.length) return "";
+
+    // 1) קודם כל ננרמל מילים נפוצות (skincare/soap/spf וכו')
+    const normed = cats.map((c) => CATEGORY_SYNONYMS[c] || c).filter(Boolean);
+
+    // 2) אם יש קטגוריה מועדפת — ניקח אותה
+    for (const key of CATEGORY_PRIORITY) {
+      if (normed.includes(key)) return key;
+    }
+
+    // 3) אם יש גם body וגם skincare — נעדיף body (למשל סבון)
+    if (normed.includes("body")) return "body";
+    if (normed.includes("face")) return "face";
+
+    // 4) אין התאמה — לא נחזיר "אחר" (פשוט אין קטגוריה)
+    return "";
   }
 
   function getCategoryLabelFromProduct(p) {
-    if (p.categoryLabel) return p.categoryLabel;
+    if (p.categoryLabel && p.categoryLabel !== "אחר") return p.categoryLabel;
     const key = getPrimaryCategoryKey(p);
-    return CATEGORY_LABELS[key] || "אחר";
+    // ❌ לא מציגים "אחר" בכלל
+    return key ? (CATEGORY_LABELS[key] || "") : "";
   }
 
   // Helper לבדיקת מילים בשם/תיאור
@@ -510,7 +553,8 @@ function normalizeProduct(p) {
 
     if (isMen) return "טיפוח לגבר";
 
-    return "אחר";
+    // ברירת מחדל (לא מציגים "אחר")
+    return "טיפוח לפנים";
   }
 
   // ✅ קביעת "תת-סוג" לפי הקבוצה + מילים בשם
@@ -736,7 +780,8 @@ function normalizeProduct(p) {
       return "טיפוח לגבר";
     }
 
-    return "אחר";
+    // לא מחזירים "אחר" כדי שלא יוצג כטקסט מיותר
+    return "";
   }
 
   function getCats(p) {
@@ -918,8 +963,7 @@ function normalizeProduct(p) {
         "עיצוב שיער",
         "הגנה מהשמש",
         "בשמים",
-        "טיפוח לגבר",
-        "אחר"
+        "טיפוח לגבר"
       ];
 
       groupOrder.forEach((groupLabel) => {
