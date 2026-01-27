@@ -5297,8 +5297,8 @@
   {
     "id": "mented-cosmetics-b0d5mnf47b",
     "brand": "mented cosmetics",
-    "name": "Mented Cosmetics Made in Italy, ללא ניסויים בבעלי חיים Makeup, טבעוני, Paraben Free, Shimmer Cheek סומק Palette ל פנים, Powder פנים סומק ל נשים עם Vitamin E, 0.2oz/7g,",
-    "size": "0.2oz/7g",
+    "name": "פלטת סומק שימר למראה זוהר – מועשרת בוויטמין E פיגמנט עשיר בגימור מנצנץ | ללא פראבנים | מזין ומטפח את העור | למראה פנים קורן",
+    "size": "7g",
     "categories": [
       "makeup",
       "face"
@@ -5325,8 +5325,8 @@
   {
     "id": "mented-cosmetics-b0d84dr31r",
     "brand": "mented cosmetics",
-    "name": "Mented Cosmetics Made in Italy, ללא ניסויים בבעלי חיים Makeup, טבעוני, Paraben Free, Shimmer ברונזר, היילייטר Bronzing Powder Palette ל פנים עם Vitamin E + A, 0.35oz/10g,",
-    "size": "0.35oz/10g",
+    "name": "פלטת ברונזר שימר והיילייטר – למראה שזוף וזוהר מועשרת בוויטמינים A + E | ללא פראבנים | פיסול והארת הפנים | גימור יוקרתי",
+    "size": "10g",
     "categories": [
       "makeup",
       "face"
@@ -5380,7 +5380,7 @@
   {
     "id": "naked-sundays-b0cqkgqfpf",
     "brand": "naked sundays",
-    "name": "טיפות סרום צבועות מאירות SPF 50 - קרם הגנה יומיומי עם תחמוצת אבץ, לחות ומבהירה, עם פיגמנטים משפרים את העור",
+    "name": "טיפות סרום הגנה SPF 50 עם גוון – CabanaGlow™ Illuminating Serum הגנה מינרלית (Zinc Oxide) | לחות והבהרה | פיגמנט מתקן עור למראה זוהר וקטיפתיר",
     "size": "40ml",
     "categories": [
       "sun",
@@ -5409,7 +5409,7 @@
   {
     "id": "naked-sundays-b0cqkm7r21",
     "brand": "naked sundays",
-    "name": "קרם הגנה עם קולגן – לחות",
+    "name": "קרם לחות והגנה SPF 50 משולב פריימר – Zinc Oxide Daily Face Lotion הגנה רחבת טווח UVA/UVB | אפקט Glow מעורר לחות | מרקם קליל נטול שומן",
     "size": "50ml",
     "categories": [
       "skincare",
@@ -5438,7 +5438,7 @@
   {
     "id": "naked-sundays-b0crf9v9pm",
     "brand": "naked sundays",
-    "name": "קרם הגנה רחב טווח עם נצנוץ",
+    "name": "קרם הגנה מוזהב לגוף SPF 50 – Golden Glow Body Sunscreen הגנה רחבת טווח UVA/UVB | אפקט שימר וזוהר | ללא בישום | פורמולה ממצקת ואינה מלכלכת",
     "size": "100ml",
     "categories": [
       "skincare",
@@ -5486,9 +5486,7 @@
         "url": "https://www.amazon.com/dp/B0CRGCWBCM?tag=nocrueltyil-20",
         "asin": "B0CRGCWBCM",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
-      }
+        "priceUSD": 10.99      }
     ],
     "isKids": false,
     "image": "assets/img/products/B0CRGCWBCM.jpg"
@@ -5496,8 +5494,8 @@
   {
     "id": "naked-sundays-b0cx67mn53",
     "brand": "naked sundays",
-    "name": "טיפות ברונזינג SPF 50 - סרום זוהר ברונזינג קרם הגנה לפנים, פורמולת תחמוצת אבץ לחות עם פיגמנטים משפרים את העור + הגנה רחבת טווח",
-    "size": "—",
+    "name": "טיפות ברונזר SPF 50 להגנה וזוהר – CabanaGlow™ Bronzing Drops סרום הגנה מינרלי (Zinc Oxide) | גוון ברונזה שזוף | לחות וטשטוש פגמים | הגנה רחבת טווח",
+    "size": "50ml",
     "categories": [
       "sun",
       "face",
@@ -5525,7 +5523,7 @@
   {
     "id": "naked-sundays-b0d6wgfkvj",
     "brand": "naked sundays",
-    "name": "סרום הגנה מפני השמש SPF 50 שקוף לפנים ג'ל מים בלתי נראה SPF לעור רגיש קרם הגנה יומי קליל ללא בישום",
+    "name": "סרום הגנה שקוף SPF 50 לפנים – CabanaClear™ Invisible Water Gel מרקם ג'ל-מים קליל | בלתי נראה על העור | ללא בישום וללא סימנים לבנים | לעור רגיש",
     "size": "30 ml",
     "categories": [
       "sun",
@@ -5553,7 +5551,7 @@
   {
     "id": "naked-sundays-b0dtwpkfjh",
     "brand": "naked sundays",
-    "name": "באלם שפתיים PoutScreen™ עם SPF",
+    "name": "באלם טיפולי לשפתיים PoutScreen™ עם SPF 50 – לחות, הגנה וברק מועשר בחומצה פוליגלוטמית | גימור High-Gloss יוקרתי | , לא דביק ומגן מהשמש",
     "size": "0.5 ounces",
     "categories": [
       "skincare",
@@ -5720,7 +5718,7 @@
   {
     "id": "Odacité -b07qxzxtsp",
     "brand": "odacite",
-    "name": "Blue Aura מיסלר מי ניקוי | Turmeric + Holy Basil",
+    "name": "ניקוי פנים Blue Aura – מים מיסלריים ללא שטיפה פורמולה מרגיעה עם אזדרכת הודית (Neem), בזיליקום קדוש וכורכום | מסיר איפור, לכלוך וזיהום אוויר",
     "size": " 4.0 fl. Oz",
     "categories": [
       "face"
@@ -5747,8 +5745,8 @@
   {
     "id": "odacite-b00q3b43vc",
     "brand": "odacite",
-    "name": "Odacité אנטי-אייג׳ינג סרום Concentrate עם Rosehip + Ylang-Ylang – קליל לפנים סרום ל Mature עור, קמטוטים, Nourishes ל Look of Plump, Youthful עור – 0.17",
-    "size": "—",
+    "name": "סרום אנטי-אייג'ינג מרוכז: ורד הבר וילאנג-ילאנג לטיפול בקמטוטים וסימני גיל | הזנה עמוקה לעור בוגר | למראה עור מוצק, מלא וחיוני",
+    "size": "0.17 Fl. Oz",
     "categories": [
       "face"
     ],
@@ -5774,8 +5772,8 @@
   {
     "id": "odacite-b01n3321au",
     "brand": "odacite",
-    "name": "Odacité פנים קרם לחות Spray Mist – Aloe וImmortelle Hydra-תיקון לפנים Mist – קליל וRefreshing אנטי-אייג׳ינג קרם לחות ל Mature, Dry, or Sensitive עור, 1.6",
-    "size": "—",
+    "name": "מי פנים ותרסיס לחות אלוורה ואימורטל – Hydra-Repair Facial Mist מרענן ומשקם | אנטי-אייג'ינג לעור בוגר ורגיש | לחות קלילה בפורמט ספריי",
+    "size": "1.69 fl. oz",
     "categories": [
       "hair"
     ],
@@ -5801,8 +5799,8 @@
   {
     "id": "odacite-b079p2kq1y",
     "brand": "odacite",
-    "name": "Odacité לפנים תכשיר ניקוי עם Foam – Black Mint Activated Charcoal וRhassoul Clay Glow Recipe – לפנים קרם לחות עם Deep Cleanse ל עדין סבון פנים to Remove Dirt וO",
-    "size": "—",
+    "name": "סבון פנים מקציף Black Mint – ניקוי עמוק עם פחם פעיל וחימר רסול מסיר שומן ולכלוך ביעילות | אפקט קירור מרענן | למראה עור נקי וזוהר (Glow)",
+    "size": "100ml",
     "categories": [
       "face",
       "hair"
@@ -5829,7 +5827,7 @@
   {
     "id": "odacite-b07nnnth8r",
     "brand": "odacite",
-    "name": "ODACITE Odacité Gua Sha ל פנים Crystal Contour – Green Aventurine לפנים Massager – Scraping Massage כלי Lifts וRevitalizes עור – מפחית נפיחות, קמטים ו Dark",
+    "name": "אבן גואה-שה (Gua Sha) של Odacité – אבן אוונטורין ירוקה כלי עיסוי קריסטל לפיסול והרמת הפנים | להפחתת נפיחות, קמטוטים ועיגולים שחורים",
     "size": "—",
     "categories": [
       "face",
@@ -5857,7 +5855,7 @@
   {
     "id": "odacite-b0872gbx39",
     "brand": "odacite",
-    "name": "Odacité שמפו Bar – Argan וCoconut Sulfate-Free Solid שמפו ל לכל סוגי השיער, Curly וColor-Treated שיער – מלחלח, Plastic-Free, טבעוני, 3.7 oz",
+    "name": "שמפו בר (Shampoo Bar) ארגן וקוקוס – שמפו מוצק ללא סולפטים לכל סוגי השיער, שיער מתולתל וצבוע | מעניק לחות | ללא פלסטיק (Plastic-Free)",
     "size": "3.7 oz",
     "categories": [
       "hair"
@@ -5884,7 +5882,7 @@
   {
     "id": "odacite-b08tpk6x2b",
     "brand": "odacite",
-    "name": "כלי לפיסול פנים ועט עיסוי אקופרסורה לפנים - כלי טיפוח לעור מון אמי - מגרד שרירים להרמת פנים ושרביט אנטי אייג'ינג מכוון לנפיחות, קמטים ועיגולים כהים מתחת לעיניים",
+    "name": "עט לעיסוי ואקופרסורה לפנים Mon Ami – פיסול וחיטוב הפנים להפחתת נפיחות ועיגולים שחורים | טיפול ממוקד בקמטוטים | כלי אנטי-אייג'ינג מקצועי",
     "size": "1.38 ounces",
     "categories": [
       "face",
@@ -5966,7 +5964,7 @@
   {
     "id": "overtone-B0BQZT4C7G",
     "brand": "overtone",
-    "name": "מרכך פיגמנט לשימוש יומיומי בגוון ורוד פטל: פיגמנט זמני עם שמן שיאה, קוקוס ואבוקדו, מעניק לחות, לכל סוגי השיער",
+    "name": "מרכך צבע לשיער בגוון ורוד פטל – Raspberry Pink Conditioner פיגמנט זמני למראה נועז | מועשר בחמאת שיאה, שמן קוקוס ואבוקדו | לחות אינטנסיבית לכל סוגי השיער",
     "size": "8 oz",
     "categories": [
       "hair"
@@ -5993,7 +5991,7 @@
   {
     "id": "overtone-B0F2GXVS7C",
     "brand": "overtone",
-    "name": "מסיכת פיגמנט לשיער חצי-קבועה בגוון סגול עז לכל סוגי השיער, עם חמאת שיאה ושמן קוקוס",
+    "name": "מרכך צבע חצי-קבוע סגול עמוק – Vivid Violet Hair Mask פיגמנט עוצמתי ללא נזק | מועשר בחמאת שיאה ושמן קוקוס | הזנה וצבע במוצר אחד",
     "size": "8 oz",
     "categories": [
       "hair"
@@ -6098,7 +6096,7 @@
   {
     "id": "pacifica-b00bbfovo4",
     "brand": "pacifica",
-    "name": "קצף ניקוי פנים עדין עם מי קוקוס ואצות ים",
+    "name": "סבון פנים קצף ים מרענן – Sea Foam Face Wash עם מי קוקוס ואצות ים | ניקוי עמוק ועדין | מסיר איפור ומאזן שומן | לעור מעורב עד שומני",
     "size": "148ml",
     "categories": [
       "face",
@@ -6126,7 +6124,7 @@
   {
     "id": "pacifica-b00bbfpx8w",
     "brand": "pacifica",
-    "name": "קרם לחות לפנים - קרם פנים Dreamy Youth ליום וללילה, טיפוח עור יומי, שמן זרעי ענבים, פפטידים, לחות, קרם פנים, טיפוח עור, לעור יבש, טבעוני,",
+    "name": "קרם פנים Dreamy Youth ליום וללילה – לשיקום ומראה עור צעיר פורמולה עשירה בפפטידים ושמן זרעי ענבים | לחות אינטנסיבית 24/7 | לעור יבש ובוגר",
     "size": "1.7 fl oz",
     "categories": [
       "face",
@@ -6199,8 +6197,7 @@
         "url": "https://www.amazon.com/dp/B01FIT0Y3U?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.38847RYUAKEQK&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.38847RYUAKEQK_1769201878524",
         "asin": "B01FIT0Y3U",
         "currency": "USD",
-        "priceUSD": 14.77,
-        "freeShipOver": 49
+        "priceUSD": 14.77
       }
     ],
     "isKids": false,
@@ -6209,8 +6206,8 @@
   {
     "id": "pacifica-b071wqmp29",
     "brand": "pacifica",
-    "name": "Pacifica Pink Nudes Mineral פלטת צלליות, 10 Neutral Shades, ל Natural or Smoky Eye Look, Naked Eye Makeup, Longwearing וBlendable, טבעוני, ללא ניסויים בבעלי חיים",
-    "size": "—",
+    "name": "פלטת צלליות מינרליות Pink Nudes – 10 גוונים ניטרליים פיגמנט עשיר ועמיד | טשטוש קל ונוח | למראה טבעי או מעושן | נבדק אופתלמולוגית",
+    "size": "5.7g",
     "categories": [
       "makeup",
       "eyes"
@@ -6289,7 +6286,7 @@
   {
     "id": "pacifica-b07vrtp6sy",
     "brand": "pacifica",
-    "name": "סרום לפנים – גלו בייבי – ויטמין סי, חומצה גליקולית",
+    "name": "סרום ויטמין C וחידוש העור – Glow Booster Serum מועשר בחומצה גליקולית | הבהרת כתמים ופיגמנטציה | אנטי-אייג'ינג וזוהר מיידי | נבדק דרמטולוגית וללא בישום",
     "size": "29ml",
     "categories": [
       "face",
@@ -6371,7 +6368,7 @@
   {
     "id": "pacifica-b084f3k4mj",
     "brand": "pacifica",
-    "name": "ספריי מרכך ללא שטיפה לשיער בחלב קוקוס, אליקסיר להסרת קשרים מתאים לכל סוגי השיער, מוצרי שיער עדין ומתולתל, החלקה, לחות ומונע קרזול",
+    "name": "תרסיס חלב קוקוס להתרת קשרים – Coconut Milk Detangler מרכך ללא שטיפה | מחליק, מזין ומונע פריז (Anti-Frizz) | מתאים לשיער דק, מתולתל וצבוע",
     "size": "207ml",
     "categories": [
       "hair"
@@ -6532,8 +6529,8 @@
   {
     "id": "pacifica-b096tkbydj",
     "brand": "pacifica",
-    "name": "Pacifica נקבוביות Warrior Everyday פנים Lotion אקנה Fighting – Niacinamide, Cucumber ו Hyaluronic Acid1.7 oz",
-    "size": "7 oz",
+    "name": "קרם פנים לטיפול בנקבוביות ופגמי עור – Pore Warrior עם ניאצינאמיד, חומצה היאלורונית ומלפפון | לאיזון שומניות וצמצום נקבוביות | לשימוש יומיומי",
+    "size": "50ml",
     "categories": [
       "face",
       "body"
@@ -6550,7 +6547,7 @@
         "url": "https://www.amazon.com/dp/B096TKBYDJ?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2Y4ZUJ9JL4R6X&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.2Y4ZUJ9JL4R6X_1769179177757",
         "asin": "B096TKBYDJ",
         "currency": "USD",
-        "priceUSD": 17.75,
+        "priceUSD": 18.00,
         "freeShipOver": 49
       }
     ],
@@ -6560,8 +6557,8 @@
   {
     "id": "pacifica-b098btc4ll",
     "brand": "pacifica",
-    "name": "סט שמפו ומרכך לתלתלים – אננס, להפחתת פריז ולתיחום תלתל",
-    "size": "—",
+    "name": "מארז שמפו ומרכך Pineapple Curls – להגדרת תלתלים וגלים ללא סולפטים | מונע נפיחות (Anti-Frizz) | מועשר בתמצית אננס ולחות | נבדק דרמטולוגית",
+    "size": "236ml",
     "categories": [
       "hair",
       "shampoo-conditioner"
@@ -6578,7 +6575,7 @@
         "url": "https://www.amazon.com/dp/B098BTC4LL?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2AZL9SB3LVH97&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.2AZL9SB3LVH97_1769200757361",
         "asin": "B098BTC4LL",
         "currency": "USD",
-        "priceUSD": 18.69,
+        "priceUSD": 18.92,
         "freeShipOver": 49
       }
     ],
@@ -6588,8 +6585,8 @@
   {
     "id": "pacifica-b098r9qwz6",
     "brand": "pacifica",
-    "name": "Beauty Salty Waves Texturizing שמפו + Texturizing מרכך | לכל סוגי השיער | שיער מושלם וחסר מאמץ | סולפט +",
-    "size": "—",
+    "name": "סט שמפו ומרכך Salty Waves למראה גלי וטבעי ליצירת טקסטורה ונפח (Beach Hair) | ללא סולפטים ופראבנים | למראה שיער חופשי וחסר מאמץ",
+    "size": "236ml",
     "categories": [
       "hair"
     ],
@@ -6615,8 +6612,8 @@
   {
     "id": "pacifica-b099738fkj",
     "brand": "pacifica",
-    "name": "סט ג׳ל ניקוי זוהר – זוג מארזים (2×5 fl oz)",
-    "size": "5 fl oz ×2",
+    "name": "סט ניקוי והבהרה Glow Brightening – למראה עור זוהר ואחיד עם ויטמין C וחומצות AHA | פילינג עדין וניקוי עמוק | בניחוח וניל מפנק | ללא סולפטים",
+    "size": "147ml X 2",
     "categories": [
       "face"
     ],
@@ -6632,7 +6629,7 @@
         "url": "https://www.amazon.com/dp/B099738FKJ?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.3NAZ3CJ6HO2UN&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.3NAZ3CJ6HO2UN_1768990895344",
         "asin": "B099738FKJ",
         "currency": "USD",
-        "priceUSD": 24.0,
+        "priceUSD": 17.25,
         "freeShipOver": 49
       }
     ],
@@ -6642,7 +6639,7 @@
   {
     "id": "pacifica-b09bggmqdd",
     "brand": "pacifica",
-    "name": "קרם פנים - קרם מגן טבעוני עם ניאצינאמיד וחמאת שיאה - קרם לחות יומי לפנים ללא בישום לעור רגיש, טבעוני, יופי נקי נבדק על ידי אלרגנים ודרמטולוגים",
+    "name": "קרם פנים משקם סרמידים  –  Ceramide Barrier Cream עם ניאצינאמיד וחמאת שיאה | לחיזוק מחסום העור | ללא בישום (Fragrance-Free) לעור רגיש",
     "size": "50ml",
     "categories": [
       "face",
@@ -6660,7 +6657,7 @@
         "url": "https://www.amazon.com/dp/B09BGGMQDD?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.HQADB0YJX2LP&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.HQADB0YJX2LP_1769180001959",
         "asin": "B09BGGMQDD",
         "currency": "USD",
-        "priceUSD": 17.15,
+        "priceUSD": 17.28,
         "freeShipOver": 49
       }
     ],
@@ -6751,8 +6748,8 @@
   {
     "id": "pacifica-b09rk3r511",
     "brand": "pacifica",
-    "name": "מסכת חיוך רב פעמית, טיפוח עור, מסכת סיליקון, לקמטוטים וקמטוטים, הרמה ומיצוק, בשילוב עם סרום, קופסת אחסון כלולה, טיפוח עור, 2 יחידות",
-    "size": "—",
+    "name": "מדבקות סיליקון רב-פעמיות לקמטוטי חיוך – Reusable Smile Line Mask לטיפול בקמטוטים וקמטי הבעה | אפקט הרמה ומיצוק (Lift & Firm) | כולל קופסת אחסון מהודרת",
+    "size": "2 יחידות",
     "categories": [
       "face",
       "makeup"
@@ -6877,9 +6874,7 @@
         "url": "https://www.amazon.com/dp/B09WH3KJRJ?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.38847RYUAKEQK&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.38847RYUAKEQK_1769201993816",
         "asin": "B09WH3KJRJ",
         "currency": "USD",
-        "priceUSD": 20.82,
-        "freeShipOver": 49
-      }
+        "priceUSD": 17.30      }
     ],
     "isKids": false,
     "image": "assets/img/products/B09WH3KJRJ.jpg"
@@ -6887,8 +6882,8 @@
   {
     "id": "pacifica-b0bf61634t",
     "brand": "pacifica",
-    "name": "סט 3 מסכות רב פעמיות - סט מסכות סיליקון לגבות ומצח, נגד קמטים, ממצק, בשילוב עם סרום",
-    "size": "3 Pieces",
+    "name": "מארז מדבקות סיליקון רב-פעמיות לעיניים ולמצח – Reusable Mask Set להחלקת קמטים ומיצוק העור | מתאים לאזור העיניים והמצח | לשימוש חוזר אינספור פעמים",
+    "size": "3 יחידות",
     "categories": [
       "makeup",
       "face"
@@ -6969,7 +6964,7 @@
   {
     "id": "pacifica-b0bqcwj9w9",
     "brand": "pacifica",
-    "name": "Pacifica קרקפת Smoothie מלחלח קרקפת טיפול וLeave-On שיער מסכה, Cooling Relief ל Dry, Flaky, Itchy קרקפת וThinning שיער, טבעוני וללא ניסויים בבעלי חיים, 6 fl oz",
+    "name": "טיפול קרקפת ושיער Scalp Smoothie – להרגעה ולחות אינטנסיבית אפקט קירור מיידי לקרקפת יבשה ומגרדת | מסיכה ללא שטיפה | לחיזוק שיער דליל",
     "size": "6 fl oz",
     "categories": [
       "hair"
@@ -6996,11 +6991,11 @@
   {
     "id": "pacifica-b0bqfmtbgp",
     "brand": "pacifica",
-    "name": "סט באלם לשפתיים לחותי – זוהר + ניחוחות נוספים (מארז 3)",
+    "name": "מארז שלישיית שפתוני לחות מפנקים – Hydrating Lip Balm Set טנג'רין מרענן, לבנדר-לימון מרגיע ווניל-קולגן טבעוני | לחות אינטנסיבית ורכות מתמשכת",
     "size": "מארז 3",
     "categories": [
       "makeup",
-      "face"
+      "face", "lipstick"
     ],
     "isVegan": true,
     "isPeta": true,
@@ -7014,7 +7009,7 @@
         "url": "https://www.amazon.com/dp/B0BQFMTBGP?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.3NAZ3CJ6HO2UN&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.3NAZ3CJ6HO2UN_1768990875655",
         "asin": "B0BQFMTBGP",
         "currency": "USD",
-        "priceUSD": 21.69,
+        "priceUSD": 27,
         "freeShipOver": 49
       }
     ],
@@ -7024,7 +7019,7 @@
   {
     "id": "pacifica-b0bvwkld3n",
     "brand": "pacifica",
-    "name": "סט זוהר: ג׳ל ניקוי + סקראב אנזימטי (מארז 2)",
+    "name": "סט הבהרה וחידוש העור: סבון פנים ופילינג אנזימטי – Glow Brightening Set עם ויטמין C, חומצה גליקולית וויטמין E | לניקוי עמוק, חידוש המרקם ומראה קורן",
     "size": "5 fl oz + 4 fl oz (סט 2)",
     "categories": [
       "face"
@@ -7051,8 +7046,8 @@
   {
     "id": "pacifica-b0c3sqzfpn",
     "brand": "pacifica",
-    "name": "Pacifica Beauty עור Rehab Coconut ו Caffeine לפנים מסכה, טיפוח עור, Green Tea, נפיחות, פנים מסכה, Sheet מסכה, פנים Care, לכל סוגי העור, טבעוני (6 Sheets)",
-    "size": "6 Sheets",
+    "name": "מסכת בד לשיקום והחייאת העור – Skin Rehab Mask עם קוקוס, קפאין ותה ירוק | להפחתת נפיחות ורענון מיידי | לכל סוגי העור",
+    "size": "6 יחידות",
     "categories": [
       "face"
     ],
@@ -7078,7 +7073,7 @@
   {
     "id": "pacifica-b0ch3zz37c",
     "brand": "pacifica",
-    "name": "סרום לפנים – פיוצ׳ר יות׳ – פפטידים",
+    "name": "סרום עיניים Future Youth Time Shift – למיצוק, הרמה וטיפול בכהויות עם קומפלקס Flora ופפטידים (Peptide-11) | ללא בישום | מטפל בקמטוטים ומעניק מראה צעיר ורענן",
     "size": "29ml",
     "categories": [
       "face",
@@ -7107,7 +7102,7 @@
     "id": "pacifica-b0ch42nj2x",
     "brand": "pacifica",
     "name": "Pacifica Future Youth Time Shift סרום עיניים – Peptide סרום עיניים ל קמטוטים ועיגולים שחורים, Lifting וממצק Under Eye טיפול w/Flora + Peptide-11, Unscented",
-    "size": "—",
+    "size": "20ml",
     "categories": [
       "face",
       "eyes"
@@ -7160,7 +7155,7 @@
   {
     "id": "pacifica-b0dc84nfrw",
     "brand": "pacifica",
-    "name": "מסקרה Stellar Gaze (סופרנובה שחורה, בקבוקון זכוכית) – פורמולה לאורך ועוצמה עם קוקוס וויטמין B",
+    "name": "מסקרה Stellar Gaze למראה ריסים ארוכים וחזקים – Supernova Black מועשרת בשמן קוקוס וויטמין B | אריזת זכוכית אקולוגית | למראה דרמטי, מופרד ובריא",
     "size": "7g",
     "categories": [
       "makeup",
@@ -7374,7 +7369,7 @@
   {
     "id": "pacifica-b0dydrp18f",
     "brand": "pacifica",
-    "name": "טונר פנים לחות Happy Water – סרמידים טבעוניים, חומצה היאלורונית ואלקטרוליטים, מרענן ומרגיע לעור מאוזן, יופי נקי כל סוגי העור",
+    "name": "מי פנים Happy Water ללחות והרגעה – חוויית רעננות יומיומית עם סרמידים טבעוניים, חומצה היאלורונית ואלקטרוליטים | מאזן ומרגיע את העור | Clean Beauty | לכל סוגי העור",
     "size": "148ml",
     "categories": [
       "face",
@@ -7455,7 +7450,7 @@
   {
     "id": "ravie-b0fhk5mrd8-fig",
     "brand": "ravie beauty",
-    "name": "תוחם שפתיים Soft Definition™ עמיד במים – גוון Fig",
+    "name": "תוחם שפתיים Soft Definition™ – עמיד במים לאורך זמן גוון Fig (תאנה) | שרטוט מדויק ללא מאמץ | עמיד בפני מריחות | למראה שפתיים מוגדר ומלא",
     "size": "0.32 oz",
     "categories": [
       "makeup",
@@ -7483,7 +7478,7 @@
   {
     "id": "ravie-b0fhk6cmpm",
     "brand": "ravie beauty",
-    "name": "תוחם שפתיים Soft Definition™ עמיד במים – גוון Honey",
+    "name": "תוחם שפתיים Soft Definition™ – עמיד במים ועמיד לאורך זמן גוון Mocha (מוקה) | שרטוט מדויק וקל | עמיד בפני מריחות (Smudge-Resistant) | למראה מעוצב לאורך כל היום",
     "size": "0.042 oz",
     "categories": [
       "makeup",
@@ -7537,7 +7532,7 @@
   {
     "id": "ravie-beauty-b0f1nhjhp7",
     "brand": "ravie beauty",
-    "name": "Ravie Beauty Easy Everyday™ עיפרון גבות – Best Eyebrow Pencil ל נשים, עמיד למריחה שיער-Like Strokes, 1.2mm דיוק Tip עם Spoolie, טבעוני (Dark Brown)",
+    "name": "עיפרון גבות Easy Everyday™ – למראה טבעי ומדויק גוון Dark Brown (חום כהה) | קצה דק 1.2 מ"מ לדיוק מקסימלי | עמיד למריחות וכולל מברשת ספולי",
     "size": "—",
     "categories": [
       "makeup",
@@ -7592,8 +7587,8 @@
   {
     "id": "ravie-beauty-b0fqfl6kcw",
     "brand": "ravie beauty",
-    "name": "Ravie Beauty Signature עור Dream Barrier Cream מלחלח פנים קרם לחות עם Peptides, Ceramides וNiacinamide, Fast-Absorbing, Sensitive-עור Friendly, פריימר-Rea",
-    "size": "—",
+    "name": "קרם לחות משקם Dream Barrier – לחיזוק והגנת עור הפנים עם פפטידים, סרמידים וניאצינמיד | ספיגה מהירה | מתאים לעור רגיש | משמש כבסיס מושלם לאיפור",
+    "size": "1.7 fl oz",
     "categories": [
       "makeup",
       "face"
@@ -7699,37 +7694,9 @@
     "image": "assets/img/products/B0BPFDJV1L.jpg"
   },
   {
-    "id": "r-co-b0dhj3ph6n",
-    "brand": "rco",
-    "name": "ספריי נפח לשורשים – בלו – נפח",
-    "size": "6.8 אונקיות",
-    "categories": [
-      "hair",
-      "spray"
-    ],
-    "isVegan": true,
-    "isPeta": false,
-    "isLB": true,
-    "priceMin": 100,
-    "priceMax": 150,
-    "offers": [
-      {
-        "store": "amazon-us",
-        "storeLabel": "Amazon ארה\"ב",
-        "url": "https://www.amazon.com/dp/B0DHJ3PH6N?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.G2HRQ7VYGXAJ&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.G2HRQ7VYGXAJ_1769202464724",
-        "asin": "B0DHJ3PH6N",
-        "currency": "USD",
-        "priceUSD": 42.0,
-        "freeShipOver": 49
-      }
-    ],
-    "isKids": false,
-    "image": "assets/img/products/B0DHJ3PH6N.jpg"
-  },
-  {
     "id": "r-co-b0dq2hxk6f",
     "brand": "rco",
-    "name": "סטיק פומייד לעיצוב שיער – דארט – נגד פריז",
+    "name": "סטיק פומייד Dart לעיצוב והחלקת שיער – למראה מלוטש ללא "שוונצים" מעניק טקסטורה ועמידות גבוהה | לפיסול והגדרת סגנון העיצוב | ללא פראבנים",
     "size": "מארז 2",
     "categories": [
       "hair",
@@ -7757,8 +7724,8 @@
   {
     "id": "rco-b0ckc3nhmy",
     "brand": "rco",
-    "name": "קרם עיצוב לשיער בייבוש טבעי – מעניק לחות ומרכך",
-    "size": "יחידה",
+    "name": "קרם Cool Wind לעיצוב בייבוש טבעי – למראה שיער מושלם ללא פן מעניק לחות, מרכך ומנטרל פריז (שוונצים) | נוסחה מאוזנת pH | למראה טבעי ונינוח",
+    "size": "5 Fl Oz + 0.5 Fl Oz",
     "categories": [
       "hair"
     ],
@@ -7810,8 +7777,8 @@
   {
     "id": "rco-b0djmyl8jd",
     "brand": "rco",
-    "name": "ספריי נפח וטקסטורה לשיער – אידאלי לעיצוב בפן",
-    "size": "יחידה",
+    "name": "ספריי דאלאס לעיבוי ונפח השיער – Dallas Hair Thickening Spray מעניק נפח עוצמתי, גוף וברק | אידיאלי לפן, בייביליס ורולרים | מתאים לכל אורכי השיער",
+    "size": "5.1 Fl Oz (Pack of 2)",
     "categories": [
       "hair"
     ],
@@ -7827,7 +7794,7 @@
         "url": "https://www.amazon.com/dp/B0DJMYL8JD?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.29Y9YD1VHTET1&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.29Y9YD1VHTET1_1769017812842",
         "asin": "B0DJMYL8JD",
         "currency": "USD",
-        "priceUSD": 46.8,
+        "priceUSD": 42.2,
         "freeShipOver": 49
       }
     ],
@@ -7864,7 +7831,7 @@
   {
     "id": "summer-fridays-b09s2k1r7x",
     "brand": "summer fridays",
-    "name": "באלם מזין + קרם לחות לגוף מועשר בשמן קלנדולה + ויטמין E המסייע בהפחתת מראה סימני מתיחה ועור יבש",
+    "name": "באלם הזנה לגוף Belly Balm – לשיקום העור ומניעת סימני מתיחה מועשר בשמן קלנדולה וויטמין E | לחות אינטנסיבית לעור יבש מאוד | נוסחה עשירה ומרגיעה",
     "size": "5 fl oz",
     "categories": [
       "body",
@@ -7919,7 +7886,7 @@
   {
     "id": "summer-fridays-b0c5gtrpfq",
     "brand": "summer fridays",
-    "name": "קרם לחות עם גוון  גוון עור עם חומצה היאלורונית - מסייע להפחית גוון עור לא אחיד - כיסוי שקוף עד בהיר - גוון 1 - בהיר עם תת גוון אפרסק ניטרלי",
+    "name": "תחליף מייק-אפ קליל Sheer Skin Tint – למראה עור אחיד וזוהר גוון 1: בהיר עם תת-גוון אפרסקי נייטרלי | מועשר בחומצה היאלורונית | כיסוי שקוף עד קליל",
     "size": "1 fl oz",
     "categories": [
       "makeup",
@@ -7974,8 +7941,8 @@
   {
     "id": "summer-fridays-b0dy1wsw83",
     "brand": "summer fridays",
-    "name": "מוצרי יסוד של Jet Lag™ של Summer Fridays - סט טיפוח עור מיני לחותי עם מסכת Jet Lag™, רטיות עיניים, סרום פנים לחות עמוקה ותרסיס לחות - ערכת טיפוח עור בגודל נסיעות וסט מתנה (4 יחידות)",
-    "size": "4 count",
+    "name": "סט מיני Jet Lag™ Essentials – ערכת לחות ושיקום לעור עייף מארז טיפוח לנסיעות הכולל: מסכה, מדבקות עיניים, סרום ותרסיס לחות | למראה זוהר ורווי בלחות",
+    "size": "4 יחידות",
     "categories": [
       "face",
       "set"
@@ -8002,8 +7969,8 @@
   {
     "id": "summer-fridays-b0f19yy96z",
     "brand": "summer fridays",
-    "name": "רטיות ג'ט לג מתחת לעיניים של קיץ שישי - מסכות עיניים הידרוג'ל לחות ומרגיעות עם קפאין ופפטידים להרגעה ורענון של האזור שמתחת לעיניים (6 זוגות)",
-    "size": "6 pairs",
+    "name": "מסכות הידרוג'ל לעיניים Jet Lag – לרענון והפחתת נפיחות עם קפאין ופפטידים | לחות עמוקה והרגעה מיידית | למראה עיניים ערני וזוהר",
+    "size": "6 זוגות",
     "categories": [
       "face",
       "mask"
@@ -8030,7 +7997,7 @@
   {
     "id": "summer-fridays-b0f3m2rg7p",
     "brand": "summer fridays",
-    "name": "טיפות ברונזינג - פורמולה לחותית דמוית סרום עם חומצה היאלורונית - איפור היברידי עם יתרונות טיפוח לעור - מסייע בתמיכה במחסום עור בריא - גימור רך וטל",
+    "name": "טיפות ברונזר למראה שזוף וזוהר – Bronzing Drops סרום לחות עם חומצה היאלורונית | למראה שחום טבעי וגימור Dewy | לחיזוק מחסום העור",
     "size": "1 fl oz",
     "categories": [
       "makeup",
@@ -8299,8 +8266,8 @@
   {
     "id": "the-humble-co-b09smqx3lr",
     "brand": "the humble co",
-    "name": "טבליות משחת שיניים לעיסה ללא פלואוריד – מנטה",
-    "size": "—",
+    "name": "טבליות צחצוח ללא פלואוריד – לעיסה, צחצוח ורעננות ללא פלסטיק (Zero Waste) | טעם מנתה מרענן | מושלם לטיולים ולנסיעות | ידידותי לסביבה",
+    "size": "60 טבליות X 3",
     "categories": [
       "teeth",
       "oral"
@@ -8327,7 +8294,7 @@
   {
     "id": "the-humble-co-b0djpym33s",
     "brand": "the humble co",
-    "name": "משחת שיניים לשיניים רגישות ללא פלואוריד עם קסיליטול וננו־הידרוקסי־אפטיט – ספירמינט",
+    "name": "משחת שיניים לשיניים רגישות ללא פלואוריד – Spearmint & Repair עם ננו-הידרוקסיאפטיט (nHAp) וקסילטול | שיקום האמייל והפחתת רגישות | ללא SLS",
     "size": "מארז 2",
     "categories": [
       "teeth",
@@ -8355,7 +8322,7 @@
   {
     "id": "the-humble-co-b0djpyp3hs",
     "brand": "the humble co",
-    "name": "משחת שיניים להלבנה ללא פלואוריד – Peppermint – מארז 2",
+    "name": "משחת שיניים מלבינה ללא פלואוריד – Peppermint & Natural Whitening עם קסילטול ופרליט אקולוגי | ללא SLS | הלבנה טבעית והגנה על החניכיים",
     "size": "מארז 2",
     "categories": [
       "teeth"
@@ -8408,7 +8375,7 @@
   {
     "id": "the-humble-co-b0dw6v49br",
     "brand": "the humble co",
-    "name": "רצועות להלבנת שיניים – עדינות לשיניים רגישות – ללא Peroxide – 14 טיפולים (28 יחידות)",
+    "name": "מדבקות הלבנת שיניים מתקדמות לשיניים רגישות ללא חמצן (Peroxide Free) | בטוח לזגוגית השן (Enamel Safe) | תוצאות מקצועיות בבית",
     "size": "14 טיפולים (28 יחידות)",
     "categories": [
       "teeth"
@@ -8435,11 +8402,10 @@
   {
     "id": "the-humble-co-b0dw6zb1bq",
     "brand": "the humble co",
-    "name": "ראשים למברשת שיניים חשמלית מבמבוק – תואם Oral-B – סיבים רכים",
-    "size": "—",
+    "name": "ראשי במבוק למברשת שיניים חשמלית – תואם Oral-B סיבים רכים ועדינים | אקולוגי ומתכלה | לשמירה על היגיינת הפה והחניכיים | עיצוב במבוק טבעי",
+    "size": "4 יחידות",
     "categories": [
-      "teeth",
-      "makeup"
+      "teeth"
     ],
     "isVegan": true,
     "isPeta": true,
@@ -8463,8 +8429,8 @@
   {
     "id": "tower-28-b09mztq6sm",
     "brand": "tower 28",
-    "name": "היילייטר קרמי – סופר-דיואו – לעור רגיש",
-    "size": "—",
+    "name": "באלם הארה למראה זוהר – SuperDew Highlighter Balm למראה עור "זכוכית" (Glass Skin) | ללא נצנצים | שקוף וקליל | מתאים לעור רגיש",
+    "size": "0.16 oz",
     "categories": [
       "face",
       "moisturizer"
@@ -8518,7 +8484,7 @@
   {
     "id": "tower-28-b0bbfxb4w2",
     "brand": "tower 28",
-    "name": "סרום לפנים – אס-או-אס – חומצה היפוכלורית, לעור רגיש, לאדמומיות",
+    "name": "סרום הרגעה ושיקום SOS Rescue – לטיפול באדמומיות וגירויים עם חומצה היפוכלורית | להרגעת עור רגיש ומגורה | ללא בישום (Fragrance-Free)",
     "size": "59.2ml",
     "categories": [
       "face",
@@ -8600,7 +8566,7 @@
   {
     "id": "tower-28-b0cfwqzlc4",
     "brand": "tower 28",
-    "name": "קונסילר סרום לחות בכיסוי בינוני – גוון 1.0 (בהיר מאוד, תת־גוון קר)",
+    "name": "קונסילר-סרום Swipe – כיסוי גבוה והבהרת אזור העיניים בגוון 1.0 Fair/Neutral | מועשר בחומצה היאלורונית וסנטלה | פורמולה משלבת טיפול ואיפור",
     "size": "0.22 Fl Oz",
     "categories": [
       "makeup",
@@ -8628,8 +8594,8 @@
   {
     "id": "tower-28-b0cwhh75wr",
     "brand": "tower 28",
-    "name": "באלם/מסכת שפתיים לחות בגוון עדין – תפוז דם וניל",
-    "size": "—",
+    "name": "שפתון טיפולי צבעוני LipSoftie – לחות וגוון במוצר אחד בטעם תפוז דם ווניל | גוון אדום-כתום שקוף וזוהר | לשיקום שפתיים יבשות",
+    "size": "0.35 ounces",
     "categories": [
       "makeup",
       "lips"
@@ -8656,7 +8622,7 @@
   {
     "id": "tower-28-b0ftzht24z",
     "brand": "tower 28",
-    "name": "קרם הגנה מינרלי לפנים SPF 30 עם סרמידים ואבץ לעור רגיש",
+    "name": "קרם הגנה מינרלי SOS FaceGuard SPF 30 – הגנה ושיקום עם סרמידים ואבץ לעור רגיש | הגנה רחבת טווח | מרקם קליל נטול שומן | נבדק דרמטולוגית",
     "size": "50ml",
     "categories": [
       "sun",
@@ -9204,8 +9170,7 @@
         "url": "https://www.amazon.com/dp/B0F9NYQ76T?tag=nocrueltyil-20",
         "asin": "B0F9NYQ76T",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": null
       }
     ],
     "isKids": false,
@@ -9233,8 +9198,7 @@
         "url": "https://www.amazon.com/dp/B07F2T14RB?tag=nocrueltyil-20",
         "asin": "B07F2T14RB",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": 35
       }
     ],
     "isKids": false,
