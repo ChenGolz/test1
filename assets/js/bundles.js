@@ -904,181 +904,113 @@
 
   // ===== Bundles builder =====
   function buildBundlesFromPool(allEligible){
-    var pool = allEligible.slice().sort(function(a,b){ return a._priceUSD - b._priceUSD; });
+  // Build 5 "featured" bundles first, then generate the rest automatically.
+  // We only ever bundle products that qualify for free shipping over $49 (eligible list is already filtered).
+  var pool = allEligible.slice().sort(function(a,b){ return (a._priceUSD||0) - (b._priceUSD||0); });
 
-    function takeItems(items){
-      var used = {};
-      for(var i=0;i<items.length;i++) used[items[i]._id]=1;
-      pool = pool.filter(function(p){ return !used[p._id]; });
-    }
-
-    function strictSolve(id, title, subtitle, pred){
-      var cand = pool.filter(pred);
-      var items = bestSubset(cand, BUNDLE_MIN, BUNDLE_MAX, { preferCloserTo: 55.0 });
-      if(items.length && items.length < BUNDLE_MIN_ITEMS) items = [];
-      if(items.length) takeItems(items);
-      return { id:id, title:title, subtitle:subtitle, items: items };
-    }
-
-    function themedWithFill(id, title, subtitle, primaryPred, fillPred){
-      // Pick at least one primary item if possible, then fill to reach range.
-      var primary = pool.filter(primaryPred);
-      if(!primary.length){
-        return { id:id, title:title, subtitle:subtitle + ' (אין כרגע מוצרים מסומנים בקטגוריה הזו)', items: [] };
-      }
-
-      // choose many primary items but keep under max (maybe not reaching min)
-      var base = bestSubset(primary, 0, BUNDLE_MAX, { preferCloserTo: 35.0, maxCandidates: 180 });
-      if(!base.length){
-        // ensure at least one
-        base = primary.slice().sort(function(a,b){ return a._priceUSD - b._priceUSD; }).slice(0,1);
-      }
-
-      // if base already too high (single expensive item) and can't fit, try just one cheapest
-      if(sumUSD(base) > BUNDLE_MAX){
-        base = primary.slice().sort(function(a,b){ return a._priceUSD - b._priceUSD; }).slice(0,1);
-      }
-
-      var baseSum = sumUSD(base);
-      var remMin = Math.max(0, BUNDLE_MIN - baseSum);
-      var remMax = Math.max(0, BUNDLE_MAX - baseSum);
-
-      var usedIds = {};
-      for(var i=0;i<base.length;i++) usedIds[base[i]._id]=1;
-
-      var fillers = pool.filter(function(p){
-        return !usedIds[p._id] && fillPred(p);
-      });
-
-      var fill = bestSubset(fillers, remMin, remMax, { preferCloserTo: 55.0, maxCandidates: 240 });
-      var items = base.concat(fill);
-      var total = sumUSD(items);
-
-      // if still not in range, try allow any fillers as last resort
-      if(total < BUNDLE_MIN || total > BUNDLE_MAX){
-        var anyFillers = pool.filter(function(p){ return !usedIds[p._id]; });
-        fill = bestSubset(anyFillers, remMin, remMax, { preferCloserTo: 55.0, maxCandidates: 260 });
-        items = base.concat(fill);
-        total = sumUSD(items);
-      }
-
-      // final validation
-      if(total < BUNDLE_MIN || total > BUNDLE_MAX){
-        // if we can't, return as-is but do not take from pool (keeps data stable)
-        return { id:id, title:title, subtitle:subtitle + ' (לא הצלחנו להגיע לטווח $52–$60 עם המוצרים הזמינים)', items: [] };
-      }
-
-
-      if(items.length < BUNDLE_MIN_ITEMS){
-        return { id:id, title:title, subtitle:subtitle + ' (לא הצלחנו ליצור חבילה עם לפחות ' + BUNDLE_MIN_ITEMS + ' מוצרים בטווח $52–$60)', items: [] };
-      }
-
-      takeItems(items);
-      return { id:id, title:title, subtitle:subtitle, items: items };
-    }
-
-    function solveTrio(id, title, subtitle, predA, predB, predC, fillPred){
-      var items = pickTrioWithFill(pool, predA, predB, predC, fillPred);
-      if(!items.length){
-        var themed = pool.filter(fillPred);
-        items = bestSubset(themed, BUNDLE_MIN, BUNDLE_MAX, { preferCloserTo: 55.0 });
-      }
-      if(items.length && items.length < BUNDLE_MIN_ITEMS) items = [];
-      if(items.length) takeItems(items);
-      return { id:id, title:title, subtitle:subtitle, items: items };
-    }
-
-    var bundles = [];
-
-    // 1) Kids/Family bundles (repeat a few times so kids items don't fall into other bundles)
-    for(var k=1; k<=MAX_KIDS_BUNDLES; k++){
-      var candKids = pool.filter(isKids);
-      if(!candKids.length) break;
-
-      var b = themedWithFill(
-        'kids-' + k,
-        (k===1 ? 'חבילת ילדים / משפחה' : ('חבילת ילדים / משפחה #' + k)),
-        'מוצרים שמיועדים לילדים/משפחה (ילדים/לילדים/kids). הטווח נשמר בין $52–$60.',
-        isKids,
-        function(p){ return isKids(p); } // prefer kids fillers first
-      );
-      if(b.items.length) bundles.push(b);
-      else break;
-    }
-
-    // 2) Core themed bundles
-    (function(){ var b = strictSolve('men','חבילת גברים','רק מוצרים שהשם שלהם כולל men/men’s (או “גברים”). $52–$60.', function(p){ return !isKids(p) && isMen(p); }); if(b && b.items && b.items.length) bundles.push(b); })();
-    (function(){ var b = strictSolve('makeup','חבילת איפור','מוצרי איפור (או לפי מילות מפתח). $52–$60.', function(p){ return !isKids(p) && isMakeup(p); }); if(b && b.items && b.items.length) bundles.push(b); })();
-
-    (function(){ var b = solveTrio('hair','חבילת שיער: שמפו + מרכך + מסכה','מוצרים עם משלוח חינם מעל $49 — $52–$60 (אפשר להחליף כל פריט).',
-      function(p){ return !isKids(p) && isShampoo(p); },
-      function(p){ return !isKids(p) && isConditioner(p); },
-      function(p){ return !isKids(p) && isHairMask(p); },
-      function(p){ return !isKids(p) && isHair(p); }
-    ); if(b && b.items && b.items.length) bundles.push(b); })();
-
-    (function(){ var b = solveTrio('face','חבילת פנים: קרם + סרום + מסכה','מוצרים עם משלוח חינם מעל $49 — $52–$60 (אפשר להחליף כל פריט).',
-      function(p){ return !isKids(p) && isFaceCream(p); },
-      function(p){ return !isKids(p) && isFaceSerum(p); },
-      function(p){ return !isKids(p) && isFaceMask(p); },
-      function(p){ return !isKids(p) && isFace(p); }
-    ); if(b && b.items && b.items.length) bundles.push(b); })();
-
-    (function(){ var b = strictSolve('teeth','חבילת שיניים','מוצרי שיניים/דנטלי כדי להגיע למשלוח חינם — $52–$60.', function(p){ return !isKids(p) && isTeeth(p); }); if(b && b.items && b.items.length) bundles.push(b); })();
-
-    // 3) More the merrier (cheapest-first)
-    (function(){
-      var items = bestSubset(pool.filter(function(p){ return !isKids(p); }), BUNDLE_MIN, MORE_MERRIER_PREFER_MAX, { preferCloserTo: 54.5, maxCandidates: 260 });
-      if(!items.length){
-        items = bestSubset(pool.filter(function(p){ return !isKids(p); }), BUNDLE_MIN, BUNDLE_MAX, { preferCloserTo: 55.0, maxCandidates: 260 });
-      }
-      if(items.length){
-        if(items.length < BUNDLE_MIN_ITEMS) items = [];
-        if(!items.length) return;
-        takeItems(items);
-        bundles.push({
-          id: 'more',
-          title: 'כמה שיותר – הכי זול',
-          subtitle: 'לוקחים כמה שיותר מוצרים זולים כדי להגיע ל־$52–$60 (עדיפות עד ~$55).',
-          items: items
-        });
-      }
-    })();
-
-    // 4) Many more bundles from remaining items
-    var extraIndex = 1;
-    while(extraIndex <= MAX_EXTRA_BUNDLES){
-      var items2 = bestSubset(pool.filter(function(p){ return !isKids(p); }), BUNDLE_MIN, BUNDLE_MAX, { preferCloserTo: 55.0, maxCandidates: 280 });
-      if(!items2.length) break;
-      if(items2.length < BUNDLE_MIN_ITEMS) break;
-      takeItems(items2);
-      bundles.push({
-        id: 'extra-' + extraIndex,
-        title: 'באנדל נוסף #' + extraIndex,
-        subtitle: 'באנדל אוטומטי מהמוצרים שנותרו (הכי זול שאפשר), $52–$60.',
-        items: items2
-      });
-      extraIndex++;
-    }
-
-    // 5) Ensure every remaining eligible product is shown in some bundle.
-    // If we can't form a valid $52–$60 bundle with remaining items, we create special bundles
-    // (might exceed $60 or be below $52) so that all freeShipOver:49 products still appear on the page.
-    
-    // שאר המוצרים שנשארו (שעדיין לא נכנסו לבאנדלים) לא יוצגו כבאנדל נפרד כדי לא ליצור באנדלים מתחת $52.
-    // הם עדיין זמינים במלואם בחלונות "החלפה" וב"בנו חבילה בעצמכם".
-
-
-    // בדיקת בטיחות: מציגים רק באנדלים מוכנים בטווח $52–$60
-    bundles = bundles.filter(function(b){
-      if(!b || !b.items || !b.items.length) return false;
-      if(b.items.length < BUNDLE_MIN_ITEMS) return false;
-      var t = sumUSD(b.items);
-      return t >= (BUNDLE_MIN - 1e-9) && t <= (BUNDLE_MAX + 1e-9);
+  function takeItems(items){
+    items.forEach(function(it){
+      var idx = pool.findIndex(function(p){ return p.id === it.id; });
+      if(idx >= 0) pool.splice(idx, 1);
     });
-
-    return { bundles: bundles, unused: pool };
   }
+
+  function toBundle(id, title, subtitle, items){
+    return { id: id, title: title, subtitle: subtitle, items: items.slice() };
+  }
+
+  function strictSolve(id, title, subtitle, pred){
+    var cand = pool.filter(pred);
+    var pick = bestSubset(cand, BUNDLE_MIN, BUNDLE_MAX, { preferCloserTo: BUNDLE_TARGET });
+    if(!pick || pick.length < BUNDLE_MIN_ITEMS) return null;
+    takeItems(pick);
+    return toBundle(id, title, subtitle, pick);
+  }
+
+  function themedSolve(id, title, subtitle, themePred){
+    var theme = pool.filter(function(p){ return !isKids(p) && themePred(p); });
+    if(theme.length === 0) return null;
+
+    // 1) Try a fully-themed bundle (best effort)
+    var themed = bestSubset(theme, BUNDLE_MIN, BUNDLE_MAX, { preferCloserTo: BUNDLE_TARGET });
+    if(themed && themed.length >= BUNDLE_MIN_ITEMS){
+      takeItems(themed);
+      return toBundle(id, title, subtitle, themed);
+    }
+
+    // 2) Anchor with the 2 cheapest theme products, then fill from anything (still mostly makes sense)
+    var anchors2 = theme.slice(0,2);
+    var baseUSD2 = sumUSD(anchors2);
+    if(baseUSD2 < BUNDLE_MAX){
+      var fillCand2 = pool.filter(function(p){
+        return anchors2.every(function(a){ return a.id !== p.id; }) && !isKids(p);
+      });
+      var fill2 = bestSubset(fillCand2, Math.max(0, BUNDLE_MIN - baseUSD2), Math.max(0, BUNDLE_MAX - baseUSD2), { preferCloserTo: (BUNDLE_TARGET - baseUSD2) });
+      var all2 = anchors2.concat(fill2 || []);
+      if(all2.length >= BUNDLE_MIN_ITEMS && sumUSD(all2) >= BUNDLE_MIN && sumUSD(all2) <= BUNDLE_MAX){
+        takeItems(all2);
+        return toBundle(id, title, subtitle, all2);
+      }
+    }
+
+    // 3) Anchor with 1 theme product and fill
+    var anchors1 = theme.slice(0,1);
+    var baseUSD1 = sumUSD(anchors1);
+    if(baseUSD1 < BUNDLE_MAX){
+      var fillCand1 = pool.filter(function(p){
+        return anchors1.every(function(a){ return a.id !== p.id; }) && !isKids(p);
+      });
+      var fill1 = bestSubset(fillCand1, Math.max(0, BUNDLE_MIN - baseUSD1), Math.max(0, BUNDLE_MAX - baseUSD1), { preferCloserTo: (BUNDLE_TARGET - baseUSD1) });
+      var all1 = anchors1.concat(fill1 || []);
+      if(all1.length >= BUNDLE_MIN_ITEMS && sumUSD(all1) >= BUNDLE_MIN && sumUSD(all1) <= BUNDLE_MAX){
+        takeItems(all1);
+        return toBundle(id, title, subtitle, all1);
+      }
+    }
+
+    return null;
+  }
+
+  var bundles = [];
+
+  // Featured 5 bundles (cheapest-first, while keeping them "sensible")
+  var b0 = strictSolve('bundle-cheapest', 'הכי זול להגיע למשלוח חינם', 'נבחר מהפריטים הזולים ביותר (מעל $49 משלוח חינם)', function(p){ return !isKids(p); });
+  if(b0) bundles.push(b0);
+
+  var b1 = themedSolve('bundle-hair', 'שיער', 'חבילת מוצרים לשיער כדי לעבור את $49', function(p){ return isHair(p); });
+  if(b1) bundles.push(b1);
+
+  var b2 = themedSolve('bundle-face', 'טיפוח פנים', 'חבילת טיפוח לעור הפנים כדי לעבור את $49', function(p){ return isFace(p); });
+  if(b2) bundles.push(b2);
+
+  var b3 = themedSolve('bundle-makeup', 'איפור', 'חבילת איפור כדי לעבור את $49', function(p){ return isMakeup(p); });
+  if(b3) bundles.push(b3);
+
+  var b4 = themedSolve('bundle-body', 'גוף והיגיינה', 'חבילת גוף/היגיינה כדי לעבור את $49', function(p){ return isBody(p) || isTeeth(p); });
+  if(b4) bundles.push(b4);
+
+  // If any featured bundle couldn't be created, fill up to 5 with automatic bundles.
+  var fillerIdx = 1;
+  while(bundles.length < 5){
+    var fill = strictSolve('bundle-auto-' + (fillerIdx++), 'חבילה אוטומטית', 'נבחרה אוטומטית מהמוצרים הזולים', function(p){ return !isKids(p); });
+    if(!fill) break;
+    bundles.push(fill);
+  }
+
+  // Auto-create the rest
+  var extras = [];
+  var extraIdx = 1;
+  while(pool.length && extras.length < MAX_EXTRA_BUNDLES){
+    var pick = bestSubset(pool.filter(function(p){ return !isKids(p); }), BUNDLE_MIN, BUNDLE_MAX, { preferCloserTo: BUNDLE_TARGET });
+    if(!pick || pick.length < BUNDLE_MIN_ITEMS) break;
+    takeItems(pick);
+    extras.push(toBundle('bundle-extra-' + (extraIdx++), 'עוד חבילה', 'נבנתה אוטומטית מהמוצרים שנותרו', pick));
+  }
+
+  bundles = bundles.concat(extras);
+
+  return { bundles: bundles, unused: pool.slice() };
+}
 
   // ===== Rendering =====
   function render(){
@@ -1406,8 +1338,8 @@
     var mn = $('#pickMin'); if(mn) mn.value = '';
     var mx = $('#pickMax'); if(mx) mx.value = '';
     var cat = $('#pickCat'); if(cat) cat.value = '';
-    var seeAll = $('#pickSeeAll'); if(seeAll) seeAll.checked = false;
-    STATE.pickerSeeAll = false;
+    var seeAll = $('#pickSeeAll'); if(seeAll) seeAll.checked = true;
+    STATE.pickerSeeAll = true;
 
     syncChipButtons();
     renderModal();
@@ -1801,6 +1733,38 @@
     }
     seeAll.checked = !!STATE.pickerSeeAll;
   }
+
+function ensureMobileBundleStyles(){
+  if(document.getElementById('bundlesMobileFix')) return;
+  var style = document.createElement('style');
+  style.id = 'bundlesMobileFix';
+  style.textContent = `
+    @media (max-width: 820px){
+      #bundleGrid{ grid-template-columns: 1fr !important; gap: 14px !important; }
+      .bundleCard{ padding: 12px !important; border-radius: 14px !important; }
+      .bundleTop{ flex-direction: column !important; align-items: flex-start !important; gap: 8px !important; }
+      .bundleMeta{ width: 100% !important; justify-content: flex-start !important; flex-wrap: wrap !important; gap: 10px !important; }
+      .bundleProducts{ gap: 8px !important; }
+      .bundleProduct{ grid-template-columns: 56px 1fr !important; gap: 10px !important; align-items: center !important; }
+      .bundleProductTitle{ font-size: 14px !important; }
+      .bundleActions{ gap: 10px !important; flex-wrap: wrap !important; }
+      .bundleActions .btn{ width: 100% !important; }
+      .bundleActions .btn.btnLight{ width: auto !important; flex: 1 1 auto !important; }
+      /* Modal */
+      #bundleOverlay .modalCard{ width: min(520px, calc(100vw - 24px)) !important; max-height: calc(100vh - 24px) !important; }
+      .pickerFilters{ gap: 8px !important; }
+      .pickerFilters .pickerInner{ flex-direction: column !important; align-items: stretch !important; gap: 8px !important; }
+      .pickerFilters input, .pickerFilters select{ width: 100% !important; min-width: 0 !important; }
+      #pickerGrid{ grid-template-columns: 1fr 1fr !important; }
+      @media (max-width: 520px){
+        #pickerGrid{ grid-template-columns: 1fr !important; }
+      }
+    }
+  `;
+  document.head.appendChild(style);
+}
+
+
 
   
   function translitLatinToHebrew(input){
@@ -2671,26 +2635,9 @@ card.addEventListener('click', choose);
   }
 
   function computeCategories(all){
-    var set = {};
-    for(var i=0;i<all.length;i++){
-      var cats = all[i]._categories || [];
-      for(var j=0;j<cats.length;j++){
-        var c = normCat(cats[j]);
-        if(c) set[c] = 1;
-      }
-    }
-
-    // Keep the same category set/order as the products page.
-    var out = [];
-    for(var k=0;k<CATEGORY_ORDER.length;k++){
-      var key = CATEGORY_ORDER[k];
-      if(set[key]) out.push(key);
-      delete set[key];
-    }
-
-    // Any remaining (unknown) categories – ignore here to match products page categories.
-    return out;
-  }
+  // Keep the same category list as the products page (no "אחר")
+  return CATEGORY_ORDER.slice();
+}
 
   async function init(){
     var grid = $('#bundleGrid');
@@ -2742,6 +2689,7 @@ card.addEventListener('click', choose);
   // ===== Events wiring =====
   function wire(){
     ensurePickerFiltersUI();
+    ensureMobileBundleStyles();
 
     var overlay = $('#bundleOverlay');
     var closeBtn = $('#bundleCloseBtn');
