@@ -1748,32 +1748,126 @@ function ensureMobileBundleStyles(){
   var style = document.createElement('style');
   style.id = 'bundlesMobileFix';
   style.textContent = `
+    /* Mobile-first fixes for bundles page */
     @media (max-width: 820px){
-      #bundleGrid{ grid-template-columns: 1fr !important; gap: 14px !important; }
-      .bundleCard{ padding: 12px !important; border-radius: 14px !important; }
-      .bundleTop{ flex-direction: column !important; align-items: flex-start !important; gap: 8px !important; }
-      .bundleMeta{ width: 100% !important; justify-content: flex-start !important; flex-wrap: wrap !important; gap: 10px !important; }
+      /* Grid & container */
+      #bundleGrid{
+        grid-template-columns: 1fr !important;
+        gap: 14px !important;
+        padding: 0 10px !important;
+      }
+
+      /* Card header */
+      .bundleCard{
+        padding: 12px !important;
+        border-radius: 14px !important;
+      }
+      .bundleTop{
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 8px !important;
+      }
+      .bundleTitle{
+        font-size: 18px !important;
+        line-height: 1.2 !important;
+        margin: 0 !important;
+      }
+      .bundleSubtitle{
+        font-size: 13px !important;
+        line-height: 1.35 !important;
+        margin: 4px 0 0 !important;
+      }
+      .bundleMeta{
+        width: 100% !important;
+        justify-content: flex-start !important;
+        flex-wrap: wrap !important;
+        gap: 10px !important;
+      }
+      .bundleMeta .tag{
+        font-size: 12px !important;
+        padding: 6px 9px !important;
+        white-space: nowrap !important;
+      }
+
+      /* Product rows */
       .bundleProducts{ gap: 8px !important; }
-      .bundleProduct{ grid-template-columns: 56px 1fr !important; gap: 10px !important; align-items: center !important; }
-      .bundleProductTitle{ font-size: 14px !important; }
-      .bundleActions{ gap: 10px !important; flex-wrap: wrap !important; }
-      .bundleActions .btn{ width: 100% !important; }
-      .bundleActions .btn.btnLight{ width: auto !important; flex: 1 1 auto !important; }
+      .bundleProduct{
+        grid-template-columns: 56px 1fr !important;
+        gap: 10px !important;
+        align-items: center !important;
+      }
+      .bundleProductImg{
+        width: 56px !important;
+        height: 56px !important;
+        object-fit: cover !important;
+        border-radius: 12px !important;
+      }
+      .bundleProductTitle{
+        font-size: 13px !important;
+        line-height: 1.25 !important;
+        overflow: hidden !important;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 3 !important;
+        -webkit-box-orient: vertical !important;
+        word-break: break-word !important;
+      }
+      .bundleProductDetails{
+        font-size: 12px !important;
+        gap: 8px !important;
+        flex-wrap: wrap !important;
+      }
+
+      /* CTA buttons (real class is bundleCTA/bundleBtn) */
+      .bundleCTA{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+        align-items: stretch !important;
+      }
+      .bundleCTA .bundleBtn{
+        width: 100% !important;
+        min-height: 44px !important;
+      }
+
       /* Modal */
-      #bundleOverlay .modalCard{ width: min(520px, calc(100vw - 24px)) !important; max-height: calc(100vh - 24px) !important; }
+      #bundleOverlay{
+        padding: 12px !important;
+      }
+      #bundleOverlay .modalCard{
+        width: min(520px, calc(100vw - 24px)) !important;
+        max-height: calc(100vh - 24px) !important;
+        border-radius: 14px !important;
+      }
+
+      /* Picker filters */
       .pickerFilters{ gap: 8px !important; }
-      .pickerFilters .pickerInner{ flex-direction: column !important; align-items: stretch !important; gap: 8px !important; }
-      .pickerFilters input, .pickerFilters select{ width: 100% !important; min-width: 0 !important; }
+      .pickerFilters .pickerInner{
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 8px !important;
+      }
+      .pickerFilters input,
+      .pickerFilters select{
+        width: 100% !important;
+        min-width: 0 !important;
+      }
       #pickerGrid{ grid-template-columns: 1fr 1fr !important; }
+
       @media (max-width: 520px){
+        #bundleGrid{ padding: 0 8px !important; }
+        .bundleCard{ padding: 10px !important; border-radius: 12px !important; }
+        .bundleTitle{ font-size: 17px !important; }
+        .bundleProduct{ grid-template-columns: 50px 1fr !important; }
+        .bundleProductImg{ width: 50px !important; height: 50px !important; border-radius: 10px !important; }
         #pickerGrid{ grid-template-columns: 1fr !important; }
+        #bundleOverlay{ padding: 10px !important; }
+        #bundleOverlay .modalCard{ width: calc(100vw - 20px) !important; max-height: calc(100vh - 20px) !important; }
       }
     }
   `;
   document.head.appendChild(style);
 }
-
-
 
   
   function translitLatinToHebrew(input){
