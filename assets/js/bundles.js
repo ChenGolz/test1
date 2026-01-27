@@ -237,6 +237,15 @@
     return (/\bmask\b/i.test(p._name || '') && isFace(p));
   }
 
+  function isBody(p){
+    // Body & hygiene products
+    if(hasCat(p,'body')) return true;
+    if(hasAnyCat(p,['soap','bath','shower','body-wash','lotion','deodorant','hand','foot'])) return true;
+    var n = (p._name || '');
+    return /\bbody\b|\bsoap\b|\bdeodorant\b|\bwash\b|\bbath\b|\bshower\b|\blotion\b|\bhand\b|\bfoot\b/i.test(n)
+      || /(גוף|סבון|רחצה|מקלחת|דאודורנט|קרם גוף|קרם ידיים|קרם רגליים)/.test(n);
+  }
+
   function isTeeth(p){
     if(hasAnyCat(p,['teeth','oral'])) return true;
     return /\btooth\b|\bteeth\b|\bdental\b|\bfloss\b|\bmouth\b|\bwhiten\b|\btoothpaste\b/i.test(p._name || '');
