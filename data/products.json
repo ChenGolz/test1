@@ -5,7 +5,7 @@
     "name": "סבון רפואי לניקוי עם חומצה סליצילית 2% (4 oz)",
     "size": "4 oz",
     "categories": [
-      "skincare",
+      "skincare", "soap", "body",
       "cleanser"
     ],
     "isVegan": true,
@@ -2205,7 +2205,7 @@
     "name": "מרכך שיער טבעי לילדים – וניל ואגס היפואלרגני | על בסיס רכיבים מהצומח ומינרלים | לשיער רך וקל לסירוק",
     "size": "8 fl oz",
     "categories": [
-      "kids",
+      "kids", "conditioner",
       "hair"
     ],
     "isVegan": true,
@@ -5027,7 +5027,7 @@
     "brand": "melixir",
     "name": "חמאת שפתיים Lip Butter (גוון #03 Red Velvet) – לחות וצבע טבעי פורמולה טבעונית (Plant-Based) | עשיר בחמאת שיאה | ללא וזלין ושעוות דבורים",
     "size": "0.14 ounces",
-    "categories": [
+    "categories": [ "face",
       "skincare",
       "lips",
       "lip-balm"
