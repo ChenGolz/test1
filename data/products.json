@@ -9,8 +9,8 @@
       "cleanser"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 15,
     "priceMax": 25,
     "offers": [
@@ -36,8 +36,8 @@
       "cleanser"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 15,
     "priceMax": 25,
     "offers": [
@@ -63,8 +63,8 @@
       "cleanser"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": null,
     "priceMax": null,
     "offers": [
@@ -89,8 +89,8 @@
       "treatment"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+    "isLB": false,
     "priceMin": null,
     "priceMax": null,
     "offers": [
@@ -146,7 +146,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 40,
     "priceMax": 50,
     "offers": [
@@ -173,7 +173,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 45,
     "priceMax": 60,
     "offers": [
@@ -201,7 +201,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 65,
     "offers": [
@@ -258,7 +258,7 @@
     ],
      "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -286,7 +286,7 @@
     ],
    "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 65,
     "offers": [
@@ -315,7 +315,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -343,7 +343,7 @@
     ],
      "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 45,
     "priceMax": 60,
     "offers": [
@@ -370,7 +370,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 40,
     "priceMax": 50,
     "offers": [
@@ -397,7 +397,7 @@
     ],
    "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 70,
     "priceMax": 90,
     "offers": [
@@ -453,7 +453,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": null,
     "priceMax": null,
     "offers": [
@@ -480,8 +480,8 @@
       "treatment"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 150,
     "priceMax": 200,
     "offers": [
@@ -509,8 +509,8 @@
       "dry-shampoo"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 70,
     "priceMax": 90,
     "offers": [
@@ -539,8 +539,8 @@
       "hair-mask"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 100,
     "priceMax": 150,
     "offers": [
@@ -568,8 +568,8 @@
       "treatment"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 250,
     "priceMax": 300,
     "offers": [
@@ -597,8 +597,8 @@
       "treatment"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 100,
     "priceMax": 150,
     "offers": [
@@ -624,8 +624,8 @@
       "hair"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 140,
     "priceMax": 175,
     "offers": [
@@ -653,8 +653,8 @@
       "treatment"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": null,
     "priceMax": null,
     "offers": [
@@ -682,8 +682,8 @@
       "treatment"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 155,
     "priceMax": 190,
     "offers": [
@@ -710,8 +710,8 @@
       "treatment"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 385,
     "priceMax": 475,
     "offers": [
@@ -737,8 +737,8 @@
       "hair"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 100,
     "priceMax": 150,
     "offers": [
@@ -764,8 +764,8 @@
       "hair"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 100,
     "priceMax": 150,
     "offers": [
@@ -792,8 +792,8 @@
       "treatment"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 335,
     "priceMax": 415,
     "offers": [
@@ -821,8 +821,8 @@
       "treatment"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 190,
     "priceMax": 235,
     "offers": [
@@ -1745,7 +1745,7 @@
       "eyes"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 100,
     "priceMax": 150,
@@ -1773,7 +1773,7 @@
       "eyes"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 100,
     "priceMax": 150,
@@ -1801,7 +1801,7 @@
       "eyes"
     ],
    "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 50,
     "priceMax": 100,
@@ -1829,7 +1829,7 @@
       "face"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 100,
     "priceMax": 150,
@@ -1856,7 +1856,7 @@
       "face"
     ],
    "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 100,
     "priceMax": 150,
@@ -1883,7 +1883,7 @@
       "face"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 70,
     "priceMax": 90,
@@ -1909,7 +1909,7 @@
       "makeup"
     ],
      "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 70,
     "priceMax": 80,
@@ -1936,7 +1936,7 @@
       "eyes"
     ],
    "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 50,
     "priceMax": 60,
@@ -1964,7 +1964,7 @@
       "face"
     ],
    "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 50,
     "priceMax": 60,
@@ -1991,7 +1991,7 @@
       "face"
     ],
    "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 120,
     "priceMax": 150,
@@ -2017,7 +2017,7 @@
       "makeup"
     ],
      "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 50,
     "priceMax": 100,
@@ -2045,7 +2045,7 @@
       "face"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 110,
     "priceMax": 140,
@@ -2071,7 +2071,7 @@
       "makeup"
     ],
    "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 60,
     "priceMax": 80,
@@ -2100,8 +2100,8 @@
       "shampoo"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -2570,7 +2570,7 @@
       "candles"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 50,
     "priceMax": 100,
@@ -3390,7 +3390,7 @@
       "freckles"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 50,
     "priceMax": 100,
@@ -3524,7 +3524,7 @@
       "סרום"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": null,
     "priceMax": null,
@@ -3552,7 +3552,7 @@
       "טיפול"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 50,
     "priceMax": 100,
@@ -3580,7 +3580,7 @@
       "acne"
     ],
       "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 0,
     "priceMax": 50,
@@ -3608,7 +3608,7 @@
       "face"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 0,
     "priceMax": 50,
@@ -3636,7 +3636,7 @@
       "סרום"
     ],
      "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 100,
     "priceMax": 150,
@@ -3664,7 +3664,7 @@
       "lips"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 50,
     "priceMax": 100,
@@ -3693,7 +3693,7 @@
       "body"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 50,
     "priceMax": 100,
@@ -3722,7 +3722,7 @@
       "סרום"
     ],
      "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": null,
     "priceMax": null,
@@ -5034,7 +5034,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 0,
     "priceMax": 50,
     "offers": [
@@ -5060,8 +5060,8 @@
       "makeup"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -5087,8 +5087,8 @@
       "lips"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -5114,8 +5114,8 @@
       "hair"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -5140,8 +5140,8 @@
       "makeup"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -5167,8 +5167,8 @@
       "eyes"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 0,
     "priceMax": 50,
     "offers": [
@@ -5194,8 +5194,8 @@
       "face"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 100,
     "priceMax": 150,
     "offers": [
@@ -5221,8 +5221,8 @@
       "hair"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -5248,8 +5248,8 @@
       "hair"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -5276,8 +5276,8 @@
       "eyes"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 100,
     "priceMax": 150,
     "offers": [
@@ -5304,8 +5304,8 @@
       "face"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -5332,8 +5332,8 @@
       "face"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -5360,8 +5360,8 @@
       "face"
     ],
     "isVegan": true,
-    "isPeta": null,
-    "isLB": null,
+    "isPeta": false,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -5389,7 +5389,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 0,
     "priceMax": 50,
     "offers": [
@@ -5503,7 +5503,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 0,
     "priceMax": 50,
     "offers": [
@@ -5531,7 +5531,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -5617,7 +5617,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 0,
     "priceMax": 50,
     "offers": [
@@ -5646,7 +5646,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 0,
     "priceMax": 50,
     "offers": [
@@ -5699,7 +5699,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 300,
     "priceMax": 350,
     "offers": [
@@ -5725,7 +5725,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 100,
     "priceMax": 150,
     "offers": [
@@ -6077,7 +6077,7 @@
     ],
     "isVegan": true,
     "isPeta": true,
-    "isLB": null,
+     "isPeta": false,
     "priceMin": 50,
     "priceMax": 100,
     "offers": [
@@ -7430,7 +7430,7 @@
       "deodorant"
     ],
     "isVegan": true,
-    "isPeta": null,
+    "isPeta": false,
     "isLB": true,
     "priceMin": 50,
     "priceMax": 100,
