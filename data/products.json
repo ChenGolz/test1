@@ -100,8 +100,7 @@
         "url": "https://www.amazon.com/dp/B0D9KTPF7M?tag=nocrueltyil-20",
         "asin": "B0D9KTPF7M",
         "currency": "USD",
-        "priceUSD": null,
-        "freeShipOver": null
+        "priceUSD": null
       }
     ],
     "isKids": false,
@@ -110,7 +109,7 @@
   {
     "id": "a-p-chem-b0cpn5ycq8",
     "brand": "a p chem",
-    "name": "טיפול עיניים מאיר – EYEahuasca",
+    "name": "טיפול עיניים מעורר EYEahuasca לנשים, מולטי-קולור",
     "size": "0.5 Ounce",
     "categories": [
       "skincare",
@@ -166,8 +165,8 @@
   {
     "id": "about-face-b0fbx1rjcz",
     "brand": "about face",
-    "name": "צללית נוזלית בגימור מאט – Blue Monday (כחול בוהק)",
-    "size": null,
+    "name": "Matte Fluid Eye Paint – Blue Monday צללית נוזלית בפיגמנט גבוה, עמידה לאורך זמן בגימור מאט.",
+    "size": "0.81 ounces",
     "categories": [
       "makeup",
       "eyes"
@@ -194,7 +193,7 @@
   {
     "id": "about-face-b0fbx25hps",
     "brand": "about face",
-    "name": "צללית נוזלית נצנצים Fractal – Take A Trip (0.13 oz) (לבנדר)",
+    "name": "Fractal Glitter Eye Paint – Take A Trip צללית גליטר נוזלית עמידה – נצנוץ אינטנסיבי במרקם מוס",
     "size": "0.13 oz",
     "categories": [
       "makeup",
@@ -222,7 +221,7 @@
   {
     "id": "about-face-b0fbx31dvx",
     "brand": "about face",
-    "name": "צללית נוזלית בגימור מאט – Capulets",
+    "name": "Matte Fluid Eye Paint – Capulets צללית נוזלית בפיגמנט גבוה, עמידה לאורך זמן בגימור מאט.",
     "size": "1.06 ounces",
     "categories": [
       "makeup",
@@ -251,8 +250,8 @@
   {
     "id": "about-face-b0fbx37fk4",
     "brand": "about face",
-    "name": "צללית נוזלית בגימור מאט – אמנות החשכה (שחור מאט)",
-    "size": null,
+    "name": "Matte Fluid Eye Paint – Art of Darkness צללית נוזלית בפיגמנט גבוה, עמידה לאורך זמן בגימור מאט.",
+    "size": " 0.32 ounces",
     "categories": [
       "makeup",
       "eyes"
@@ -260,8 +259,8 @@
      "isVegan": true,
     "isPeta": true,
     "isLB": null,
-    "priceMin": 45,
-    "priceMax": 60,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -279,7 +278,7 @@
   {
     "id": "about-face-b0fbx3jyn2",
     "brand": "about face",
-    "name": "צללית נוזלית נצנצים Fractal – מעל סנטוריני (0.13 oz) (ספיר)",
+    "name": "Fractal Glitter Eye Paint – Above Santorini צללית גליטר נוזלית עמידה – נצנוץ אינטנסיבי במרקם מוס",
     "size": "0.13 oz",
     "categories": [
       "makeup",
@@ -307,17 +306,18 @@
   {
     "id": "about-face-b0fbx3q5nc",
     "brand": "about face",
-    "name": "מסקרה מגדילה נפח (0.43 oz) (שחור ג׳ט)",
+    "name": "מסקרה לנפח עוצמתי – Jet Black פורמולה נקייה | מעניקה נפח, הארכה והרמה לריסים | עמידה בפני מריחות ופירורים",
     "size": "0.43 oz",
     "categories": [
       "makeup",
-      "eyes"
+      "eyes",
+      "mascara"
     ],
     "isVegan": true,
     "isPeta": true,
     "isLB": null,
     "priceMin": 50,
-    "priceMax": 65,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -389,7 +389,7 @@
   {
     "id": "about-face-b0fc4h4qqz",
     "brand": "about face",
-    "name": "מייקאפ THE PERFORMER בגימור טבעי – F2Olive (1.08 oz)",
+    "name": "THE PERFORMER Skin-Focused Foundation – F2 Olive מייק-אפ בכיסוי בינוני, עמיד ונושם | פורמולה נקייה ומרווה עם אגבה כחולה וכלורלה",
     "size": "1.08 oz",
     "categories": [
       "makeup",
@@ -472,7 +472,7 @@
   {
     "id": "act-acre-b07q74bcvb",
     "brand": "Act+Acre",
-    "name": "שמן דיטוקס לקרקפת בעיבוד קר (3 fl oz)",
+    "name": "שמן דיטוקס לקרקפת בכבישה קרה (Cold Processed) טיפול ללא סולפטים לקרקפת יבשה, מגרדת או מתקלפת | למראה שיער עבה ומלא יותר",
     "size": "3 fl oz",
     "categories": [
       "hair",
@@ -482,8 +482,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 135,
-    "priceMax": 165,
+    "priceMin": 150,
+    "priceMax": 200,
     "offers": [
       {
         "store": "amazon-us",
@@ -501,10 +501,12 @@
   {
     "id": "act-acre-b08dzx6j7d",
     "brand": "Act+Acre",
-    "name": "שמפו יבש מגדיל נפח עם חומצה פולבית, מבוסס צמחים (0.46 oz)",
+    "name": "שמפו יבש לנפח על בסיס חומצה פולבית מהצומח ספריי אבקה טבעי ללא בישום עם אורז | מרענן שיער שומני ומחזיר נפח | לכל סוגי השיער (ללא אירוסול)",
     "size": "0.46 oz",
     "categories": [
-      "hair"
+      "hair",
+      "shampoo",
+      "dry-shampoo"
     ],
     "isVegan": true,
     "isPeta": null,
@@ -528,17 +530,19 @@
   {
     "id": "act-acre-b091r87682",
     "brand": "Act+Acre",
-    "name": "מסכת שיער משקמת ומרככת (4 fl oz)",
+    "name": "מסכת הזנה ושיקום לשיער (Restorative Mask) טיפול בשיטה של כבישה קרה לשיער יבש ופגום | מסכה ללא סיליקונים להענקת לחות עמוקה",
     "size": "4 fl oz",
     "categories": [
       "hair",
-      "treatment"
+      "treatment",
+      "mask",
+      "hair-mask"
     ],
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 105,
-    "priceMax": 130,
+    "priceMin": 100,
+    "priceMax": 150,
     "offers": [
       {
         "store": "amazon-us",
@@ -585,7 +589,7 @@
   {
     "id": "act-acre-b0bnnmmrlb",
     "brand": "Act+Acre",
-    "name": "פילינג חומצה סליצילית בעיבוד קר (2 fl oz)",
+    "name": "פילינג לקרקפת עם חומצה סליצילית בכבישה קרה לטיפול בקשקשים, עודפי שומן והצטברות לכלוך | חומצה סליצילית, פפאיה ונענע | לאיזון והרגעה",
     "size": "2 fl oz",
     "categories": [
       "hair",
@@ -595,8 +599,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 135,
-    "priceMax": 165,
+    "priceMin": 100,
+    "priceMax": 150,
     "offers": [
       {
         "store": "amazon-us",
@@ -727,7 +731,7 @@
   {
     "id": "act-acre-b0f1wg36s9",
     "brand": "Act+Acre",
-    "name": "מרכך תאי גזע (10 fl oz)",
+    "name": "מרכך תאי גזע לחיזוק והזנה (Stem Cell Conditioner) מחזק קצוות, מעניק ברק ומלחח שיער דק | תאי גזע של תפוח, שמן קיק ונוגדי חמצון | במרקם קליל, בשיטת כבישה קרה® ומתאים לשיער צבוע",
     "size": "10 fl oz",
     "categories": [
       "hair"
@@ -735,8 +739,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 120,
-    "priceMax": 145,
+    "priceMin": 100,
+    "priceMax": 150,
     "offers": [
       {
         "store": "amazon-us",
@@ -754,7 +758,7 @@
   {
     "id": "act-acre-b0f1wlhzvm",
     "brand": "Act+Acre",
-    "name": "שמפו תאי גזע (10 fl oz)",
+    "name": "שמפו תאי גזע לעיבוי וטיפוח (Stem Cell Shampoo) משפר צפיפות, מלחח את הקרקפת ומסיר הצטברות לכלוך | למראה שיער עבה ומלא יותר | תאי גזע של תפוח שוויצרי, קפאין וחומצה היאלורונית | בשיטת כבישה קרה®",
     "size": "10 fl oz",
     "categories": [
       "hair"
@@ -762,8 +766,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 120,
-    "priceMax": 145,
+    "priceMin": 100,
+    "priceMax": 150,
     "offers": [
       {
         "store": "amazon-us",
@@ -1734,8 +1738,8 @@
   {
     "id": "alleyoop-b08x9x3xn8",
     "brand": "alleyoop",
-    "name": "פלטת קרמים Stack The Odds – סומק, ברונזר, קונטור והיילייטר – קומפקטית לנסיעות –",
-    "size": "—",
+    "name": "Stack The Odds – פלטת איפור קרמית הכל-ב-אחד סומק, קונטור, ברונזר והיילייטר במארז קומפקטי | למראה טבעי, תיקונים מהירים ונוחות מקסימלית בנסיעות | גוון: Sassy Pants",
+    "size": "8.1g",
     "categories": [
       "makeup",
       "eyes"
@@ -1762,7 +1766,7 @@
   {
     "id": "alleyoop-b08xbd2cbt",
     "brand": "alleyoop",
-    "name": "Stack The Odds – פלטת קרמים קומפקטית (סומק, קונטור/ברונזר והיילייטר) – גוון Sunkissed",
+    "name": "Stack The Odds – פלטת איפור קרמית הכל-ב-אחד סומק, קונטור, ברונזר והיילייטר במארז קומפקטי | למראה טבעי, תיקונים מהירים ונוחות מקסימלית בנסיעות | גוון: Sunkissed",
     "size": "0.28 oz",
     "categories": [
       "makeup",
@@ -1790,7 +1794,7 @@
   {
     "id": "alleyoop-b08xbz865d",
     "brand": "alleyoop",
-    "name": "סטיק צללית קרמית 11th Hour – Coffee Break (מט) (עמיד למריחה וללא התקמטות למשך עד 11 שעות)",
+    "name": "11th Hour – צללית סטיק קרמית עמידה במים צללית ועפרון עיניים עמיד לאורך זמן | מעבר ממרקם קרם לאבקה | גוון: Chestnut Matte",
     "size": "0.05 ounces",
     "categories": [
       "makeup",
@@ -1925,7 +1929,7 @@
   {
     "id": "alleyoop-b0cqrl3gpg",
     "brand": "alleyoop",
-    "name": "עט איפור 4-ב-1 Pen Pal – אייליינר, תוחם שפתיים, היילייטר ועיפרון גבות – נייד לתיקונים בדרכים – (In A Rouge Light)",
+    "name": "Pen Pal 4-in-1 – עט איפור רב-שימושי אייליינר, עפרון שפתיים, היילייטר ועפרון גבות במוצר אחד | קומפקטי ומושלם לתיקונים בדרכים | גוון: In A Rouge (Light)",
     "size": "0.40g",
     "categories": [
       "makeup",
@@ -2007,7 +2011,7 @@
   {
     "id": "alleyoop-b0dffbhgb7",
     "brand": "alleyoop",
-    "name": "עיפרון גבות 3‑ב‑1 Swift Eyebrow עם מחדד מובנה ומברשת ספוליי – גוון Taupe",
+    "name": "Swift Eyebrow – עיפרון גבות הכל-ב-אחד כולל מחדד מובנה ומברשת ספולי | עמיד במים ובפני מריחות | גימור מאט טבעי | גוון: Taupe",
     "size": "0.2 g",
     "categories": [
       "makeup"
@@ -2024,7 +2028,7 @@
         "url": "https://www.amazon.com/ALLEYOOP-Definition-Built-Sharpener-Spoolie/dp/B0DFFBHGB7?th=1&linkCode=ll1&tag=nocrueltyil-20&linkId=f0e66186c612a58349d56ab3d4d065af&language=en_US&ref_=as_li_ss_tl",
         "asin": "B0DFFBHGB7",
         "currency": "USD",
-        "priceUSD": 19.2,
+        "priceUSD": 18.99,
         "freeShipOver": 49
       }
     ],
@@ -2061,8 +2065,8 @@
   {
     "id": "alleyoop-b0dfft6vzv",
     "brand": "alleyoop",
-    "name": "עיפרון גבות Swift All-In-1 – עם מחדד מובנה ומברשת – עמיד במים וללא מריחה – גימור טבעי – (Dark Brown)",
-    "size": "—",
+    "name": "Swift Eyebrow – עיפרון גבות הכל-ב-אחד כולל מחדד מובנה ומברשת ספולי | עמיד במים ובפני מריחות | גימור מאט טבעי | גוון: Dark Brown",
+    "size": "0.2g",
     "categories": [
       "makeup"
     ],
@@ -2088,7 +2092,7 @@
   {
     "id": "aromatica-b01nbj9lts",
     "brand": "aromatica",
-    "name": "שמפו רוזמרין לקרקפת – ניקוי/פילינג עדין לקרקפת",
+    "name": "שמפו רוזמרין לניקוי עמוק וחיזוק הקרקפת (Rosemary Scalp Scaling) שמפו ביוטין לעידוד הצמיחה ומניעת דלילות | פורמולה טבעית ומטהרת | ללא סולפטים, סיליקונים ופרבנים",
     "size": "13.53 oz",
     "categories": [
       "hair",
@@ -2117,10 +2121,10 @@
   {
     "id": "attitude-b07j4khsmc",
     "brand": "attitude",
-    "name": "קרם לחות לתינוק (EWG Verified), ללא בישום",
+    "name": "תחליב לחות לתינוק – ללא בישום מאושר בתקן EWG המחמיר | נבדק דרמטולוגית | פורמולה עדינה להזנה והגנה על עור התינוק",
     "size": "16 fl oz",
     "categories": [
-      "face"
+      "baby"
     ],
     "isVegan": true,
     "isPeta": true,
@@ -2144,7 +2148,7 @@
   {
     "id": "attitude-b07mzcn118",
     "brand": "attitude",
-    "name": "סבון ידיים מוקצף (EWG Verified), עלי לימון",
+    "name": "סבון ידיים קצף – עלי לימון (Lemon Leaves) מאושר בתקן EWG | מבוסס על רכיבים מהצומח ומינרלים | לניקוי עדין ובטוח",
     "size": "10 fl oz",
     "categories": [
       "face"
@@ -2171,7 +2175,7 @@
   {
     "id": "attitude-b07nf645hb",
     "brand": "attitude",
-    "name": "סבון גוף לעור רגיש עם שיבולת שועל (EWG Verified), ללא בישום",
+    "name": "סבון גוף לעור רגיש עם שיבולת שועל (Oat) מאושר בתקן EWG | נבדק דרמטולוגית | נוסחה עדינה במיוחד ללא בישום",
     "size": "16 fl oz",
     "categories": [
       "body"
@@ -2198,9 +2202,10 @@
   {
     "id": "attitude-b07qttx153",
     "brand": "attitude",
-    "name": "מרכך טבעי לילדים, היפואלרגני, על בסיס צמחי ומינרלי, בניחוח וניל ואגס",
+    "name": "מרכך שיער טבעי לילדים – וניל ואגס היפואלרגני | על בסיס רכיבים מהצומח ומינרלים | לשיער רך וקל לסירוק",
     "size": "8 fl oz",
     "categories": [
+      "kids",
       "hair"
     ],
     "isVegan": true,
@@ -2225,9 +2230,10 @@
   {
     "id": "attitude-b07rwp838s",
     "brand": "attitude",
-    "name": "קצף אמבט/שמפו וסבון גוף לילדים (EWG Verified), מנגו",
+    "name": "Bubble Wash לילדים – שמפו, סבון גוף וקצף אמבטיה (3 ב-1) מאושר בתקן EWG | ניחוח מנגו מרענן | על בסיס רכיבים מהצומח ומינרלים",
     "size": "16 fl oz",
     "categories": [
+      "kids",
       "hair",
       "body"
     ],
@@ -2253,9 +2259,10 @@
   {
     "id": "attitude-b07vc8bzb1",
     "brand": "attitude",
-    "name": "שמפו וסבון גוף לילדים (EWG Verified), מנגו",
+    "name": "שמפו וסבון גוף לילדים (2 ב-1) – ניחוח מנגו מאושר בתקן EWG | ניקוי עדין לשיער ולעור הגוף | מבוסס על רכיבים מהצומח ומינרלים",
     "size": "16 fl oz",
     "categories": [
+      "kids",
       "hair",
       "body"
     ],
@@ -2281,7 +2288,7 @@
   {
     "id": "attitude-b08yfby7xl",
     "brand": "attitude",
-    "name": "שמפו שיער עשיר בלחות לשיער יבש/פגום (EWG Verified), קינואה וג׳וג׳ובה",
+    "name": "שמפו Moisture Rich להזנה עמוקה (קינואה וחוחובה) מאושר בתקן EWG | לשיער יבש ופגום | מבוסס על רכיבים טבעיים ומהצומח",
     "size": "32 fl oz",
     "categories": [
       "hair"
@@ -2308,7 +2315,7 @@
   {
     "id": "attitude-b08yfcz7b7",
     "brand": "attitude",
-    "name": "מרכך שיער עשיר בלחות לשיער יבש/פגום (EWG Verified), קינואה וג׳וג׳ובה",
+    "name": "מרכך Moisture Rich להזנה ושיקום (קינואה וחוחובה) לשיער יבש ופגום | מסייע בהתרת קשרים | רכיבים ממקור טבעי | נבדק דרמטולוגית",
     "size": "32 fl oz",
     "categories": [
       "hair"
@@ -2335,7 +2342,7 @@
   {
     "id": "attitude-b097mm895y",
     "brand": "attitude",
-    "name": "מרכך לשיער לקרקפת רגישה ויבשה (EWG Verified), שיבולת שועל מרגיעה, ללא בישום",
+    "name": "מרכך שיער לקרקפת רגישה ויבשה – שיבולת שועל מרגיעה (Soothing Oat) נוסחה עדינה במיוחד (Extra Gentle) | ללא בישום | מסייע בהתרת קשרים ונבדק דרמטולוגית",
     "size": "32 fl oz",
     "categories": [
       "hair"
@@ -2388,7 +2395,7 @@
   {
     "id": "attitude-b09s2xbshn",
     "brand": "attitude",
-    "name": "שמפו מוצק לנפח וברק (EWG Verified), פריחת תפוז ואקליפטוס",
+    "name": "שמפו בר (מוצק) לנפח וברק – חלבון סויה וחימר אדום לשיער דק וחסר חיוניות | מאושר בתקן EWG | ניחוח פריחת תפוז ואקליפטוס",
     "size": "4 oz",
     "categories": [
       "hair"
@@ -2415,7 +2422,7 @@
   {
     "id": "attitude-b0c15qw2q1",
     "brand": "attitude",
-    "name": "סבון גוף מוצק (EWG Verified), מרווה ורוזמרין",
+    "name": "סבון גוף מוצק (בר) להגנה וריכוך – מרווה ורוזמרין על בסיס שמן קוקוס ושמן זית | לעור יבש | מאושר בתקן EWG | לנשים ולגברים",
     "size": "4 oz",
     "categories": [
       "body"
@@ -2442,9 +2449,11 @@
   {
     "id": "attitude-b0f7shjm5p",
     "brand": "attitude",
-    "name": "סבון גוף מוצק לגבר (EWG Verified) עם שמן אבוקדו, אקליפטוס ומרווה (מארז 6)",
+    "name": "מארז 6 סבונים מוצקים לגבר – לגוף ולידיים 99% רכיבים ממקור טבעי עם שמן אבוקדו | מאושר בתקן EWG | ניחוח אקליפטוס ומרווה",
     "size": "4 oz (מארז 6)",
     "categories": [
+      "men"
+      "soap"
       "body"
     ],
     "isVegan": true,
@@ -2470,7 +2479,7 @@
   {
     "id": "attitude-b0f7t7xvhn",
     "brand": "attitude",
-    "name": "סבון גוף מוצק (EWG Verified) קוקוס ופירות יער (מארז 6)",
+    "name": "מארז 6 סבונים מוצקים להגנה וריכוך – קוקוס ופירות יער מועשר בשמן זית ותמציות עלי מורסן והודית | לעור יבש | מאושר בתקן EWG",
     "size": "4 oz (מארז 6)",
     "categories": [
       "body"
@@ -2487,7 +2496,7 @@
         "url": "https://www.amazon.com/ATTITUDE-Natural-Protects-Watercress-Verified/dp/B0F7T7XVHN?tag=nocrueltyil-20",
         "asin": "B0F7T7XVHN",
         "currency": "USD",
-        "priceUSD": 38.32,
+        "priceUSD": 38.94,
         "freeShipOver": 49
       }
     ],
@@ -2497,10 +2506,11 @@
   {
     "id": "attitude-b0fj9vmk3k",
     "brand": "attitude",
-    "name": "סבון ידיים מוקצף לילדים (EWG Verified) אבטיח וקוקו (מארז 3)",
+    "name": "מארז שלישיית סבוני ידיים קצף לילדים – אבטיח וקוקוס מאושר בתקן EWG | נבדק דרמטולוגית | על בסיס רכיבים מהצומח ומינרלים",
     "size": "10 fl oz (מארז 3)",
     "categories": [
-      "face"
+      "kids"
+      "soap"
     ],
     "isVegan": true,
     "isPeta": true,
@@ -2524,9 +2534,10 @@
   {
     "id": "attitude-b0fqdx4wby",
     "brand": "attitude",
-    "name": "שמפו + מרכך 2‑ב‑1 לגבר (EWG Verified), אקליפטוס ומרווה (מארז 3)",
+    "name": "מארז שלישיית שמפו ומרכך 2-ב-1 לגבר – אקליפטוס ומרווה טיפול בקרקפת שומנית והסרת הצטברות לכלוך | 97% רכיבים ממקור טבעי | מאושר EWG",
     "size": "14 fl oz (מארז 3)",
     "categories": [
+      "men",
       "hair"
     ],
     "isVegan": true,
@@ -2541,7 +2552,7 @@
         "url": "https://www.amazon.com/ATTITUDE-Conditioner-Ingredients-Verified-Eucalyptus/dp/B0FQDX4WBY?tag=nocrueltyil-20",
         "asin": "B0FQDX4WBY",
         "currency": "USD",
-        "priceUSD": 33.63,
+        "priceUSD": 34.08,
         "freeShipOver": 49
       }
     ],
@@ -2552,7 +2563,7 @@
   {
     "id": "below-60-b0dw21ly6b",
     "brand": "below 60",
-    "name": "נר ריחני על בסיס שמן אתרי עשוי בעבודת יד משעוות סויה ללא פרפין  זמן בעירה 50 שעות תפוז וג'ינג'ר",
+    "name": "נר ריחני בעבודת יד – Orange & Ginger שעוות סויה ללא פרפין | שמנים אתריים טבעיים | 50 שעות בעירה | ניחוח תפוז וג'ינג'ר",
     "size": "10oz",
     "categories": [
       "home",
@@ -2709,37 +2720,9 @@
     "image": "assets/img/products/B08FHT6PCH.jpg"
   },
   {
-    "id": "blume-b0d2ln96r3",
-    "brand": "blume",
-    "name": "מסנן קרינה מינרלי Sunburst SPF 50 – Broad Spectrum – מסנן עם Zinc Oxide ו-Niacinamide – לחותי ומרגיע לעור רגיש",
-    "size": "1.7 oz",
-    "categories": [
-      "face",
-      "sun"
-    ],
-    "isVegan": true,
-    "isPeta": false,
-    "isLB": true,
-    "priceMin": 120,
-    "priceMax": 140,
-    "offers": [
-      {
-        "store": "amazon-us",
-        "storeLabel": "Amazon ארה\"ב",
-        "url": "https://www.amazon.com/dp/B0D2LN96R3?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.3UDJHNQLRIU5A&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.3UDJHNQLRIU5A_1769106630406",
-        "asin": "B0D2LN96R3",
-        "currency": "USD",
-        "priceUSD": 36.0,
-        "freeShipOver": 49
-      }
-    ],
-    "isKids": false,
-    "image": "assets/img/products/B0D2LN96R3.jpg"
-  },
-  {
     "id": "blume-b0fhst1k1c",
     "brand": "blume",
-    "name": "שמן פנים Meltdown עם Blue Tansy – טיפול לאקנה והקטנת נקבוביות – סרום מרגיע עם Black Cumin Seed ו-Rosehip Oil",
+    "name": "שמן פנים Blue Tansy – לטיפול בפגמי עור וכיווץ נקבוביות סרום לשיפור מרקם העור | מועשר בשמן כמון שחור ורוז היפ | להרגעת אדמומיות",
     "size": "1 fl oz",
     "categories": [
       "hair",
@@ -2757,7 +2740,7 @@
         "url": "https://www.amazon.com/dp/B0FHST1K1C?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.3UDJHNQLRIU5A&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.3UDJHNQLRIU5A_1769106490693",
         "asin": "B0FHST1K1C",
         "currency": "USD",
-        "priceUSD": 47.0,
+        "priceUSD": 45.58,
         "freeShipOver": 49
       }
     ],
@@ -2767,8 +2750,8 @@
   {
     "id": "botanic-tree-b01n02jqx8",
     "brand": "botanic tree",
-    "name": "שיזוף ללא שמש",
-    "size": "—",
+    "name": "Self Tanner – תחליב שיזוף עצמי למראה טבעי וזוהר לפנים ולגוף | מבוסס על רכיבים מהצומח | לתוצאה אחידה ללא חשיפה לשמש",
+    "size": "170ml",
     "categories": [
       "body",
       "self-tan"
@@ -2795,7 +2778,7 @@
   {
     "id": "botanic-tree-b088tvzy8q",
     "brand": "botanic tree",
-    "name": "ג׳ל ניקוי לפנים – ויטמין סי",
+    "name": "סבון פנים ויטמין C – לניקוי עמוק, הבהרה וחידוש העור מתאים לכל סוגי העור | לטיפול בסימני גיל, יובש ופגמי עור | לנשים ולגברים",
     "size": "170ml",
     "categories": [
       "face",
@@ -2823,7 +2806,7 @@
   {
     "id": "botanic-tree-b0bch93xv6",
     "brand": "botanic tree",
-    "name": "ג׳ל ניקוי פנים פילינג עדין עם קומבוצ׳ה וחומצה גליקולית",
+    "name": "סבון פנים קומבוצ'ה וחומצה גליקולית – לחידוש ומילוי עור בוגר אפקט "ליפופילינג" למראה עור מלא | פילינג עדין | מועשר בפרוביוטיקה ונוגדי חמצון",
     "size": "170ml",
     "categories": [
       "face",
@@ -2878,7 +2861,7 @@
   {
     "id": "earth-harbor-b086w2s5lv",
     "brand": "earth harbor",
-    "name": "אמפולה מבהירה – MARINA",
+    "name": "אמפולת MARINA להבהרה ואיזון – Biome Brightening Ampoule פורמולה עוצמתית לחידוש העור | טנסי כחול + ספירולינה + סקוואלאן",
     "size": "30 ml",
     "categories": [
       "skincare",
@@ -2907,7 +2890,7 @@
   {
     "id": "earth-harbor-b086w38sxx",
     "brand": "earth harbor",
-    "name": "סרום לחות רב-תכליתי – SIREN",
+    "name": "קרם לחות SIREN SILK – טיפול רב-תכליתי להזנה עמוקה מרקם קטיפתי למראה עור קורן | לחות אינטנסיבית ושיקום | רכיבים מהצומח",
     "size": "60 ml",
     "categories": [
       "skincare",
@@ -2964,7 +2947,7 @@
   {
     "id": "e-l-f-b0f8vnkwkg",
     "brand": "elf",
-    "name": "מארז שמני שפתיים מבריקים ומנפחים – סדרת גלו רבייבר – להברקה, שמן חוחובה",
+    "name": "קיט שמן שפתיים Glow Reviver – למראה מלא, זוהר ומזין מארז 4 גוונים עם אפקט Plumping | מועשר בשמן חוחובה | גימור High-Shine",
     "size": "5.28 ounces מארז 4 גוונים",
     "categories": [
       "makeup",
@@ -3071,8 +3054,8 @@
   {
     "id": "emani-b000j0zfds",
     "brand": "emani",
-    "name": "פריימר Perfect 10 – בסיס החלקה לעור רגיש – משמש גם כסרום לחות",
-    "size": "—",
+    "name": "Perfect 10 – פריימר All-in-One וסרום לחות בסיס מושלם לאיפור | מותאם לעור רגיש ובטוח לעור אקנתי | מחליק ומאחד את מרקם העור",
+    "size": "35ml",
     "categories": [
       "makeup",
       "face"
@@ -3089,8 +3072,7 @@
         "url": "https://www.amazon.com/dp/B000J0ZFDS?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1Z0EJ9EBLFTRD&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.1Z0EJ9EBLFTRD_1769107020953",
         "asin": "B000J0ZFDS",
         "currency": "USD",
-        "priceUSD": 29.97,
-        "freeShipOver": 49
+        "priceUSD": 29.97
       }
     ],
     "isKids": false,
@@ -3153,7 +3135,7 @@
   {
     "id": "emani-b002y24nh8",
     "brand": "emani",
-    "name": "מייקאפ Youth Defense עם Hyaluronic Acid – כיסוי מלא ואנטי-אייג׳ינג – מגן ומבהיר גוון עור – Medium Light",
+    "name": "מייק-אפ Youth Defense עם חומצה היאלורונית – גוון Medium Light כיסוי מלא ואפקט אנטי-אייג'ינג | מטפל בפיגמנטציה ומבהיר את העור",
     "size": "35ml",
     "categories": [
       "makeup",
@@ -3181,7 +3163,7 @@
   {
     "id": "emani-b0075xafq4",
     "brand": "emani",
-    "name": "סרום לילה Sleep & Renew – פרוביוטיקה מותססת לאנטי-אייג׳ינג",
+    "name": "סרום לילה Sleep and Renew – לחידוש ושיקום עור בוגר פורמולה אנטי-אייג'ינג לצמצום קמטים | מועשר בפרוביוטיקה מותססת למראה זוהר",
     "size": "1.18 fl oz",
     "categories": [
       "face"
@@ -3208,8 +3190,8 @@
   {
     "id": "emani-b00jdsa1xq",
     "brand": "emani",
-    "name": "פודרת קיבוע HD Bamboo – מינרלית, ללא טלק – לכל גווני העור",
-    "size": "—",
+    "name": "פודרה מקבעת HD Bamboo – למראה עור חלק ונטול ברק על בסיס מינרלים טבעיים | ללא טלק | מתאימה לכל גווני העור ולעור רגיש",
+    "size": "3.84 ounces",
     "categories": [
       "makeup",
       "face"
@@ -3236,8 +3218,8 @@
   {
     "id": "emani-b07m82s9jr",
     "brand": "emani",
-    "name": "פלטת צלליות Quad – בטוחה לעיניים רגישות – 4 גוונים Venice Beach",
-    "size": "—",
+    "name": "רביעיית צלליות מינרליות – גוני Venice Beach (זהב ואדמה) נוסחה בטוחה לעיניים רגישות | פיגמנט עשיר ועמיד | 4 גוונים הרמוניים",
+    "size": "1.76 ounces",
     "categories": [
       "makeup",
       "face"
@@ -3264,8 +3246,8 @@
   {
     "id": "emani-b07q1k4ckd",
     "brand": "emani",
-    "name": "פריימר Miracle 7-ב-1 – ג׳ינסנג + Hyaluronic Acid – החלקת נקבוביות",
-    "size": "—",
+    "name": "Miracle 7-in-1 – פריימר וסרום פנים טיפולי מועשר בג'ינסנג וחומצה היאלורונית | ללא סיליקון | כיווץ נקבוביות והבהרה",
+    "size": "40ml",
     "categories": [
       "makeup",
       "face"
@@ -3292,8 +3274,8 @@
   {
     "id": "emani-b09ysxh8q5",
     "brand": "emani",
-    "name": "סרום Halo Collagen – פפטידים ואפקט אנטי-אייג׳ינג",
-    "size": "—",
+    "name": "סרום קולגן ופפטידים – למיצוק וחידוש עור הפנים Collagen Boost לטיפול בקמטים וקמטוטים | משפר את מרקם העור | פורמולה מרוכזת",
+    "size": "1.18 fl oz",
     "categories": [
       "face"
     ],
@@ -3319,8 +3301,8 @@
   {
     "id": "emani-b0drdf25g6",
     "brand": "emani",
-    "name": "קרם עיניים Hello Bright Eyes – ויטמין C + קפאין – להפחתת כהויות ונפיחות",
-    "size": "—",
+    "name": "קרם עיניים Hello Bright Eyes – ויטמין C וקפאין למראה ערני וזוהר להפחתת נפיחות ועיגולים שחורים | מועשר בכורכום להבהרה | אפקט מיצוק והחלקה",
+    "size": "30ml",
     "categories": [
       "face"
     ],
@@ -3400,7 +3382,7 @@
   {
     "id": "freck-beauty-b0bn4j254r",
     "brand": "freck beauty",
-    "name": "עט הנמשים המקורי XL  נמשים דמויי עור טבעיים ניתנים לבנייה ועמידים לאורך זמן עם פורמולה נקייה וטבעונית, כל גווני העור XL בהיר/בינוני",
+    "name": "עט נמשים The Original Freckle Pen – גודל XL למראה נמשים טבעי ואופנתי | עמיד לאורך זמן | גוון Light/Medium",
     "size": "0.46 ounces",
     "categories": [
       "makeup",
@@ -3429,8 +3411,8 @@
   {
     "id": "functionofbeauty-b0chmytnh5",
     "brand": "function of beauty",
-    "name": "סט שמפו + מרכך XL לשיער גלי – ללא סולפטים – קליל, אנטי-פריז, מחזק ומעניק לחות לשיער גלי טבעי",
-    "size": "—",
+    "name": "מארז XL שמפו ומרכך לשיער גלי – ללא סולפטים להגדרה טבעית של הגלים | פורמולה קלילה נגד קרזול (Anti-Frizz) | לחיזוק והזנה",
+    "size": "22 Fl Oz (Pack of 2)",
     "categories": [
       "hair"
     ],
@@ -3446,7 +3428,7 @@
         "url": "https://www.amazon.com/dp/B0CHMYTNH5?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1LCK8QE9DX4HD&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.1LCK8QE9DX4HD_1769106384545",
         "asin": "B0CHMYTNH5",
         "currency": "USD",
-        "priceUSD": 34.32,
+        "priceUSD": 34.17,
         "freeShipOver": 49
       }
     ],
@@ -3562,7 +3544,7 @@
   {
     "id": "good-light-b095jb7v5x",
     "brand": "good light",
-    "name": "טיפול אולטרה-קל עם ניאצינמיד וסרמידים",
+    "name": "Moon Glow Milky Toner – טונר חלבי למראה Glass Skin פורמולה קוריאנית מתקדמת | ניאצינמיד, סרמידים וחומצות AHA | ללא בישום",
     "size": "3.38 Fl. Oz.",
     "categories": [
       "טיפוח עור",
@@ -3646,7 +3628,7 @@
   {
     "id": "good-light-b0bc9sjt55",
     "brand": "good light",
-    "name": "סרום חומצה היאלורונית לשיקום עור יבש",
+    "name": "Order of the Eclipse – קרם לחות והזנה עם חומצה היאלורונית פורמולה קוריאנית לעור יבש ורגיש | קרם יום ולילה משקם | לחות אינטנסיבית",
     "size": "1.69 Fl. Oz.",
     "categories": [
       "טיפוח עור",
@@ -3675,7 +3657,7 @@
   {
     "id": "good-light-b0d42v53v5",
     "brand": "good light",
-    "name": "פריימר ומסכת שפתיים לחות ועמידות לאורך זמן עם קולגן וחמאת זרעי מנגו לשפתיים מלאות ולחות cטעם פטל",
+    "name": "Taste of Space Lip Milk – תחליב שפתיים משקם ופריימר עם קולגן וחמאת מנגו לשפתיים מלאות | טעם פטל מרענן | פורמולה קוריאנית",
     "size": "0.15 Fl. Oz",
     "categories": [
       "makeup",
@@ -3703,7 +3685,7 @@
   {
     "id": "good-light-b0dd4s5w4m",
     "brand": "good light",
-    "name": "שמן אלפבית שמן פנים קליל ולא שומני עם פרוביוטיקה של המיקרוביום ושמן חוחובה סרום פרוביוטי קוריאני לטיפוח עור הפנים הצוואר והגוף שמן ויטמין C וויטמין E",
+    "name": "Alphabet Oil – שמן ויטמינים ופרוביוטיקה במרקם קליל מועשר בוויטמין C, E ושמן חוחובה | לחיזוק המיקרוביום | לפנים ולגוף",
     "size": "1 Fl. Oz",
     "categories": [
       "face",
@@ -3722,7 +3704,7 @@
         "url": "https://www.amazon.com/dp/B0DD4S5W4M?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1699UJQRDJKMD&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.1699UJQRDJKMD_1769252670365",
         "asin": "B0DD4S5W4M",
         "currency": "USD",
-        "priceUSD": 28,
+        "priceUSD": 24,
         "freeShipOver": 49
       }
     ],
@@ -3899,8 +3881,8 @@
   {
     "id": "igk-b07cqcb2kh",
     "brand": "igk",
-    "name": "טיפות טונר לשיער ללא שטיפה – סדרת מיקסד פילינגס – טונינג לבלונד",
-    "size": "1 אונקיות",
+    "name": "טיפות MIXED FEELINGS לנטרול גוון צהוב – Leave-In Blonde Toning Drops להבהרה ונטרול "Brass" | התאמה אישית של הגוון | לבלונד קריר וזוהר",
+    "size": "30ml",
     "categories": [
       "hair",
       "toner"
@@ -3917,7 +3899,7 @@
         "url": "https://www.amazon.com/dp/B07CQCB2KH?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2OSR0QJAB9732&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.2OSR0QJAB9732_1769201392830",
         "asin": "B07CQCB2KH",
         "currency": "USD",
-        "priceUSD": 25.9,
+        "priceUSD": 27.51,
         "freeShipOver": 49
       }
     ],
@@ -3954,8 +3936,8 @@
   {
     "id": "igk-b08hy9c5p6",
     "brand": "igk",
-    "name": "ספריי הכנה לשיער – סדרת גוד ביהייביור – הגנה מחום",
-    "size": "—",
+    "name": "ספריי הכנה GOOD BEHAVIOR 4-in-1 – טיפול רב-תכליתי לשיער מתיר קשרים + הגנה מחום + הזנה ללא שטיפה | למראה חלק ונטול קרזול",
+    "size": "207ml",
     "categories": [
       "hair",
       "spray"
@@ -3972,7 +3954,7 @@
         "url": "https://www.amazon.com/dp/B08HY9C5P6?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2OSR0QJAB9732&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.2OSR0QJAB9732_1769201331033",
         "asin": "B08HY9C5P6",
         "currency": "USD",
-        "priceUSD": 30.6,
+        "priceUSD": 32.16,
         "freeShipOver": 49
       }
     ],
@@ -3982,8 +3964,8 @@
   {
     "id": "igk-b08vt16d8f",
     "brand": "igk",
-    "name": "טיפול גלוס לשיער – סדרת אקספנסיב – להברקה",
-    "size": "—",
+    "name": "Clear Hair Gloss – טיפול גלוס שקוף לברק עוצמתי אפקט Glass Hair למראה שיער משי | מעטפת הגנה והחלקה | גימור מקצועי ומבריק",
+    "size": "124ml",
     "categories": [
       "hair",
       "treatment"
@@ -4010,8 +3992,8 @@
   {
     "id": "igk-b091md9d7z",
     "brand": "igk",
-    "name": "שמפו לשיער – סדרת לג׳נדרי דרים הייר – להברקה, לחות",
-    "size": "—",
+    "name": "שמפו Dream Hair – לשיער חזק, רווי בלחות וזוהר פורמולה משקמת למראה בריא | הידרציה עמוקה | ברק קריסטלי",
+    "size": "238ml",
     "categories": [
       "hair",
       "shampoo"
@@ -4038,8 +4020,8 @@
   {
     "id": "igk-b091mk3x2t",
     "brand": "igk",
-    "name": "מרכך לשיער – סדרת לג׳נדרי דרים הייר – להברקה, לחות",
-    "size": "—",
+    "name": "מרכך Dream Hair – לשיער רך, גמיש וזוהר במיוחד הזנה עמוקה למראה בריא | הידרציה מתמשכת | גימור משי קטיפתי",
+    "size": "236ml",
     "categories": [
       "hair",
       "conditioner"
@@ -4066,8 +4048,8 @@
   {
     "id": "igk-b09hnm2mqh",
     "brand": "igk",
-    "name": "שמפו לשיער – סדרת אקסטרה לאב – נפח ועיבוי",
-    "size": "236 מ״ל / 8 אונקיות",
+    "name": "שמפו Extra Love לנפח ועיבוי השיער מעניק גוף ומלאות מהשורש | למראה שיער עבה ושופע | נוסחה קלילה ומרימה",
+    "size": "236ml",
     "categories": [
       "hair",
       "shampoo"
@@ -4094,8 +4076,8 @@
   {
     "id": "igk-b09hnnb9lz",
     "brand": "igk",
-    "name": "מרכך לשיער – סדרת אקסטרה לאב – נפח ועיבוי",
-    "size": "—",
+    "name": "מרכך לנפח ועיבוי השיער – פורמולה קלילה ומאזנת מעניק גוף ומלאות לשיער | תומך בבריאות הקרקפת | לאיזון רמת השומניות",
+    "size": "236ml",
     "categories": [
       "hair",
       "conditioner"
@@ -4122,8 +4104,8 @@
   {
     "id": "igk-b09w6l59zg",
     "brand": "igk",
-    "name": "סרום לשיער – סדרת קאש אין – שיקום וקצוות, הגנה מחום",
-    "size": "1.7 אונקיות",
+    "name": "סרום Instant Repair לשיקום מיידי – הגנה משבירה ואיחוי קצוות מגן מפני חום (Heat Protection) | אוטם קצוות מפוצלים | למראה שיער חזק ובריא",
+    "size": "50ml",
     "categories": [
       "hair",
       "serum"
@@ -4284,8 +4266,8 @@
   {
     "id": "igk-b0ct9s1brm",
     "brand": "igk",
-    "name": "שמפו לשיער – סדרת מור לייף – להברקה, שמירה על צבע",
-    "size": "8 אונקיות",
+    "name": "שמפו Color Extending Gloss – להארכת חיי הצבע וברק אינטנסיבי נועל את הפיגמנט למניעת דהייה | אפקט גלוס זוהר | ללא סולפטים",
+    "size": "236ml",
     "categories": [
       "hair",
       "shampoo"
@@ -4312,8 +4294,8 @@
   {
     "id": "igk-b0ctb4fd9m",
     "brand": "igk",
-    "name": "מרכך לשיער – סדרת מור לייף – להברקה, שמירה על צבע",
-    "size": "8 Fl Oz",
+    "name": "מרכך Color Extending Gloss – לשימור הצבע וברק מראה נועל לחות ופיגמנט | מונע דהייה ומעניק רכות | אפקט גלוס משקם",
+    "size": "236ml",
     "categories": [
       "hair",
       "conditioner"
@@ -4340,8 +4322,8 @@
   {
     "id": "igk-b0db2nfcjx",
     "brand": "igk",
-    "name": "IGK MORE LIFE Color Extending Gloss סט שמפו ומרכך | Preserves Color + Enhances Shine | UV Protection | טבעוני + ללא ניסויים בבעלי חיים | 8 oz (מארז זוגי)",
-    "size": "8 oz",
+    "name": "מארז שמפו ומרכך Color Extending Gloss – סט הגנה וברק לצבע השיער שומר על חיוניות הצבע | הגנת UV למניעת דהייה | אפקט ברק מראה (Mirror Shine)",
+    "size": "236ml X 2",
     "categories": [
       "hair",
       "sun"
@@ -4411,9 +4393,8 @@
         "url": "https://www.amazon.com/dp/B0DQQDL7N2?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.3RQWWQ6OEP5KO&linkCode=tr1&tag=nocrueltyil-20&linkId=amzn1.campaign.3RQWWQ6OEP5KO_1769180208340",
         "asin": "B0DQQDL7N2",
         "currency": "USD",
-        "priceUSD": 55.1,
-        "freeShipOver": 49
-      }
+        "priceUSD": 54.70,
+"freeShipToIsrael": true      }
     ],
     "isKids": false,
     "image": "assets/img/products/B0DQQDL7N2.jpg"
@@ -4476,8 +4457,8 @@
   {
     "id": "igk-b0f5ynsgnx",
     "brand": "igk",
-    "name": "סרום לשיער – סדרת גוד ביהייביור – נגד פריז, להברקה, הגנה מחום, הגנת UV",
-    "size": "1.3 אונקיות",
+    "name": "Anti-Frizz Smoothing Serum – סרום מחליק ומגן מפני לחות מעניק ברק עוצמתי | הגנת UV וחום | לשיער יבש, מרדני ונוטה לקרזול",
+    "size": "50ml",
     "categories": [
       "hair",
       "serum"
@@ -4504,8 +4485,8 @@
   {
     "id": "igk-b0fhqm8l7c",
     "brand": "igk",
-    "name": "סטיק להחלקת פריז ושערות סוררות – סדרת גוד ביהייביור – נגד פריז",
-    "size": "0.24 אונקיות",
+    "name": "מוליך הפלא לאילוף שערות סוררות – Frizz & Flyaway Taming Wand סטיק ג'ל קליל למראה מהודק (Sleek) | שליטה בקרזול ובשוונצים | גימור חלק ומקצועי",
+    "size": "13.5ml",
     "categories": [
       "hair",
       "styling"
@@ -4532,7 +4513,7 @@
   {
     "id": "lilyana-b00lv5ny3i",
     "brand": "lilyana naturals",
-    "name": "קרם לחות לפנים ולצוואר – Rose & Pomegranate (מתאים לנשים וגברים)",
+    "name": "קרם לחות והבהרה לפנים ולצוואר – נוסחת ורדים ורימונים טיפול אינטנסיבי לעור יבש | הבהרת כתמי עור | מועשר בנוגדי חמצון | לנשים ולגברים",
     "size": "1.7 oz",
     "categories": [
       "face"
@@ -4559,7 +4540,7 @@
   {
     "id": "lilyana-b00lv6vdg2",
     "brand": "lilyana naturals",
-    "name": "קרם עיניים LilyAna לעיגולים שחורים ונפיחות",
+    "name": "קרם עיניים טיפולי Anti-Aging – לכהויות, נפיחות וקמטוטים מרגיע "שקיות" תחת העיניים | הזנה אינטנסיבית לעור יבש | מותאם לעור רגיש",
     "size": "1.7 oz",
     "categories": [
       "face"
@@ -4613,8 +4594,8 @@
   {
     "id": "lilyana-b08gty479f",
     "brand": "lilyana naturals",
-    "name": "סרום ויטמין C לפנים – מארז כפול (עם חומצה היאלורונית וויטמין E)",
-    "size": "מארז כפול",
+    "name": "מארז כפול: סרום ויטמין C עוצמתי לפנים – Anti-Aging & Brightening עם חומצה היאלורונית וויטמין E | לטיפול בכתמי שמש וגיל | לעידוד קולגן ואלסטין",
+    "size": "30g X 2",
     "categories": [
       "face"
     ],
@@ -4666,7 +4647,7 @@
   {
     "id": "lilyana-b08l463dz6",
     "brand": "lilyana naturals",
-    "name": "פילינג פנים פחם פעיל – Charcoal Face Scrub (לבנדר + עץ התה)",
+    "name": "פילינג פחם פעיל לחידוש עור הפנים – אפקט Microdermabrasion ניקוי עמוק וניקוז רעלים | מועשר בלבנדר ושמן עץ התה | לעור חלק ורענן | לנשים ולגברים",
     "size": "3 oz",
     "categories": [
       "face"
@@ -4746,7 +4727,7 @@
   {
     "id": "lilyana-b0d1w229g3",
     "brand": "lilyana naturals",
-    "name": "קרם עיניים LilyAna לעיגולים שחורים ונפיחות (לעור רגיש)",
+    "name": "קרם עיניים משקם: טיפול בכהויות, נפיחות וסימני גיל פורמולה מרגיעה לעור רגיש | טשטוש קמטוטים ו"שקיות" | לחות עמוקה למבט רענן",
     "size": "1.7 oz",
     "categories": [
       "face"
@@ -4853,7 +4834,7 @@
   {
     "id": "madhippie-b00dkf7xpw",
     "brand": "mad hippie",
-    "name": "סרום Vitamin C לפנים – עם Hyaluronic Acid, Ferulic Acid ו-Vitamin E – אנטי אייג'ינג וזוהר עור",
+    "name": "סרום ויטמין C עוצמתי – קומפלקס חומצה פרולית והיאלורונית Glow Up Essentials | פורמולת אנטי-אייג'ינג מתקדמת | למראה עור זוהר, מוצק ואחיד",
     "size": "1.02 oz",
     "categories": [
       "face"
@@ -4933,7 +4914,7 @@
   {
     "id": "made-by-dentists-b0dm6qwlsh",
     "brand": "made by dentists",
-    "name": "משחת שיניים מקצועית לשיקום - חבילה של 2 (Rebuilding)",
+    "name": "מארז זוגי: משחת שיניים מקצועית לשיקום האמייל נוסחת נאנו-הידרוקסיאפטיט (nHAp) ופלואוריד | מאושר ADA | לחיזוק השן ומניעת רגישות",
     "size": "2 x 4.2oz",
     "categories": [
       "oral-care",
@@ -4962,7 +4943,7 @@
   {
     "id": "made-by-dentists-b0f3jptkc4",
     "brand": "made by dentists",
-    "name": "מברשת שיניים חשמלית לילדים (נטענת) עם טיימר – כולל 6 ראשים – דוגמת Cheetah",
+    "name": "מברשת שיניים חשמלית נטענת לילדים – עיצוב צ'יטה ספורטיבי עם טיימר מובנה | כולל 6 ראשי מברשת להחלפה | ניקוי עדין ומרטט | לגילאי +2",
     "size": "כולל 6 ראשים",
     "categories": [
       "teeth",
@@ -5044,7 +5025,7 @@
   {
     "id": "melixir-b08xxgbk6f",
     "brand": "melixir",
-    "name": "שפתון לחות מזין על בסיס צמחי (בסטייל “פטרולטום”)",
+    "name": "חמאת שפתיים Lip Butter (גוון #03 Red Velvet) – לחות וצבע טבעי פורמולה טבעונית (Plant-Based) | עשיר בחמאת שיאה | ללא וזלין ושעוות דבורים",
     "size": "0.14 ounces",
     "categories": [
       "skincare",
@@ -5206,8 +5187,8 @@
   {
     "id": "mented-cosmetics-b09fz4d72h",
     "brand": "mented cosmetics",
-    "name": "Mented Cosmetics פריימר Stick, מייקאפ-Free Mattifying פריימר ל נקבוביות Invisible Finish, מלחלח Translucent Makeup, פנים Make up Essentials, Ideal Blur Stick ל",
-    "size": "—",
+    "name": "סטיק פריימר למראה עור אחיד ומט – Pore Invisible Finish מטשטש נקבוביות (Blur Effect) | ללא צורך במייק-אפ | לחות שקופה למראה פנים מושלם",
+    "size": "10g",
     "categories": [
       "makeup",
       "face"
@@ -5260,8 +5241,8 @@
   {
     "id": "mented-cosmetics-b09fz4qx8v",
     "brand": "mented cosmetics",
-    "name": "Mented Cosmetics Liquid שפתון ל נשים, Velvet Matte Red שפתון, עמיד במים גלוס, Tint, Stain עמיד לאורך זמן מלחלח מלחלח, עמיד לטשטוש, טבעוני, Hot Date",
-    "size": "—",
+    "name": "שפתון נוזלי Velvet Matte (גוון Hot Date) – אדום לוהט ועמיד במיוחד עמיד במים (Waterproof) | ללא מריחות (Smudgeproof) | טבעוני ומעניק לחות",
+    "size": "0.63 ounces",
     "categories": [
       "makeup",
       "hair"
@@ -5288,8 +5269,8 @@
   {
     "id": "mented-cosmetics-b09lmnl4dp",
     "brand": "mented cosmetics",
-    "name": "Mented Cosmetics פלטת צלליות Nude ו Dark Eyeshadows, טבעוני, Paraben-Free ללא ניסויים בבעלי חיים Makeup, מיוצר בארה״ב, Neutral ו Dark Glam צללית, 17g/0.63oz, 1",
-    "size": "17g/0.63oz",
+    "name": "פלטת 10 צלליות Everynight – מניוד טבעי ועד גלאם דרמטי פיגמנט עוצמתי | שילוב גוונים ניטרליים וכהים | ללא פראבנים | למראה יום ולילה",
+    "size": "17g",
     "categories": [
       "makeup",
       "eyes"
