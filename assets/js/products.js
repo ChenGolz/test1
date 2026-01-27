@@ -38,6 +38,28 @@ const onlyIsrael = qs("#onlyIsrael");
     return String(str ?? "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
+  function formatBrandDisplay(brand) {
+    const b = String(brand ?? "").trim();
+    if (!b) return "";
+    // If the brand already contains Hebrew, keep it as-is.
+    if (/[א-ת]/.test(b)) return b;
+
+    const cleaned = b.replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim();
+    return cleaned
+      .split(" ")
+      .filter(Boolean)
+      .map((w) => {
+        // Keep pure numbers as-is
+        if (/^\d+$/.test(w)) return w;
+        // Keep short acronyms (e.g., "A.P.") as-is
+        if (w.length <= 2 && w === w.toUpperCase()) return w;
+        return w[0].toUpperCase() + w.slice(1);
+      })
+      .join(" ");
+  }
+
+
+
 
   
   function cleanupProductName(name, brand) {
@@ -203,10 +225,94 @@ function normalizeProduct(p) {
 
   // --- קטגוריות לוגיות בסיסיות (JS) ---
   const CAT_ALIASES = {
+    // Face / skincare
+    skincare: "face",
+    skin: "face",
+    face: "face",
+    facial: "face",
+    facecream: "face",
+    moisturizer: "face",
+    serum: "face",
+    toner: "face",
+    cleanser: "face",
+    mask: "face",
+    acne: "face",
+    mist: "face",
+    spray: "face",
+
+    // Hair
+    hair: "hair",
+    scalp: "hair",
+    shampoo: "hair",
+    conditioner: "hair",
+    styling: "hair",
+    treatment: "hair",
+
+    // Body
+    body: "body",
+    deodorant: "body",
+    "self-tan": "body",
+
+    // Makeup / tools
+    makeup: "makeup",
+    cosmetics: "makeup",
+    eyes: "makeup",
+    eyeshadow: "makeup",
+    mascara: "makeup",
+    blush: "makeup",
+    lips: "makeup",
+    "lip-balm": "makeup",
+    freckles: "makeup",
+    brush: "makeup",
+    tools: "makeup",
+
+    // Sun
+    sun: "sun",
+    sunscreen: "sun",
+    spf: "sun",
+
+    // Teeth / oral care
+    teeth: "teeth",
+    oral: "teeth",
+    "oral-care": "teeth",
+    toothpaste: "teeth",
+
+    // Fragrance
     fragrances: "fragrance",
     perfume: "fragrance",
     perfumes: "fragrance",
-    frag: "fragrance"
+    frag: "fragrance",
+
+    // Kids / baby
+    baby: "baby",
+    kids: "baby",
+
+    // Home (fallback -> body for now? keep distinct, will be handled by name keywords)
+    home: "body",
+    cleaning: "body",
+
+    // Hebrew synonyms that sometimes appear in categories
+    "טיפוח עור": "face",
+    "פנים": "face",
+    "קרם לחות": "face",
+    "קרם יום": "face",
+    "קרם לילה": "face",
+    "קרם ניקוי": "face",
+    "סרום": "face",
+    "פילינג": "face",
+    "ניקוי": "face",
+
+    "שיער": "hair",
+    "שמפו": "hair",
+    "מרכך": "hair",
+    "שמן": "hair",
+    "טיפול": "hair",
+
+    "איפור": "makeup",
+    "קונטור": "makeup",
+    "באלם": "makeup",
+
+    "הבהרה": "teeth"
   };
   function normCat(v) {
     const s = String(v ?? "").trim().toLowerCase();
@@ -233,6 +339,12 @@ function normalizeProduct(p) {
 
   function getPrimaryCategoryKey(p) {
     const cats = getCatsRaw(p);
+
+    // Choose the first *known* base category (so "skincare", "cleanser", "treatment", "kit", etc. won't become "אחר").
+    const priority = ["face", "hair", "body", "makeup", "fragrance", "sun", "teeth", "baby", "mens-care"];
+    for (const key of priority) {
+      if (cats.includes(key)) return key;
+    }
     return cats[0] || "";
   }
 
@@ -504,7 +616,10 @@ function normalizeProduct(p) {
           "body wash"
         ])
       ) {
-        return "סבונים ודאודורנטים";
+        if (containsAny(lower, ["deodorant", "דאודורנט"])) return "דאודורנט";
+      if (containsAny(lower, ["body wash", "shower", "wash", "gel", "סבון גוף"])) return "סבון גוף";
+      if (containsAny(lower, ["soap", "bar soap", "סבון"])) return "סבון";
+      return "סבונים";
       }
       if (
         containsAny(lower, [
@@ -562,12 +677,39 @@ function normalizeProduct(p) {
 
     // הלבנה וטיפוח השיניים
     if (group === "הלבנה וטיפוח השיניים") {
-      return "הלבנה וטיפוח השיניים";
+      if (containsAny(lower, ["toothpaste", "משחת שיניים"])) return "משחת שיניים";
+      if (
+        containsAny(lower, [
+          "whitening",
+          "bleach",
+          "carbamide",
+          "peroxide",
+          "הלבנה",
+          "הבהרה"
+        ])
+      )
+        return "הלבנת שיניים";
+      if (containsAny(lower, ["mouthwash", "מי פה"])) return "מי פה";
+      if (containsAny(lower, ["toothbrush", "brush", "מברשת"])) return "מברשת שיניים";
+      return "טיפוח השיניים";
     }
 
     // טיפוח לגבר
     if (group === "טיפוח לגבר") {
-      return "טיפוח לגבר";
+      // Try to infer the real product type (not just the audience segment)
+      if (containsAny(lower, ["dry shampoo", "שמפו יבש"])) return "שמפו יבש";
+      if (containsAny(lower, ["shampoo", "שמפו"])) return "שמפו";
+      if (containsAny(lower, ["conditioner", "מרכך"])) return "מרכך";
+      if (containsAny(lower, ["hair mask", "מסכת שיער", "מסכה"])) return "מסכת שיער";
+      if (containsAny(lower, ["scalp serum", "סרום לקרקפת", "סרום קרקפת", "serum"]))
+        return "סרום";
+      if (containsAny(lower, ["deodorant", "דאודורנט"])) return "דאודורנט";
+      if (containsAny(lower, ["body wash", "shower", "soap", "סבון גוף", "סבון"]))
+        return "סבון גוף";
+      if (containsAny(lower, ["toothpaste", "משחת שיניים"])) return "משחת שיניים";
+      if (containsAny(lower, ["sunscreen", "spf", "קרם הגנה"])) return "קרם הגנה";
+      if (containsAny(lower, ["cream", "moisturizer", "קרם", "lotion"])) return "קרם לחות";
+      return "מוצרים לגבר";
     }
 
     return "אחר";
@@ -978,9 +1120,8 @@ function normalizeProduct(p) {
 
       const brand = document.createElement("div");
       brand.className = "pBrand";
-      brand.textContent = p.brand || "";
-
-      const typeTitle = getTypeDisplayLabel(p) || getCategoryLabelFromProduct(p) || "";
+      brand.textContent = formatBrandDisplay(p.brand);
+    const typeTitle = getTypeDisplayLabel(p) || getCategoryLabelFromProduct(p) || "";
       const nameFull = cleanupProductName(p.name || "", p.brand || "");
 
       const typeLine = document.createElement("div");
