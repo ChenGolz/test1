@@ -27,6 +27,9 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
       }
+      .tag--sale{
+        font-weight: 700;
+      }
     `;
     document.head.appendChild(style);
   })();
@@ -300,6 +303,79 @@ const onlyIsrael = qs("#onlyIsrael");
   }
 
 
+  // ---------------------------------------------------------------------------
+  // Certifications / labels:
+  // - If the product explicitly defines isVegan / isPeta / isLB (true/false), we use that.
+  // - Otherwise, we auto-fill from data/intl-brands.json by matching the brand name.
+  // - If the brand does not exist in intl-brands, labels are hidden by default.
+  // - Missing params are OK (undefined) — we only show labels when value === true.
+  // ---------------------------------------------------------------------------
+
+  function pickBool() {
+    for (var i = 0; i < arguments.length; i++) {
+      if (typeof arguments[i] === "boolean") return arguments[i];
+    }
+    return undefined;
+  }
+
+  function normalizeBrandKey(v) {
+    return String(v || "")
+      .trim()
+      .toLowerCase()
+      .replace(/&/g, "and")
+      .replace(/\+/g, " ")
+      .replace(/['’`]/g, "")
+      .replace(/[^a-z0-9\u0590-\u05FF ]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function flagsFromIntlBrand(b) {
+    var badges = Array.isArray(b && b.badges) ? b.badges : [];
+    var badgeStr = badges.map(function (x) { return String(x || "").toLowerCase(); }).join(" | ");
+
+    var isLB = /leaping\s*bunny/.test(badgeStr);
+    var isPeta = /\bpeta\b/.test(badgeStr);
+
+    // "vegan" is also a direct boolean in intl-brands.json
+    var isVegan = (typeof (b && b.vegan) === "boolean")
+      ? b.vegan
+      : /\bvegan\b/.test(badgeStr);
+
+    return { isVegan: isVegan, isPeta: isPeta, isLB: isLB };
+  }
+
+  var __KBWG_BRAND_FLAGS = (function () {
+    var arr = Array.isArray(window.INTL_BRANDS) ? window.INTL_BRANDS : [];
+    var map = new Map();
+    for (var i = 0; i < arr.length; i++) {
+      var b = arr[i] || {};
+      var name = b.name || b.brand || b.title || "";
+      var key = normalizeBrandKey(name);
+      if (!key || map.has(key)) continue;
+      map.set(key, flagsFromIntlBrand(b));
+    }
+    return map;
+  })();
+
+  function resolveProductLabels(p) {
+    var brandKey = normalizeBrandKey(p && p.brand ? p.brand : "");
+    var fromBrand = __KBWG_BRAND_FLAGS.get(brandKey);
+
+    return {
+      isVegan: (typeof p.isVegan === "boolean") ? p.isVegan : (fromBrand ? fromBrand.isVegan : undefined),
+      isPeta: (typeof p.isPeta === "boolean") ? p.isPeta : (fromBrand ? fromBrand.isPeta : undefined),
+      isLB: (typeof p.isLB === "boolean") ? p.isLB : (fromBrand ? fromBrand.isLB : undefined)
+    };
+  }
+
+  function enrichProductWithBrandLabels(p) {
+    var labels = resolveProductLabels(p || {});
+    return Object.assign({}, p, { __labels: labels });
+  }
+
+
+
 function normalizeProduct(p) {
     const offers = Array.isArray(p?.offers) ? p.offers : [];
     const storeRegion = String(p?.storeRegion ?? "").toLowerCase();
@@ -307,9 +383,9 @@ function normalizeProduct(p) {
     return {
       ...p,
       // דגלים לוגיים אחידים
-      isLB: Boolean(p?.isLB ?? p?.lb ?? p?.isLeapingBunny),
-      isPeta: Boolean(p?.isPeta ?? p?.peta),
-      isVegan: Boolean(p?.isVegan ?? p?.vegan),
+      isLB: pickBool(p?.isLB, p?.lb, p?.isLeapingBunny),
+      isPeta: pickBool(p?.isPeta, p?.peta),
+      isVegan: pickBool(p?.isVegan, p?.vegan),
       isIsrael: Boolean(p?.isIsrael ?? p?.israel ?? (storeRegion === "il")),
       // offers אחיד (meta, region, freeShipOver)
       offers: offers.map((o) => {
@@ -381,7 +457,8 @@ function normalizeProduct(p) {
   // Source of truth: data/products.json (loaded by products-json-loader.js)
   // Policy: show only Vegan-labeled products.
   const data = dedupeProducts((window.PRODUCTS || []).map(normalizeProduct))
-    .filter((p) => Boolean(p && p.isVegan));
+    .map(enrichProductWithBrandLabels)
+    .filter((p) => Boolean(p && p.__labels && p.__labels.isVegan === true));
 
   function unique(arr) {
     return Array.from(new Set(arr))
@@ -1014,8 +1091,8 @@ function normalizeProduct(p) {
       },
 
       // Approvals
-      () => !onlyLB?.checked || p.isLB,
-      () => !onlyPeta?.checked || p.isPeta,
+      () => !onlyLB?.checked || (p.__labels && p.__labels.isLB === true),
+      () => !onlyPeta?.checked || (p.__labels && p.__labels.isPeta === true),
       () => !onlyIsrael?.checked || p.isIsrael,
       // מוצרים המיועדים לגברים (לא תקף בקטגוריית איפור)
       () => {
@@ -1125,12 +1202,12 @@ function normalizeProduct(p) {
     });
   }
 
-  function tag(label) {
+  function tag(label, extraClass) {
     const s = document.createElement("span");
-    s.className = "tag";
+    s.className = "tag" + (extraClass ? " " + extraClass : "");
     s.textContent = label;
     // Don’t translate certification tags/badges (Weglot)
-    if (/(Leaping Bunny|PETA|Vegan|INTL)/i.test(String(label))) {
+    if (/(Leaping Bunny|PETA|Vegan|INTL|טבעוני)/i.test(String(label))) {
       s.setAttribute("data-wg-notranslate", "true");
       s.classList.add("wg-notranslate");
     }
@@ -1219,9 +1296,10 @@ function normalizeProduct(p) {
       }
 
       const approvals = [];
-      if (p.isPeta) approvals.push("PETA");
-      if (p.isVegan) approvals.push("Vegan");
-      if (p.isLB) approvals.push("Leaping Bunny");
+      const lbl = (p && p.__labels) ? p.__labels : {};
+      if (lbl.isPeta === true) approvals.push("PETA");
+      if (lbl.isVegan === true) approvals.push("Vegan");
+      if (lbl.isLB === true) approvals.push("Leaping Bunny");
 
       const bestOffer = getOfferWithMinFreeShip(p);
       if (bestOffer) {
@@ -1236,9 +1314,11 @@ function normalizeProduct(p) {
 
       const tags = document.createElement("div");
       tags.className = "tags";
-      if (p.isLB) tags.appendChild(tag("Leaping Bunny"));
-      if (p.isPeta) tags.appendChild(tag("PETA"));
-      if (p.isVegan) tags.appendChild(tag("טבעוני"));
+      const lbl2 = (p && p.__labels) ? p.__labels : {};
+      if (lbl2.isLB === true) tags.appendChild(tag("Leaping Bunny"));
+      if (lbl2.isPeta === true) tags.appendChild(tag("PETA"));
+      if (lbl2.isVegan === true) tags.appendChild(tag("טבעוני"));
+      if (p.isDiscounted === true) tags.appendChild(tag("מבצע", "tag--sale"));
       if (p.isIsrael) tags.appendChild(tag("אתר ישראלי"));
 
       const offerList = document.createElement("div");

@@ -1,8 +1,10 @@
-// Build: 2026-01-12-v6
-try { window.KBWG_PRODUCTS_BUILD = '2026-01-12-v6'; console.info('[KBWG] KBWG_PRODUCTS_BUILD ' + window.KBWG_PRODUCTS_BUILD); } catch(e) {}
+// Build: 2026-01-28-v1
+try { window.KBWG_PRODUCTS_BUILD = '2026-01-28-v1'; console.info('[KBWG] KBWG_PRODUCTS_BUILD ' + window.KBWG_PRODUCTS_BUILD); } catch(e) {}
 
 /*
-  Loads products from data/products.json, then bootstraps assets/js/products.js.
+  Loads products from data/products.json (+ loads intl brands from data/intl-brands.json),
+  then bootstraps assets/js/products.js.
+
   Works on GitHub Pages (no build step).
 */
 (function () {
@@ -20,6 +22,10 @@ try { window.KBWG_PRODUCTS_BUILD = '2026-01-12-v6'; console.info('[KBWG] KBWG_PR
   }
 
   function normalizeProducts(data) {
+    return Array.isArray(data) ? data : [];
+  }
+
+  function normalizeBrands(data) {
     return Array.isArray(data) ? data : [];
   }
 
@@ -59,7 +65,8 @@ try { window.KBWG_PRODUCTS_BUILD = '2026-01-12-v6'; console.info('[KBWG] KBWG_PR
     } catch (e) { return rel; }
   }
 
-  var jsonPath = resolveFromBase('data/products.json');
+  var productsPath = resolveFromBase('data/products.json');
+  var intlBrandsPath = resolveFromBase('data/intl-brands.json');
 
   function isFileProtocol() {
     try { return location && location.protocol === 'file:'; } catch (e) { return false; }
@@ -81,19 +88,46 @@ try { window.KBWG_PRODUCTS_BUILD = '2026-01-12-v6'; console.info('[KBWG] KBWG_PR
     ].join('');
   }
 
-  fetch(jsonPath, { cache: 'no-store' })
-    .then(function (res) {
+  function fetchJson(path) {
+    return fetch(path, { cache: 'no-store' }).then(function (res) {
       if (!res.ok) throw new Error('HTTP ' + res.status);
       return res.json();
-    })
-    .then(function (data) {
-      window.PRODUCTS = normalizeProducts(data);
+    });
+  }
+
+  // Defaults (safe for "missing param" behavior)
+  window.PRODUCTS = window.PRODUCTS || [];
+  window.INTL_BRANDS = window.INTL_BRANDS || [];
+
+  Promise.allSettled([fetchJson(productsPath), fetchJson(intlBrandsPath)])
+    .then(function (results) {
+      var prodRes = results[0];
+      var brandRes = results[1];
+
+      if (prodRes && prodRes.status === 'fulfilled') {
+        window.PRODUCTS = normalizeProducts(prodRes.value);
+      } else {
+        console.warn('[products-json-loader] Could not load ' + productsPath, prodRes && prodRes.reason ? prodRes.reason : prodRes);
+        window.PRODUCTS = [];
+
+        // When opened via file://, browsers block fetch() due to CORS.
+        if (isFileProtocol()) {
+          window.__KBWG_FILE_FETCH_BLOCKED = true;
+          setHelpfulEmptyStateMessage();
+        }
+      }
+
+      if (brandRes && brandRes.status === 'fulfilled') {
+        window.INTL_BRANDS = normalizeBrands(brandRes.value);
+      } else {
+        console.warn('[products-json-loader] Could not load ' + intlBrandsPath, brandRes && brandRes.reason ? brandRes.reason : brandRes);
+        window.INTL_BRANDS = [];
+      }
     })
     .catch(function (err) {
-      console.warn('[products-json-loader] Could not load ' + jsonPath, err);
+      console.warn('[products-json-loader] Unexpected loader error', err);
       window.PRODUCTS = [];
-
-      // When opened via file://, browsers block fetch() due to CORS.
+      window.INTL_BRANDS = [];
       if (isFileProtocol()) {
         window.__KBWG_FILE_FETCH_BLOCKED = true;
         setHelpfulEmptyStateMessage();
