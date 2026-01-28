@@ -81,7 +81,7 @@
       "glossy",
       "tinted"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": 18.2,
@@ -115,7 +115,7 @@
       "zinc-oxide",
       "hydrating"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": 30.6,
@@ -148,7 +148,7 @@
       "glossy",
       "tinted"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": 18.2,
@@ -181,7 +181,7 @@
       "glossy",
       "tinted"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": 18.2,
@@ -214,7 +214,7 @@
       "glossy",
       "tinted"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": 18.2,
@@ -247,7 +247,7 @@
       "biotin",
       "sulfate-free"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": 33.99,
@@ -281,7 +281,7 @@
       "rice-water",
       "nourishing"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": 19.99,
@@ -384,7 +384,7 @@
       "travel",
       "plastic-free"
     ],
-    "isVegan": null,
+    "isVegan": true,
     "isPeta": null,
     "isLB": null,
     "priceMin": 20.99,
