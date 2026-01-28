@@ -16,8 +16,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 19.99,
-    "priceMax": 19.99,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -51,8 +51,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 39.0,
-    "priceMax": 39.0,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -84,8 +84,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 18.2,
-    "priceMax": 18.2,
+      "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -118,8 +118,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 30.6,
-    "priceMax": 30.6,
+     "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -151,8 +151,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 18.2,
-    "priceMax": 18.2,
+      "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -184,8 +184,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 18.2,
-    "priceMax": 18.2,
+      "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -217,8 +217,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 18.2,
-    "priceMax": 18.2,
+   "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -250,8 +250,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 33.99,
-    "priceMax": 33.99,
+       "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -284,8 +284,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 19.99,
-    "priceMax": 19.99,
+       "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -318,8 +318,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 34.95,
-    "priceMax": 34.95,
+     "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -353,8 +353,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 43.0,
-    "priceMax": 43.0,
+    "priceMin": 100,
+    "priceMax": 150,
     "offers": [
       {
         "store": "amazon-us",
@@ -387,8 +387,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 20.99,
-    "priceMax": 20.99,
+    "priceMin": 50,
+    "priceMax": 100,
     "offers": [
       {
         "store": "amazon-us",
@@ -418,8 +418,8 @@
     "isVegan": true,
     "isPeta": null,
     "isLB": null,
-    "priceMin": 11.89,
-    "priceMax": 11.89,
+    "priceMin": 0,
+    "priceMax": 50,
     "offers": [
       {
         "store": "amazon-us",
