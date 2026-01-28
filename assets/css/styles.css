@@ -4251,4 +4251,23 @@ body.menuOpen .navOverlay{
 @media (max-width: 360px){
   .page-products .pMedia{ width: 92px !important; height: 128px !important; }
 }
+/* Today's deals: make product images smaller on-screen */
+.page-deals .dealMedia{
+  width: 140px;          /* change to 110 / 120 / 160 as you like */
+  aspect-ratio: 1 / 1;
+  margin-inline: auto;   /* center the thumbnail */
+}
+
+.page-deals .dealImg,
+.page-deals .dealPlaceholder{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* use 'contain' if you prefer no cropping */
+}
+
+/* Optional: even smaller on mobile */
+@media (max-width: 480px){
+  .page-deals .dealMedia{ width: 120px; }
+}
+
 /* === /KBWG PATCH v20 === */
