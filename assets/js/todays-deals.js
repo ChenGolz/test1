@@ -1,4 +1,4 @@
-// Build: 2026-01-28-v1
+// Build: 2026-01-28-v2
 // Renders "Today's Top Deals" from data/products.json by selecting products where isDiscounted === true.
 // Also enriches with brand badges (PETA / Leaping Bunny / Vegan) + price tier from data/intl-brands.json when available.
 (function () {
@@ -7,6 +7,21 @@
   // --- Config ---
   var AMAZON_TAG = 'nocrueltyil-20'; // used only if a link is missing a tag=
   var MAX_DEALS = 60;
+
+  // Ensure the image area renders nicely even if your global CSS doesn't style it yet.
+  (function injectDealMediaStyles() {
+    var STYLE_ID = 'todaysDealsMediaStyles';
+    if (document.getElementById(STYLE_ID)) return;
+    var style = document.createElement('style');
+    style.id = STYLE_ID;
+    style.textContent = [
+      '.dealMedia{display:block;overflow:hidden;border-radius:14px;}',
+      '.dealImg{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;}',
+      '.dealPlaceholder{display:flex;align-items:center;justify-content:center;aspect-ratio:1/1;font-size:34px;}',
+      '.dealCard .dealTop{margin-top:10px;}'
+    ].join('');
+    document.head.appendChild(style);
+  })();
 
   // --- Helpers ---
   function hasOwn(obj, k) {
@@ -138,6 +153,18 @@
     return offers[0];
   }
 
+  function resolveProductImage(p, offer) {
+    // Prefer explicit product image (used in products.json)
+    var img = safeText(p && p.image);
+    if (img) return resolveFromBase(img);
+
+    // Fallback: convention used across the site assets/img/products/<ASIN>.jpg
+    var asin = safeText(offer && offer.asin);
+    if (asin) return resolveFromBase('assets/img/products/' + asin + '.jpg');
+
+    return '';
+  }
+
   function resolveLabels(p, brand) {
     // Product-level overrides win (including explicit false)
     function getFlag(key, brandDefault) {
@@ -210,6 +237,7 @@
 
     var offer = pickBestOffer(p) || {};
     var url = ensureAmazonTag(safeText(offer.url || ''));
+    var imgSrc = resolveProductImage(p, offer);
     var price = null;
     var currency = offer.currency || 'USD';
     // Prefer explicit offer priceUSD (site convention)
@@ -221,6 +249,13 @@
 
     return (
       '<article class="dealCard">' +
+        // Image (clickable)
+        '<a class="dealMedia" href="' + esc(url || '#') + '" rel="noopener" target="_blank">' +
+          (imgSrc
+            ? '<img class="dealImg" src="' + esc(imgSrc) + '" alt="' + esc(safeText(p.name)) + '" loading="lazy" decoding="async" width="640" height="640" />'
+            : '<div class="dealPlaceholder" aria-hidden="true">🧴</div>'
+          ) +
+        '</a>' +
         '<div class="dealTop">' +
           '<div class="dealBrandRow">' +
             '<div class="brandLogo">' + esc(logo) + '</div>' +
