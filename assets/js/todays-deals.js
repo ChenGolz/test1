@@ -1,4 +1,4 @@
-// Build: 2026-01-28-v2
+// Build: 2026-01-28-v3
 // Renders "Today's Top Deals" from data/products.json by selecting products where isDiscounted === true.
 // Also enriches with brand badges (PETA / Leaping Bunny / Vegan) + price tier from data/intl-brands.json when available.
 (function () {
@@ -233,7 +233,6 @@
   function dealCardHTML(p, brand) {
     var brandName = safeText(p.brand);
     var brandDisplay = brandName ? brandName.toUpperCase() : '';
-    var logo = makeBrandLogo(brandName);
 
     var offer = pickBestOffer(p) || {};
     var url = ensureAmazonTag(safeText(offer.url || ''));
@@ -245,7 +244,6 @@
     else if (typeof offer.price === 'number' && isFinite(offer.price)) price = offer.price;
 
     var labels = resolveLabels(p, brand);
-    var tier = resolvePriceTier(p, brand);
 
     return (
       '<article class="dealCard">' +
@@ -257,16 +255,14 @@
           ) +
         '</a>' +
         '<div class="dealTop">' +
-          '<div class="dealBrandRow">' +
-            '<div class="brandLogo">' + esc(logo) + '</div>' +
-            '<div>' +
-              '<div class="dealBrand">' + esc(brandDisplay) + '</div>' +
-              '<div class="dealName">' + esc(safeText(p.name)) + '</div>' +
-            '</div>' +
+        '<div class="dealBrandRow">' +
+          '<div>' +
+            '<div class="dealBrand">' + esc(brandDisplay) + '</div>' +
+            '<div class="dealName">' + esc(safeText(p.name)) + '</div>' +
           '</div>' +
-          renderPriceTier(tier) +
         '</div>' +
-        '<div class="dealMeta">' + buildTags(labels) + '</div>' +
+      '</div>' +
+      '<div class="dealMeta">' + buildTags(labels) + '</div>' +
         '<div class="dealCta">' +
           '<div class="dealPrice">' + esc(formatMoney(price, currency) || '') + '</div>' +
           (url
